@@ -23,9 +23,10 @@ from utilitarios import (ErroDados, ajustar_bh, associacao, chave, comparar_prop
 
 ROOT = Path(__file__).resolve().parent
 DEMO = ROOT / "data/synthetic/conversao_sintetica.csv"
-COLUNAS = ["ID", "Funil", "Ciclo", "Produto", "Fase atual", "Motivo da perda",
-           "Valor", "Status", "Ja e cliente? (cliente ativo 2 anos)"]
-ALIAS = {"Já e cliente? (cliente ativo 2 anos)": COLUNAS[-1],
+COLUNAS = ["ID", "Base", "Período", "Produto", "Fase atual", "Motivo da perda",
+           "Valor", "Status", "Cliente ativo?"]
+ALIAS = {"Ciclo": "Período", "Funil": "Base",
+         "Ja e cliente? (cliente ativo 2 anos)": COLUNAS[-1], "Já e cliente? (cliente ativo 2 anos)": COLUNAS[-1],
          "Já é cliente? (cliente ativo 2 anos)": COLUNAS[-1]}
 SIM = {"sim", "s", "true", "1", "1.0"}
 NAO = {"nao", "n", "false", "0", "0.0"}
@@ -34,17 +35,21 @@ STATUS = {"won": "WON", "ganho": "WON", "ganha": "WON",
           "open": "OPEN", "aberto": "OPEN", "aberta": "OPEN"}
 
 
-def preparar_dados(df: pd.DataFrame, locale="pt_BR", funil="Funil de Vendas") -> tuple[pd.DataFrame, pd.DataFrame]:
+def preparar_dados(df: pd.DataFrame, locale="pt_BR", funil=None, *, base="Vendas") -> tuple[pd.DataFrame, pd.DataFrame]:
     d = df.rename(columns=ALIAS).copy()
     exigir_colunas(d, COLUNAS)
     n_original = len(d)
-    d = d[d.Funil.map(chave).eq(chave(funil))].copy()
+    # Compatibilidade com arquivos/argumentos anteriores, sem alterar a seleção.
+    normalizar_base = lambda v: "Vendas" if chave(v) == "funil de vendas" else texto(v)
+    d["Base"] = d.Base.map(normalizar_base)
+    selecionada = normalizar_base(funil if funil is not None else base)
+    d = d[d.Base.map(chave).eq(chave(selecionada))].copy()
     if d.empty:
-        raise ErroDados("Nenhuma oportunidade no funil informado.")
-    for col in ["ID", "Ciclo", "Produto"]:
+        raise ErroDados("Nenhuma oportunidade na base informada.")
+    for col in ["ID", "Período", "Produto"]:
         d[col] = d[col].map(texto)
         if d[col].eq("").any():
-            raise ErroDados(f"{col} não pode estar vazio no funil selecionado.")
+            raise ErroDados(f"{col} não pode estar vazio na base selecionada.")
     if d.ID.duplicated().any():
         raise ErroDados("IDs de oportunidade duplicados. Resolva o grão antes de analisar.")
     d["status"] = d.Status.map(chave).map(STATUS)
@@ -67,11 +72,11 @@ def preparar_dados(df: pd.DataFrame, locale="pt_BR", funil="Funil de Vendas") ->
     d["ganho"] = d.status.eq("WON")
     d["perdido"] = d.status.eq("LOST")
     d["encerrado"] = d.status.isin(["WON", "LOST"])
-    ciclos = ordem_natural(d.Ciclo)
-    d["Ciclo"] = pd.Categorical(d.Ciclo, categories=ciclos, ordered=True)
+    ciclos = ordem_natural(d.Período)
+    d["Período"] = pd.Categorical(d.Período, categories=ciclos, ordered=True)
     controles = [
-        ("registros_entrada", n_original), ("registros_no_funil", len(d)),
-        ("excluidos_outros_funis", n_original-len(d)),
+        ("registros_entrada", n_original), ("registros_na_base", len(d)),
+        ("excluidos_outras_bases", n_original-len(d)),
         ("IDs_unicos", d.ID.nunique()),
         ("tipo_cliente_desconhecido", int(d.tipo_cliente.eq("Desconhecido").sum())),
         ("valores_ausentes", int(d.valor_num.isna().sum())),
@@ -89,7 +94,7 @@ def soma_completa(s: pd.Series) -> float:
     return np.nan if s.isna().any() else float(s.sum())
 
 
-def tabela_taxas(d: pd.DataFrame, chaves=("Produto", "Ciclo", "tipo_cliente")) -> pd.DataFrame:
+def tabela_taxas(d: pd.DataFrame, chaves=("Produto", "Período", "tipo_cliente")) -> pd.DataFrame:
     rows = []
     for key, g in d.groupby(list(chaves), observed=True, dropna=False):
         key = key if isinstance(key, tuple) else (key,)
@@ -123,7 +128,7 @@ def adicionar_fdr(t: pd.DataFrame) -> pd.DataFrame:
 
 def comparar_tipos(taxas: pd.DataFrame, inferir=False) -> pd.DataFrame:
     rows = []
-    for (prod, ciclo), g in taxas.groupby(["Produto", "Ciclo"], observed=True):
+    for (prod, ciclo), g in taxas.groupby(["Produto", "Período"], observed=True):
         g = g.set_index("tipo_cliente")
         if not {"Novo", "Recompra"} <= set(g.index):
             continue
@@ -137,7 +142,7 @@ def comparar_tipos(taxas: pd.DataFrame, inferir=False) -> pd.DataFrame:
                           (x2/n2-b.ic95_wilson_inf)**2) if min(n1, n2) else np.nan
         teste = comparar_proporcoes(x1, n1, x2, n2) if inferir else {
             "teste": "Inferência desativada", "estatistica": np.nan, "p_valor": np.nan}
-        rows.append({"Produto": prod, "Ciclo": ciclo, "n_novo": n1, "n_recompra": n2,
+        rows.append({"Produto": prod, "Período": ciclo, "n_novo": n1, "n_recompra": n2,
                      "taxa_novo": x1/n1 if n1 else np.nan,
                      "taxa_recompra": x2/n2 if n2 else np.nan,
                      "diferenca_novo_menos_recompra_pp": 100*delta,
@@ -151,29 +156,29 @@ def tabelas_perdas(d: pd.DataFrame, inferir=False, seed=90210, reamostragens=999
     perdas = d[d.perdido].copy()
     agregadas, fases, par_q, par_v, testes = [], [], [], [], []
     # Mostra também fases de oportunidades ganhas: denominador = encerradas na fase final.
-    for key, g in d[d.encerrado].groupby(["Produto", "Ciclo", "tipo_cliente", "fase"], observed=True):
-        fases.append(dict(zip(["Produto", "Ciclo", "tipo_cliente", "fase_final"], key)) | {
+    for key, g in d[d.encerrado].groupby(["Produto", "Período", "tipo_cliente", "fase"], observed=True):
+        fases.append(dict(zip(["Produto", "Período", "tipo_cliente", "fase_final"], key)) | {
             "encerradas_na_fase": len(g), "perdidas_na_fase": int(g.perdido.sum()),
             "fracao_perdida_na_fase_final": float(g.perdido.mean())})
-    for key, g in perdas.groupby(["Produto", "Ciclo", "tipo_cliente", "motivo_perda"], observed=True):
-        agregadas.append(dict(zip(["Produto", "Ciclo", "tipo_cliente", "motivo_perda"], key)) | {
+    for key, g in perdas.groupby(["Produto", "Período", "tipo_cliente", "motivo_perda"], observed=True):
+        agregadas.append(dict(zip(["Produto", "Período", "tipo_cliente", "motivo_perda"], key)) | {
             "quantidade": len(g), "valor_perdido": soma_completa(g.valor_num),
             "valores_ausentes": int(g.valor_num.isna().sum())})
-    for (prod, ciclo), g in perdas.groupby(["Produto", "Ciclo"], observed=True):
+    for (prod, ciclo), g in perdas.groupby(["Produto", "Período"], observed=True):
         q = pareto(g, "motivo_perda").assign(
-            Produto=prod, Ciclo=ciclo,
+            Produto=prod, Período=ciclo,
             pareto_financeiro_disponivel=bool(g.valor_num.notna().all()))
         par_q.append(q)
         # Não fornece Pareto financeiro parcial sem deixar a incompletude visível.
         if g.valor_num.notna().all():
-            par_v.append(pareto(g, "motivo_perda", "valor_num").assign(Produto=prod, Ciclo=ciclo))
+            par_v.append(pareto(g, "motivo_perda", "valor_num").assign(Produto=prod, Período=ciclo))
         for dimensao in ["tipo_cliente", "fase"]:
             sub = g[g.tipo_cliente.isin(["Novo", "Recompra"])] if dimensao == "tipo_cliente" else g
             tab = pd.crosstab(sub[dimensao], sub.motivo_perda)
             resultado = associacao(tab, seed, reamostragens) if inferir else {
                 "teste": "Inferência desativada", "p_valor": np.nan,
                 "cramer_v": np.nan, "menor_esperado": np.nan}
-            testes.append({"Produto": prod, "Ciclo": ciclo, "comparacao": dimensao+" x motivo",
+            testes.append({"Produto": prod, "Período": ciclo, "comparacao": dimensao+" x motivo",
                            "n_perdas": len(sub), **resultado})
     juntar = lambda itens: pd.concat(itens, ignore_index=True) if itens else pd.DataFrame()
     return {"perdas_motivos": pd.DataFrame(agregadas), "fase_final": pd.DataFrame(fases),
@@ -183,7 +188,7 @@ def tabelas_perdas(d: pd.DataFrame, inferir=False, seed=90210, reamostragens=999
 
 def testes_valores(d: pd.DataFrame, inferir=False) -> pd.DataFrame:
     rows = []
-    for (prod, ciclo, tipo), g in d[d.perdido].groupby(["Produto", "Ciclo", "tipo_cliente"], observed=True):
+    for (prod, ciclo, tipo), g in d[d.perdido].groupby(["Produto", "Período", "tipo_cliente"], observed=True):
         for dimensao in ["fase", "motivo_perda"]:
             grupos = [v.valor_num.dropna().to_numpy() for _, v in g.groupby(dimensao, observed=True)]
             # Não descarta silenciosamente categorias pequenas de uma comparação.
@@ -199,7 +204,7 @@ def testes_valores(d: pd.DataFrame, inferir=False) -> pd.DataFrame:
                 k, n = len(grupos), len(todos)
                 efeito = max(0., (h-k+1)/(n-k)) if n > k else np.nan
                 estado = "Kruskal-Wallis (distribuições; sem interpretação causal)"
-            rows.append({"Produto": prod, "Ciclo": ciclo, "tipo_cliente": tipo,
+            rows.append({"Produto": prod, "Período": ciclo, "tipo_cliente": tipo,
                          "comparacao": "valor x "+dimensao, "teste": estado,
                          "grupos": len(grupos), "H": h, "p_valor": p,
                          "epsilon_quadrado": efeito})
@@ -211,27 +216,27 @@ def tendencias(taxas: pd.DataFrame, ciclos: list[str]) -> pd.DataFrame:
     mapa = {c: i for i, c in enumerate(ciclos)}
     for (prod, tipo), g in taxas.groupby(["Produto", "tipo_cliente"], observed=True):
         g = g[g.encerradas > 0].copy()
-        g["x"] = g.Ciclo.astype(str).map(mapa)
+        g["x"] = g.Período.astype(str).map(mapa)
         g = g.sort_values("x")
         if len(g) < 3:
             continue
         coef = np.polyfit(g.x, g.taxa_ganho_encerradas, 1, w=np.sqrt(g.encerradas))[0]
-        rows.append({"Produto": prod, "tipo_cliente": tipo, "ciclos_observados": len(g),
-                     "inclinacao_descritiva_pp_por_ciclo": 100*coef,
+        rows.append({"Produto": prod, "tipo_cliente": tipo, "periodos_observados": len(g),
+                     "inclinacao_descritiva_pp_por_periodo": 100*coef,
                      "variacao_primeiro_ultimo_pp": 100*(g.taxa_ganho_encerradas.iloc[-1]-g.taxa_ganho_encerradas.iloc[0])})
     return pd.DataFrame(rows)
 
 
 def panorama(d: pd.DataFrame, motivo_alvo: str) -> pd.DataFrame:
-    ultimo = d.Ciclo.cat.categories[-1]
+    ultimo = d.Período.cat.categories[-1]
     rows = []
-    for prod, g in d[d.Ciclo.eq(ultimo)].groupby("Produto", observed=True):
+    for prod, g in d[d.Período.eq(ultimo)].groupby("Produto", observed=True):
         wins = g[g.ganho]
         losses = g[g.perdido]
         completo = wins.valor_num.notna().all() and not wins.tipo_cliente.eq("Desconhecido").any()
         total = wins.valor_num.sum() if completo else np.nan
         share = wins.loc[wins.tipo_cliente.eq("Recompra"), "valor_num"].sum()/total if total > 0 else np.nan
-        rows.append({"Produto": prod, "Ciclo": str(ultimo),
+        rows.append({"Produto": prod, "Período": str(ultimo),
                      "taxa_ganho_encerradas": float(g.ganho.sum()/g.encerrado.sum()) if g.encerrado.any() else np.nan,
                      "participacao_recompra_valor_ganho": share,
                      "participacao_motivo_alvo_nas_perdas": float(losses.motivo_perda.map(chave).eq(chave(motivo_alvo)).mean()) if len(losses) else np.nan,
@@ -240,32 +245,32 @@ def panorama(d: pd.DataFrame, motivo_alvo: str) -> pd.DataFrame:
 
 
 def executar(entrada=DEMO, saida=ROOT/"outputs/conversao", locale="pt_BR",
-             funil="Funil de Vendas", inferir=False, seed=90210,
-             reamostragens=9999, motivo_alvo="Preço acima do orçamento") -> dict:
+             funil=None, inferir=False, seed=90210,
+             reamostragens=9999, motivo_alvo="Preço acima do orçamento", base="Vendas") -> dict:
     entrada, saida = Path(entrada), Path(saida)
-    d, controles = preparar_dados(ler_tabela(entrada), locale, funil)
+    d, controles = preparar_dados(ler_tabela(entrada), locale, funil, base=base)
     if inferir and "Cliente_ID" in d:
         ids = d.Cliente_ID.map(texto).replace("", pd.NA).dropna()
         if ids.duplicated().any():
             raise ErroDados("Clientes repetidos: a inferência independente foi bloqueada; use análise descritiva ou modelo por cliente.")
     taxas = tabela_taxas(d)
-    total = tabela_taxas(d, ("Ciclo",))
-    mix = d.groupby(["Ciclo", "Produto"], observed=True).size().rename("oportunidades").reset_index()
-    mix["participacao_no_ciclo"] = mix.oportunidades / mix.groupby("Ciclo", observed=True).oportunidades.transform("sum")
-    rankings = tabela_taxas(d, ("Ciclo", "tipo_cliente", "subproduto"))
-    tabelas = {"qualidade": controles, "resumo_ciclo": total, "mix_produtos": mix,
+    total = tabela_taxas(d, ("Período",))
+    mix = d.groupby(["Período", "Produto"], observed=True).size().rename("oportunidades").reset_index()
+    mix["participacao_no_periodo"] = mix.oportunidades / mix.groupby("Período", observed=True).oportunidades.transform("sum")
+    rankings = tabela_taxas(d, ("Período", "tipo_cliente", "subproduto"))
+    tabelas = {"qualidade": controles, "resumo_periodo": total, "mix_produtos": mix,
                "taxas_produto": taxas, "novo_vs_recompra": comparar_tipos(taxas, inferir),
                **tabelas_perdas(d, inferir, seed, reamostragens),
                "valores_testes": testes_valores(d, inferir), "valores_subproduto": rankings,
-               "tendencias_descritivas": tendencias(taxas, list(d.Ciclo.cat.categories)),
-               "panorama_ultimo_ciclo": panorama(d, motivo_alvo)}
+               "tendencias_descritivas": tendencias(taxas, list(d.Período.cat.categories)),
+               "panorama_ultimo_periodo": panorama(d, motivo_alvo)}
     saida.mkdir(parents=True, exist_ok=True)
     exportar_excel(saida/"conversao_resultados.xlsx", tabelas)
     for prod, g in taxas.groupby("Produto", observed=True):
         fig, ax = plt.subplots(figsize=(9, 4.8))
-        ciclos = list(d.Ciclo.cat.categories)
+        ciclos = list(d.Período.cat.categories)
         for tipo, h in g.groupby("tipo_cliente", observed=True):
-            h = h.set_index("Ciclo").reindex(ciclos)
+            h = h.set_index("Período").reindex(ciclos)
             y = h.taxa_ganho_encerradas.to_numpy(dtype=float)
             erro = np.vstack([y-h.ic95_wilson_inf, h.ic95_wilson_sup-y])*100
             validos = np.isfinite(y) & np.isfinite(erro).all(axis=0)
@@ -283,8 +288,8 @@ def executar(entrada=DEMO, saida=ROOT/"outputs/conversao", locale="pt_BR",
         fig.savefig(saida/f"taxas_{nome_seguro(prod)}.png", dpi=160); plt.close(fig)
     pq = tabelas["pareto_quantidade"]
     if not pq.empty:
-        ultimo = str(d.Ciclo.cat.categories[-1])
-        for prod, g in pq[pq.Ciclo.astype(str).eq(ultimo)].groupby("Produto", observed=True):
+        ultimo = str(d.Período.cat.categories[-1])
+        for prod, g in pq[pq.Período.astype(str).eq(ultimo)].groupby("Produto", observed=True):
             fig, ax = plt.subplots(figsize=(10, 6))
             x = np.arange(len(g))
             ax.bar(x, g.medida, color=np.where(g.selecionado_80, "#2878b5", "#b5bec7"))
@@ -301,15 +306,15 @@ def executar(entrada=DEMO, saida=ROOT/"outputs/conversao", locale="pt_BR",
     metadata = {"estudo": "conversao", "dados": "sintéticos de demonstração" if dados_demo else "fornecidos pelo usuário; origem não verificada",
                 "registros": len(d), "inferir": inferir, "seed": seed,
                 "reamostragens_monte_carlo": reamostragens,
-                "familias_bh": ["Novo vs Recompra: todos os produtos/ciclos",
-                                 "Associação entre motivos: todos os produtos/ciclos/dimensões",
-                                 "Valores perdidos: todos os produtos/ciclos/tipos/dimensões"],
+                "familias_bh": ["Novo vs Recompra: todos os produtos/períodos",
+                                 "Associação entre motivos: todos os produtos/períodos/dimensões",
+                                 "Valores perdidos: todos os produtos/períodos/tipos/dimensões"],
                 "limitacoes": ["Win rate de encerradas; não é conversão de uma coorte madura por data de criação.",
                                 "ICs binomiais pressupõem independência; não representam erro de cadastro ou viés de seleção.",
                                 "Inferência opcional pressupõe oportunidades independentes, amostragem/modelo apropriado e categorias comparáveis.",
                                 "Cliente ativo não comprova recompra do mesmo produto.",
                                 "Fase final não mede transição de funil; tendências são descritivas; não há score preditivo.",
-                                "A inclinação usa a posição ordinal dos ciclos observados e não equivale a uma taxa por ano quando há lacunas.",
+                                "A inclinação usa a posição ordinal dos períodos observados e não equivale a uma taxa por ano quando há lacunas.",
                                 "Valores financeiros ficam ausentes quando a agregação pertinente contém valores desconhecidos."]}
     (saida/"metadados.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
     linhas = ["# Conversão por produto", "", f"Dados: {metadata['dados']}.", "",
@@ -325,7 +330,8 @@ def main():
     p.add_argument("--entrada", type=Path, default=DEMO)
     p.add_argument("--saida", type=Path, default=ROOT/"outputs/conversao")
     p.add_argument("--locale", choices=["pt_BR", "en_US"], default="pt_BR")
-    p.add_argument("--funil", default="Funil de Vendas")
+    p.add_argument("--base", "--funil", dest="base", default="Vendas",
+                   help="Base selecionada; --funil permanece como alias legado.")
     p.add_argument("--motivo-alvo", default="Preço acima do orçamento")
     p.add_argument("--inferir", action="store_true", help="Assume independência das oportunidades e condições inferenciais descritas no README.")
     p.add_argument("--seed", type=int, default=90210)

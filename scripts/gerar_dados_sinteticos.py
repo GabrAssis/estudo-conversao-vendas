@@ -35,14 +35,14 @@ def gerar(seed: int = 2026) -> pd.DataFrame:
                     valor = round(float(rng.lognormal(mean=9.05+pi*.12, sigma=.52)), 2)
                     registros.append({
                         "ID": f"OP-{contador:06d}",
-                        "Funil": "Funil de Vendas",
-                        "Ciclo": ciclo,
+                        "Base": "Vendas",
+                        "Período": ciclo,
                         "Produto": produto,
                         "Fase atual": fase,
                         "Motivo da perda": motivo,
                         "Valor": valor,
                         "Status": status,
-                        "Ja e cliente? (cliente ativo 2 anos)": "Sim" if recompra else "Não",
+                        "Cliente ativo?": "Sim" if recompra else "Não",
                         "subproduto": f"Linha {pi+1}-{'A' if rng.random()<.5 else 'B'}",
                     })
     return pd.DataFrame(registros)

@@ -1,4 +1,4 @@
-# Dados comerciais, credenciais e saídas nunca vão para Git
+# Dados reais, credenciais e saídas locais nunca vão para Git
 .env
 .env.*
 !.env.example
@@ -24,3 +24,5 @@ data/*
 !data/synthetic/
 data/synthetic/*
 !data/synthetic/conversao_sintetica.csv
+
+# docs/assets/ contém apenas imagens reproduzidas pelo gerador de portfólio.

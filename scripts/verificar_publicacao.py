@@ -1,4 +1,4 @@
-"""Barrreira de publicação: valida arquivos staged e bytes de dados fictícios.
+"""Barreira de publicação: valida todos os arquivos no índice e bytes de dados fictícios.
 
 Execute DEPOIS de `git add .` e ANTES de `git commit`.
 As regras de allowlist são conservadoras; revisar manualmente é obrigatório.
@@ -13,6 +13,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ARQUIVOS_PERMITIDOS = set(['.gitignore', '.gitattributes', 'README.md', 'requirements.txt', 'conversao_produto.py', 'scripts/gerar_dados_sinteticos.py', 'scripts/verificar_publicacao.py', 'utilitarios.py', 'tests/test_conversao.py', 'data/synthetic/conversao_sintetica.csv'])
+ARQUIVOS_PERMITIDOS.update(['scripts/gerar_portfolio.py', 'tests/test_nomenclatura.py', 'tests/test_publicacao.py', 'docs/metodologia.md', 'docs/assets/taxas_por_periodo.png', 'docs/assets/motivos_perda.png'])
+ARQUIVOS_PERMITIDOS.update(['scripts/relatorio_portfolio.py', 'docs/relatorio.md', 'docs/assets/diferencas_perfis.png'])
 CAMINHO_SINTETICO = 'data/synthetic/conversao_sintetica.csv'
 
 
@@ -25,9 +27,9 @@ def validar() -> list[str]:
     falhas = []
     try:
         git('rev-parse', '--is-inside-work-tree')
-        arquivos = [s.decode() for s in git('diff', '--cached', '--name-only', '-z').split(b'\0') if s]
+        arquivos = sorted({s.decode() for s in git('ls-files', '--cached', '-z').split(b'\0') if s})
         if not arquivos:
-            return ['Nenhum arquivo staged. Primeiro use git add . e execute novamente.']
+            return ['Índice sem arquivos. Primeiro use git add . e execute novamente.']
         def ler(nome):
             return git('show', ':'+nome)
     except (subprocess.CalledProcessError, FileNotFoundError):
@@ -54,7 +56,7 @@ def validar() -> list[str]:
                 if re.search(padrao, content):
                     falhas.append(f'{rotulo} suspeito em: {nome}')
     if CAMINHO_SINTETICO not in arquivos:
-        falhas.append('Base sintética não está staged: '+CAMINHO_SINTETICO)
+        falhas.append('Base sintética não está no índice: '+CAMINHO_SINTETICO)
     else:
         sys.path.insert(0, str(ROOT))
         from scripts.gerar_dados_sinteticos import gerar
@@ -62,6 +64,22 @@ def validar() -> list[str]:
         gerar().to_csv(buffer, index=False, encoding='utf-8-sig', lineterminator='\n')
         if ler(CAMINHO_SINTETICO) != buffer.getvalue():
             falhas.append('A base staged não coincide EXATAMENTE com o gerador sintético: '+CAMINHO_SINTETICO)
+    # Imagens públicas devem coincidir com a reprodução exclusivamente fictícia.
+    sys.path.insert(0, str(ROOT))
+    from scripts.gerar_portfolio import artefatos, INICIO, FIM
+    imagens, trecho = artefatos()
+    for nome, esperado in imagens.items():
+        try:
+            diferente = nome in arquivos and ler(nome) != esperado
+        except subprocess.CalledProcessError:
+            continue  # A falha de acesso já foi registrada na inspeção acima.
+        if diferente:
+            falhas.append(('Imagem' if nome.endswith('.png') else 'Relatório')+' staged não coincide com a demonstração sintética: '+nome)
+    if 'README.md' in arquivos:
+        readme = ler('README.md').decode('utf-8-sig')
+        esperado = INICIO+'\n'+trecho+'\n'+FIM
+        if esperado not in readme.replace('\r\n', '\n'):
+            falhas.append('Resultados do README divergem da demonstração; rode scripts/gerar_portfolio.py.')
     return falhas
 
 

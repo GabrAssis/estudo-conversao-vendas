@@ -1,92 +1,127 @@
-# Estudo de Conversão por Produto (Python)
+# Análise de Conversão de Vendas
 
-> Projeto de portfólio para análise exploratória de funil comercial. **Os dados públicos são integralmente sintéticos**, produzidos pelo gerador deste repositório. Não contêm oportunidades, clientes ou parâmetros extraídos de bases privadas.
+**Taxas de ganho, perfis de clientes e motivos de perda para apoiar decisões comerciais com Python.**
 
-## Perguntas de negócio
-- Como evolui a taxa de ganho por produto, ciclo e perfil (`Novo` vs. `Recompra`)?
-- Quais motivos de perda concentram quantidade e valor financeiro?
-- Como varia o mix de produtos e a composição de ganhos e perdas?
-- Quais diferenças podem ser descritas e quais, **sob premissas explícitas**, podem ser submetidas a testes exploratórios?
+Projeto de portfólio com validação de dados, indicadores por produto e período, visualizações e resultados reproduzíveis.
 
-## Regras de cálculo
+> Todos os dados, valores e resultados apresentados são **100% fictícios**, gerados por código, sem uso de bases ou parâmetros empresariais privados.
 
-**Taxa de ganho entre oportunidades encerradas**: `WON / (WON + LOST)`; oportunidades `OPEN` são informadas separadamente e não entram no denominador. Essa métrica **não representa conversão de coorte por data de criação**.
+## Perguntas respondidas
 
-Dados agrupados por `Produto`, `Ciclo`, `tipo_cliente`; intervalos de 95% de Wilson. `tipo_cliente=Recompra` sinaliza "cliente ativo" informado pelo CRM, **não comprova recompra do mesmo produto**. IDs duplicados, status inválidos e valores monetários mal formatados geram erro explícito. Valores ausentes nunca são convertidos automaticamente em zero.
+- Como varia a taxa de ganho entre produtos e períodos?
+- Como se comparam novos clientes e clientes ativos?
+- Quais motivos concentram as oportunidades perdidas?
+- Como combinar volume, taxa e valor para investigar oportunidades comerciais?
 
-## Resultados
-- `qualidade`: indicadores de completude e integridade.
-- `resumo_ciclo`, `mix_produtos`, `taxas_produto`, `valores_subproduto`.
-- `novo_vs_recompra`: diferenças de taxas e intervalos de confiança de Newcombe.
-- `perdas_motivos`, `fase_final`, `pareto_quantidade`, `pareto_valor`.
-- `associacao_motivos`, `valores_testes`: comparações exploratórias opcionais.
-- `tendencias_descritivas`, `panorama_ultimo_ciclo`.
-- Gráficos de taxa de ganho com intervalos de confiança e Pareto; `metadados.json` e `LEIA_RESULTADOS.md` com limitações.
+<!-- RESULTADOS:SINTETICOS:INICIO -->
+## Resultados da demonstração
 
-Por padrão, **inferência está desativada**. A opção `--inferir` realiza testes exploratórios (teste Z ou exato de Fisher; qui-quadrado com simulação de Monte Carlo, quando necessário; Kruskal–Wallis), com correção Benjamini–Hochberg dentro das famílias indicadas nos metadados. Os testes exigem justificativa para independência amostral, comparabilidade dos grupos e critérios de seleção dos dados; **não demonstram causalidade**. Registros do mesmo cliente bloqueiam o modo inferencial se a coluna `Cliente_ID` estiver preenchida.
+**1.650 oportunidades fictícias · 1.524 encerradas · 683 ganhos · 126 abertas.**
 
-## Estrutura
-```text
-conversao_produto.py
-utilitarios.py
-scripts/gerar_dados_sinteticos.py
-data/synthetic/conversao_sintetica.csv  # 100% fictício
-requirements.txt
-tests/test_conversao.py
-.gitignore
-```
+### Conversão por produto
 
-## Executar no VS Code (PowerShell)
+| Produto | Encerradas | Ganhos | Abertas | Taxa de ganho | IC 95% | Valor ganho simulado (R$) |
+|---|---:|---:|---:|---:|---:|---:|
+| Produto A | 503 | 207 | 47 | 41,2% | 36,9%–45,5% | 2.028.426,92 |
+| Produto B | 511 | 218 | 39 | 42,7% | 38,4%–47,0% | 2.453.117,69 |
+| Produto C | 510 | 258 | 40 | 50,6% | 46,3%–54,9% | 3.184.053,82 |
+
+Taxa geral: **44,8%**, calculada pela soma dos ganhos dividida pela soma das encerradas.
+
+![Taxas de ganho por produto e período, com intervalos de 95%](docs/assets/taxas_por_periodo.png)
+
+O gráfico compara novos clientes e clientes ativos. O perfil interno `Recompra` é apresentado como **Cliente ativo** e mantém a definição original de atividade nos últimos dois anos.
+
+### Composição das perdas
+
+![Quantidade e participação dos motivos de perda na simulação](docs/assets/motivos_perda.png)
+
+| Motivo | Quantidade | Participação nas perdas | Acumulado |
+|---|---:|---:|---:|
+| Preço acima do orçamento | 244 | 29,0% | 29,0% |
+| Concorrência | 177 | 21,0% | 50,1% |
+| Prazo incompatível | 169 | 20,1% | 70,2% |
+| Prioridade alterada | 143 | 17,0% | 87,2% |
+| Escopo inadequado | 108 | 12,8% | 100,0% |
+
+### Leitura de negócio
+
+- Na simulação, **Produto C** apresenta a maior taxa agregada de ganho (50,6%).
+- **Preço acima do orçamento** concentra 29,0% das perdas simuladas; esse recorte exemplifica como priorizar investigações comerciais.
+- A comparação por perfil e período ajuda a distinguir mudanças de composição de mudanças na taxa de ganho.
+
+Fonte: `scripts/gerar_dados_sinteticos.py`, seed `2026`; tabelas e imagens reproduzidas por `python scripts/gerar_portfolio.py`. Estes resultados demonstram o método e não representam desempenho de empresas reais.
+<!-- RESULTADOS:SINTETICOS:FIM -->
+
+## Como funciona
+
+A taxa usa **WON / (WON + LOST)**. Oportunidades abertas são contabilizadas separadamente. Os totais usam numeradores e denominadores agregados.
+
+## Metodologias e boas práticas
+
+| Método | O que demonstra | Por que foi utilizado |
+|---|---|---|
+| Taxa entre encerradas e Wilson | Desfecho conhecido com IC de 95% | Dá contexto de amostra à taxa e mantém abertas separadas |
+| Newcombe e Z/Fisher | Diferença entre novos e clientes ativos | Quantifica a diferença e escolhe o teste conforme as contagens |
+| Pareto | Concentração por motivo de perda | Ajuda a priorizar investigações por quantidade ou valor |
+| Qui-quadrado/Fisher/Monte Carlo e V de Cramér | Associação categórica e magnitude | Trata tabelas esparsas e acompanha o tamanho de efeito |
+| Kruskal–Wallis | Distribuição dos valores entre categorias | Compara grupos sem pressupor normalidade |
+| BH-FDR | Comparações múltiplas | Ajusta famílias completas de testes exploratórios |
+
+**Controles aplicados:** Grão e IDs únicos; abertas separadas; ausências preservadas; testes definidos pelas contagens; ICs e efeitos acompanhados de amostra; publicação conferida contra a simulação.
+
+Leia o [relatório completo com resultados e interpretações](docs/relatorio.md) e o [guia metodológico com fórmulas e justificativas](docs/metodologia.md).
+
+## Executar no VS Code
+
+No terminal PowerShell, dentro deste repositório:
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python scripts/gerar_dados_sinteticos.py
-python conversao_produto.py --entrada data/synthetic/conversao_sintetica.csv
+python conversao_produto.py --base Vendas
+python scripts/gerar_portfolio.py
 python -m pytest -q
 ```
 
-Para rodar testes estatísticos exploratórios na simulação:
-```powershell
-python conversao_produto.py --entrada data/synthetic/conversao_sintetica.csv --inferir
-```
+- `gerar_dados_sinteticos.py`: recria a base fictícia com seed fixa.
+- O script analítico gera resultados locais em `outputs/conversao/` (Excel analítico e gráficos).
+- `gerar_portfolio.py`: atualiza estas tabelas, o relatório em `docs/relatorio.md` e as imagens em `docs/assets/`, sempre com dados fictícios.
+- `pytest`: verifica cálculos, validação e compatibilidade.
 
-Relatórios e gráficos ficam em `outputs/conversao/` (**não versionados**).
+## Dados e documentação
 
-## Uso em dados privados (somente no computador local)
-Grave uma cópia da base em `private_data/entrada.xlsx` e execute:
-```powershell
-python conversao_produto.py --entrada private_data/entrada.xlsx
-```
+| Campo atual | Significado |
+|---|---|
+| `Base` | Categoria da base; a demonstração usa `Vendas`. |
+| `Período` | Identificador ordenado da janela analisada. |
+| `Cliente ativo?` | Atividade nos últimos dois anos; mesma regra anterior. |
 
-Campos necessários: `ID`, `Funil`, `Ciclo`, `Produto`, `Fase atual`, `Motivo da perda`, `Valor`, `Status` e `Ja e cliente? (cliente ativo 2 anos)`. `subproduto` e `Cliente_ID` são opcionais. `Valor` aceita número nativo ou texto com pontuação `pt_BR` (use `--locale en_US` se necessário).
+Os cabeçalhos anteriores continuam aceitos para compatibilidade. Os identificadores dos períodos e as fórmulas são preservados.
 
-**Não compartilhe dados originais nem relatórios/gráficos produzidos com dados reais.** Antes de publicar, confira `git status` e `git diff --cached --name-only`; não use `git add -f` para forçar arquivos ignorados. O arquivo sintético é independente de qualquer dado interno.
+Consulte o [guia técnico e dicionário de dados](docs/metodologia.md) para regras, testes exploratórios e uso local de dados privados.
 
-## Limitações
-- Taxas não controlam variação do tempo disponível para fechamento, tamanho de coortes ou mudanças no cadastro.
-- Motivo e fase informados representam o **estado final**, não o histórico completo de transições.
-- Dados podem ter dependência entre oportunidades, efeito do vendedor, produto, campanha ou cliente.
-- Valor das oportunidades perdidas **não é receita perdida comprovada**; pipeline e resultado são conceitos distintos.
-- Resultados sintéticos são apenas demonstrações de funcionamento, **não revelam desempenho real** de nenhuma organização.
+**Tecnologias:** Python · pandas · NumPy · SciPy · Matplotlib · pytest.
 
-## Publicação segura no GitHub
+## Atualizar no GitHub
 
-Na pasta do projeto, use este fluxo (substitua o endereço remoto pelo seu repositório vazio):
+Depois de salvar as alterações e regenerar os dados e as imagens:
 
 ```powershell
-git init
-git branch -M main
+git status --short
 git add .
 python scripts/verificar_publicacao.py
 git diff --cached --stat
-git diff --cached --name-only
-git commit -m "Publica estudo com dados sinteticos e testes"
-git remote add origin https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-git push -u origin main
 ```
 
-**Se a verificação bloquear, não faça o commit/push.** Ela compara a versão staged
-(o índice do Git) do CSV com os bytes esperados do gerador e impede arquivos fora
-da lista aprovada. Ainda assim, auditoria humana do código/documentação é necessária:
-detecção automática não garante identificar todo tipo de informação confidencial.
+Se a verificação passar, revise os arquivos preparados e publique:
+
+```powershell
+git commit -m "Atualiza análise e apresentação dos resultados"
+git push
+git status --short --branch
+```
+
+`add` prepara os arquivos; a verificação confere a base e as imagens sintéticas; `commit` registra a versão local; `push` envia ao GitHub. Se algum comando falhar, interrompa a sequência e confira a mensagem.
