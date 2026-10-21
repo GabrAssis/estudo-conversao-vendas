@@ -1,0 +1,1651 @@
+﻿ID,Funil,Ciclo,Produto,Fase atual,Motivo da perda,Valor,Status,Ja e cliente? (cliente ativo 2 anos),subproduto
+OP-000001,Funil de Vendas,Ciclo 01,Produto A,Proposta,,3177.69,WON,Não,Linha 1-A
+OP-000002,Funil de Vendas,Ciclo 01,Produto A,Negociação,,7242.97,WON,Não,Linha 1-A
+OP-000003,Funil de Vendas,Ciclo 01,Produto A,Negociação,Preço acima do orçamento,11132.75,LOST,Não,Linha 1-B
+OP-000004,Funil de Vendas,Ciclo 01,Produto A,Negociação,Prioridade alterada,6905.34,LOST,Não,Linha 1-A
+OP-000005,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,6646.3,WON,Não,Linha 1-A
+OP-000006,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,21999.99,LOST,Não,Linha 1-A
+OP-000007,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prazo incompatível,4637.1,LOST,Não,Linha 1-B
+OP-000008,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prioridade alterada,15392.15,LOST,Não,Linha 1-B
+OP-000009,Funil de Vendas,Ciclo 01,Produto A,Negociação,,6715.41,WON,Não,Linha 1-B
+OP-000010,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,6145.32,WON,Não,Linha 1-A
+OP-000011,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prioridade alterada,26513.62,LOST,Não,Linha 1-B
+OP-000012,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,19763.16,LOST,Não,Linha 1-A
+OP-000013,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,8423.17,LOST,Não,Linha 1-B
+OP-000014,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,18330.27,LOST,Não,Linha 1-B
+OP-000015,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Preço acima do orçamento,4047.39,LOST,Não,Linha 1-A
+OP-000016,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,4524.29,LOST,Não,Linha 1-B
+OP-000017,Funil de Vendas,Ciclo 01,Produto A,Negociação,Preço acima do orçamento,6290.88,LOST,Não,Linha 1-A
+OP-000018,Funil de Vendas,Ciclo 01,Produto A,Proposta,,6068.73,WON,Não,Linha 1-A
+OP-000019,Funil de Vendas,Ciclo 01,Produto A,Proposta,,5861.02,OPEN,Não,Linha 1-B
+OP-000020,Funil de Vendas,Ciclo 01,Produto A,Negociação,Escopo inadequado,10342.77,LOST,Não,Linha 1-B
+OP-000021,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,12115.11,LOST,Não,Linha 1-B
+OP-000022,Funil de Vendas,Ciclo 01,Produto A,Proposta,,4374.67,WON,Não,Linha 1-A
+OP-000023,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,4900.94,LOST,Não,Linha 1-B
+OP-000024,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prioridade alterada,7076.31,LOST,Não,Linha 1-A
+OP-000025,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Preço acima do orçamento,10975.67,LOST,Não,Linha 1-A
+OP-000026,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,6197.67,LOST,Não,Linha 1-B
+OP-000027,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,12678.9,WON,Não,Linha 1-A
+OP-000028,Funil de Vendas,Ciclo 01,Produto A,Proposta,Concorrência,5976.65,LOST,Não,Linha 1-B
+OP-000029,Funil de Vendas,Ciclo 01,Produto A,Negociação,Concorrência,19816.16,LOST,Não,Linha 1-B
+OP-000030,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Concorrência,13037.98,LOST,Não,Linha 1-B
+OP-000031,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,13231.21,WON,Não,Linha 1-B
+OP-000032,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,18741.92,WON,Não,Linha 1-A
+OP-000033,Funil de Vendas,Ciclo 01,Produto A,Negociação,,5200.83,WON,Não,Linha 1-B
+OP-000034,Funil de Vendas,Ciclo 01,Produto A,Proposta,,8388.9,WON,Não,Linha 1-B
+OP-000035,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,8066.18,WON,Não,Linha 1-B
+OP-000036,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,6729.27,WON,Não,Linha 1-A
+OP-000037,Funil de Vendas,Ciclo 01,Produto A,Negociação,,11767.21,OPEN,Não,Linha 1-A
+OP-000038,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Preço acima do orçamento,5278.7,LOST,Não,Linha 1-B
+OP-000039,Funil de Vendas,Ciclo 01,Produto A,Negociação,Preço acima do orçamento,10243.4,LOST,Não,Linha 1-B
+OP-000040,Funil de Vendas,Ciclo 01,Produto A,Proposta,,5444.23,WON,Não,Linha 1-B
+OP-000041,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,23151.93,LOST,Não,Linha 1-A
+OP-000042,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prazo incompatível,12601.94,LOST,Não,Linha 1-A
+OP-000043,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,10614.71,LOST,Não,Linha 1-A
+OP-000044,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,11382.1,WON,Não,Linha 1-B
+OP-000045,Funil de Vendas,Ciclo 01,Produto A,Proposta,,9780.69,WON,Não,Linha 1-B
+OP-000046,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,10328.67,OPEN,Não,Linha 1-B
+OP-000047,Funil de Vendas,Ciclo 01,Produto A,Proposta,,9287.8,WON,Não,Linha 1-A
+OP-000048,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,9246.87,OPEN,Não,Linha 1-B
+OP-000049,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,11859.91,LOST,Não,Linha 1-B
+OP-000050,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prazo incompatível,4870.79,LOST,Não,Linha 1-B
+OP-000051,Funil de Vendas,Ciclo 01,Produto A,Qualificação,Escopo inadequado,6040.1,LOST,Não,Linha 1-B
+OP-000052,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prioridade alterada,6181.91,LOST,Não,Linha 1-B
+OP-000053,Funil de Vendas,Ciclo 01,Produto A,Proposta,,7726.92,WON,Não,Linha 1-B
+OP-000054,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Prioridade alterada,7621.22,LOST,Não,Linha 1-A
+OP-000055,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,25114.64,OPEN,Não,Linha 1-B
+OP-000056,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,10912.15,WON,Sim,Linha 1-B
+OP-000057,Funil de Vendas,Ciclo 01,Produto A,Negociação,Prazo incompatível,4752.15,LOST,Sim,Linha 1-B
+OP-000058,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,7986.5,LOST,Sim,Linha 1-B
+OP-000059,Funil de Vendas,Ciclo 01,Produto A,Proposta,,7405.71,WON,Sim,Linha 1-B
+OP-000060,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,13138.74,WON,Sim,Linha 1-B
+OP-000061,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,8947.63,LOST,Sim,Linha 1-A
+OP-000062,Funil de Vendas,Ciclo 01,Produto A,Proposta,,8869.53,WON,Sim,Linha 1-A
+OP-000063,Funil de Vendas,Ciclo 01,Produto A,Proposta,,9268.18,WON,Sim,Linha 1-B
+OP-000064,Funil de Vendas,Ciclo 01,Produto A,Proposta,Escopo inadequado,10871.1,LOST,Sim,Linha 1-A
+OP-000065,Funil de Vendas,Ciclo 01,Produto A,Negociação,,14038.96,WON,Sim,Linha 1-B
+OP-000066,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,8678.3,WON,Sim,Linha 1-B
+OP-000067,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Concorrência,9316.88,LOST,Sim,Linha 1-B
+OP-000068,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,6071.48,WON,Sim,Linha 1-A
+OP-000069,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,5986.9,WON,Sim,Linha 1-B
+OP-000070,Funil de Vendas,Ciclo 01,Produto A,Negociação,,39722.05,WON,Sim,Linha 1-A
+OP-000071,Funil de Vendas,Ciclo 01,Produto A,Proposta,,6122.13,WON,Sim,Linha 1-A
+OP-000072,Funil de Vendas,Ciclo 01,Produto A,Proposta,Concorrência,20371.88,LOST,Sim,Linha 1-B
+OP-000073,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prazo incompatível,7385.24,LOST,Sim,Linha 1-B
+OP-000074,Funil de Vendas,Ciclo 01,Produto A,Negociação,,9448.99,WON,Sim,Linha 1-B
+OP-000075,Funil de Vendas,Ciclo 01,Produto A,Negociação,Prazo incompatível,6224.95,LOST,Sim,Linha 1-B
+OP-000076,Funil de Vendas,Ciclo 01,Produto A,Negociação,Escopo inadequado,7159.84,LOST,Sim,Linha 1-B
+OP-000077,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,19406.48,LOST,Sim,Linha 1-A
+OP-000078,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,4449.5,LOST,Sim,Linha 1-A
+OP-000079,Funil de Vendas,Ciclo 01,Produto A,Proposta,,6055.97,OPEN,Sim,Linha 1-A
+OP-000080,Funil de Vendas,Ciclo 01,Produto A,Proposta,,10734.71,WON,Sim,Linha 1-A
+OP-000081,Funil de Vendas,Ciclo 01,Produto A,Negociação,Concorrência,7938.11,LOST,Sim,Linha 1-B
+OP-000082,Funil de Vendas,Ciclo 01,Produto A,Negociação,,17416.1,WON,Sim,Linha 1-A
+OP-000083,Funil de Vendas,Ciclo 01,Produto A,Negociação,,22382.96,WON,Sim,Linha 1-B
+OP-000084,Funil de Vendas,Ciclo 01,Produto A,Negociação,,5151.81,WON,Sim,Linha 1-A
+OP-000085,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,14562.15,LOST,Sim,Linha 1-A
+OP-000086,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,4058.95,WON,Sim,Linha 1-B
+OP-000087,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,22225.34,LOST,Sim,Linha 1-B
+OP-000088,Funil de Vendas,Ciclo 01,Produto A,Proposta,,13422.16,WON,Sim,Linha 1-A
+OP-000089,Funil de Vendas,Ciclo 01,Produto A,Proposta,Prioridade alterada,2639.95,LOST,Sim,Linha 1-A
+OP-000090,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,6239.23,WON,Sim,Linha 1-B
+OP-000091,Funil de Vendas,Ciclo 01,Produto A,Proposta,,17019.4,WON,Sim,Linha 1-B
+OP-000092,Funil de Vendas,Ciclo 01,Produto A,Negociação,,11687.36,WON,Sim,Linha 1-B
+OP-000093,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,9451.21,WON,Sim,Linha 1-B
+OP-000094,Funil de Vendas,Ciclo 01,Produto A,Proposta,,9050.67,OPEN,Sim,Linha 1-A
+OP-000095,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Concorrência,20492.89,LOST,Sim,Linha 1-A
+OP-000096,Funil de Vendas,Ciclo 01,Produto A,Negociação,,8102.79,OPEN,Sim,Linha 1-B
+OP-000097,Funil de Vendas,Ciclo 01,Produto A,Qualificação,,6662.28,OPEN,Sim,Linha 1-A
+OP-000098,Funil de Vendas,Ciclo 01,Produto A,Negociação,,12140.29,WON,Sim,Linha 1-A
+OP-000099,Funil de Vendas,Ciclo 01,Produto A,Proposta,,18164.0,WON,Sim,Linha 1-B
+OP-000100,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,4875.39,WON,Sim,Linha 1-B
+OP-000101,Funil de Vendas,Ciclo 01,Produto A,Proposta,,39794.06,WON,Sim,Linha 1-B
+OP-000102,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,10381.02,OPEN,Sim,Linha 1-A
+OP-000103,Funil de Vendas,Ciclo 01,Produto A,Negociação,,3529.61,WON,Sim,Linha 1-A
+OP-000104,Funil de Vendas,Ciclo 01,Produto A,Negociação,,10891.84,WON,Sim,Linha 1-B
+OP-000105,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,9334.8,WON,Sim,Linha 1-A
+OP-000106,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,7755.39,LOST,Sim,Linha 1-B
+OP-000107,Funil de Vendas,Ciclo 01,Produto A,Negociação,,16085.8,WON,Sim,Linha 1-B
+OP-000108,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,Escopo inadequado,6258.92,LOST,Sim,Linha 1-A
+OP-000109,Funil de Vendas,Ciclo 01,Produto A,Diagnóstico,,3201.23,WON,Sim,Linha 1-A
+OP-000110,Funil de Vendas,Ciclo 01,Produto A,Proposta,Preço acima do orçamento,4162.99,LOST,Sim,Linha 1-A
+OP-000111,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prioridade alterada,16780.25,LOST,Não,Linha 2-B
+OP-000112,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Prioridade alterada,5487.26,LOST,Não,Linha 2-A
+OP-000113,Funil de Vendas,Ciclo 01,Produto B,Negociação,Preço acima do orçamento,15030.99,LOST,Não,Linha 2-A
+OP-000114,Funil de Vendas,Ciclo 01,Produto B,Proposta,,20800.9,WON,Não,Linha 2-A
+OP-000115,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prazo incompatível,4899.88,LOST,Não,Linha 2-A
+OP-000116,Funil de Vendas,Ciclo 01,Produto B,Proposta,Escopo inadequado,5398.2,LOST,Não,Linha 2-B
+OP-000117,Funil de Vendas,Ciclo 01,Produto B,Proposta,,13865.87,WON,Não,Linha 2-B
+OP-000118,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prazo incompatível,18546.18,LOST,Não,Linha 2-B
+OP-000119,Funil de Vendas,Ciclo 01,Produto B,Negociação,,11319.75,WON,Não,Linha 2-B
+OP-000120,Funil de Vendas,Ciclo 01,Produto B,Negociação,,9768.28,WON,Não,Linha 2-A
+OP-000121,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,17498.76,LOST,Não,Linha 2-B
+OP-000122,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Concorrência,10739.57,LOST,Não,Linha 2-B
+OP-000123,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,8736.75,WON,Não,Linha 2-B
+OP-000124,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,3712.95,LOST,Não,Linha 2-B
+OP-000125,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Prioridade alterada,9713.93,LOST,Não,Linha 2-B
+OP-000126,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Prazo incompatível,5680.67,LOST,Não,Linha 2-A
+OP-000127,Funil de Vendas,Ciclo 01,Produto B,Negociação,,16196.06,WON,Não,Linha 2-B
+OP-000128,Funil de Vendas,Ciclo 01,Produto B,Negociação,Concorrência,9352.01,LOST,Não,Linha 2-B
+OP-000129,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,6943.08,WON,Não,Linha 2-A
+OP-000130,Funil de Vendas,Ciclo 01,Produto B,Proposta,,5287.86,WON,Não,Linha 2-A
+OP-000131,Funil de Vendas,Ciclo 01,Produto B,Proposta,,12409.82,WON,Não,Linha 2-B
+OP-000132,Funil de Vendas,Ciclo 01,Produto B,Negociação,,10487.65,WON,Não,Linha 2-A
+OP-000133,Funil de Vendas,Ciclo 01,Produto B,Proposta,,17817.83,WON,Não,Linha 2-A
+OP-000134,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,8309.5,WON,Não,Linha 2-A
+OP-000135,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,9404.16,LOST,Não,Linha 2-B
+OP-000136,Funil de Vendas,Ciclo 01,Produto B,Negociação,,9099.05,WON,Não,Linha 2-B
+OP-000137,Funil de Vendas,Ciclo 01,Produto B,Proposta,,10822.67,WON,Não,Linha 2-B
+OP-000138,Funil de Vendas,Ciclo 01,Produto B,Negociação,,6665.12,WON,Não,Linha 2-B
+OP-000139,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prazo incompatível,7983.07,LOST,Não,Linha 2-A
+OP-000140,Funil de Vendas,Ciclo 01,Produto B,Negociação,Concorrência,15373.99,LOST,Não,Linha 2-B
+OP-000141,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,13977.78,LOST,Não,Linha 2-A
+OP-000142,Funil de Vendas,Ciclo 01,Produto B,Proposta,,9552.71,WON,Não,Linha 2-B
+OP-000143,Funil de Vendas,Ciclo 01,Produto B,Proposta,Escopo inadequado,8712.43,LOST,Não,Linha 2-A
+OP-000144,Funil de Vendas,Ciclo 01,Produto B,Negociação,,10218.04,WON,Não,Linha 2-A
+OP-000145,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,13386.89,OPEN,Não,Linha 2-B
+OP-000146,Funil de Vendas,Ciclo 01,Produto B,Negociação,,10142.2,WON,Não,Linha 2-B
+OP-000147,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prioridade alterada,12712.03,LOST,Não,Linha 2-A
+OP-000148,Funil de Vendas,Ciclo 01,Produto B,Negociação,Escopo inadequado,10316.65,LOST,Não,Linha 2-B
+OP-000149,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Prioridade alterada,14139.66,LOST,Não,Linha 2-A
+OP-000150,Funil de Vendas,Ciclo 01,Produto B,Negociação,,5887.48,WON,Não,Linha 2-A
+OP-000151,Funil de Vendas,Ciclo 01,Produto B,Proposta,Concorrência,4672.28,LOST,Não,Linha 2-A
+OP-000152,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,6352.45,OPEN,Não,Linha 2-A
+OP-000153,Funil de Vendas,Ciclo 01,Produto B,Proposta,,11033.55,WON,Não,Linha 2-B
+OP-000154,Funil de Vendas,Ciclo 01,Produto B,Proposta,Concorrência,4698.56,LOST,Não,Linha 2-B
+OP-000155,Funil de Vendas,Ciclo 01,Produto B,Proposta,,11193.13,OPEN,Não,Linha 2-A
+OP-000156,Funil de Vendas,Ciclo 01,Produto B,Proposta,Concorrência,8452.48,LOST,Não,Linha 2-B
+OP-000157,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Prazo incompatível,18965.12,LOST,Não,Linha 2-A
+OP-000158,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,8236.37,WON,Não,Linha 2-B
+OP-000159,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Prazo incompatível,27742.77,LOST,Não,Linha 2-A
+OP-000160,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,8938.11,LOST,Não,Linha 2-B
+OP-000161,Funil de Vendas,Ciclo 01,Produto B,Negociação,Preço acima do orçamento,12497.38,LOST,Não,Linha 2-B
+OP-000162,Funil de Vendas,Ciclo 01,Produto B,Negociação,Concorrência,12947.74,LOST,Não,Linha 2-B
+OP-000163,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prioridade alterada,12055.83,LOST,Não,Linha 2-B
+OP-000164,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,7242.74,OPEN,Não,Linha 2-A
+OP-000165,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Escopo inadequado,14984.14,LOST,Não,Linha 2-A
+OP-000166,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,7940.34,LOST,Sim,Linha 2-B
+OP-000167,Funil de Vendas,Ciclo 01,Produto B,Proposta,,20664.42,WON,Sim,Linha 2-B
+OP-000168,Funil de Vendas,Ciclo 01,Produto B,Negociação,,5102.57,WON,Sim,Linha 2-A
+OP-000169,Funil de Vendas,Ciclo 01,Produto B,Negociação,,26828.9,OPEN,Sim,Linha 2-B
+OP-000170,Funil de Vendas,Ciclo 01,Produto B,Negociação,Escopo inadequado,6647.06,LOST,Sim,Linha 2-B
+OP-000171,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Prioridade alterada,6832.51,LOST,Sim,Linha 2-A
+OP-000172,Funil de Vendas,Ciclo 01,Produto B,Negociação,,20176.15,WON,Sim,Linha 2-B
+OP-000173,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,13650.11,WON,Sim,Linha 2-B
+OP-000174,Funil de Vendas,Ciclo 01,Produto B,Proposta,,25908.51,WON,Sim,Linha 2-B
+OP-000175,Funil de Vendas,Ciclo 01,Produto B,Proposta,Concorrência,11271.75,LOST,Sim,Linha 2-B
+OP-000176,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Escopo inadequado,9268.45,LOST,Sim,Linha 2-A
+OP-000177,Funil de Vendas,Ciclo 01,Produto B,Proposta,,5646.24,WON,Sim,Linha 2-B
+OP-000178,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prazo incompatível,25191.48,LOST,Sim,Linha 2-A
+OP-000179,Funil de Vendas,Ciclo 01,Produto B,Negociação,Concorrência,8451.2,LOST,Sim,Linha 2-A
+OP-000180,Funil de Vendas,Ciclo 01,Produto B,Proposta,,19999.27,WON,Sim,Linha 2-B
+OP-000181,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prazo incompatível,6995.75,LOST,Sim,Linha 2-A
+OP-000182,Funil de Vendas,Ciclo 01,Produto B,Proposta,,6984.88,WON,Sim,Linha 2-A
+OP-000183,Funil de Vendas,Ciclo 01,Produto B,Proposta,Preço acima do orçamento,8513.21,LOST,Sim,Linha 2-B
+OP-000184,Funil de Vendas,Ciclo 01,Produto B,Proposta,,12882.77,OPEN,Sim,Linha 2-B
+OP-000185,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prazo incompatível,17557.12,LOST,Sim,Linha 2-A
+OP-000186,Funil de Vendas,Ciclo 01,Produto B,Qualificação,,8119.9,WON,Sim,Linha 2-B
+OP-000187,Funil de Vendas,Ciclo 01,Produto B,Proposta,,13143.32,OPEN,Sim,Linha 2-B
+OP-000188,Funil de Vendas,Ciclo 01,Produto B,Qualificação,,13910.45,WON,Sim,Linha 2-B
+OP-000189,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prioridade alterada,3518.15,LOST,Sim,Linha 2-A
+OP-000190,Funil de Vendas,Ciclo 01,Produto B,Negociação,,12490.33,WON,Sim,Linha 2-A
+OP-000191,Funil de Vendas,Ciclo 01,Produto B,Proposta,,8880.51,WON,Sim,Linha 2-B
+OP-000192,Funil de Vendas,Ciclo 01,Produto B,Proposta,,8915.81,WON,Sim,Linha 2-B
+OP-000193,Funil de Vendas,Ciclo 01,Produto B,Proposta,,3578.51,WON,Sim,Linha 2-A
+OP-000194,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Preço acima do orçamento,5890.84,LOST,Sim,Linha 2-B
+OP-000195,Funil de Vendas,Ciclo 01,Produto B,Qualificação,Prioridade alterada,7373.05,LOST,Sim,Linha 2-B
+OP-000196,Funil de Vendas,Ciclo 01,Produto B,Proposta,,18357.66,OPEN,Sim,Linha 2-A
+OP-000197,Funil de Vendas,Ciclo 01,Produto B,Proposta,,23609.72,WON,Sim,Linha 2-B
+OP-000198,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,5725.26,WON,Sim,Linha 2-A
+OP-000199,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prioridade alterada,6713.65,LOST,Sim,Linha 2-A
+OP-000200,Funil de Vendas,Ciclo 01,Produto B,Negociação,Concorrência,3274.03,LOST,Sim,Linha 2-B
+OP-000201,Funil de Vendas,Ciclo 01,Produto B,Proposta,Concorrência,15624.35,LOST,Sim,Linha 2-A
+OP-000202,Funil de Vendas,Ciclo 01,Produto B,Qualificação,,5999.09,WON,Sim,Linha 2-A
+OP-000203,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prazo incompatível,10074.33,LOST,Sim,Linha 2-A
+OP-000204,Funil de Vendas,Ciclo 01,Produto B,Proposta,Prazo incompatível,6652.21,LOST,Sim,Linha 2-A
+OP-000205,Funil de Vendas,Ciclo 01,Produto B,Negociação,Prioridade alterada,26771.92,LOST,Sim,Linha 2-A
+OP-000206,Funil de Vendas,Ciclo 01,Produto B,Proposta,Escopo inadequado,17105.14,LOST,Sim,Linha 2-A
+OP-000207,Funil de Vendas,Ciclo 01,Produto B,Proposta,,16843.62,WON,Sim,Linha 2-A
+OP-000208,Funil de Vendas,Ciclo 01,Produto B,Negociação,Preço acima do orçamento,19837.49,LOST,Sim,Linha 2-B
+OP-000209,Funil de Vendas,Ciclo 01,Produto B,Proposta,,8339.42,WON,Sim,Linha 2-A
+OP-000210,Funil de Vendas,Ciclo 01,Produto B,Proposta,Escopo inadequado,11493.92,LOST,Sim,Linha 2-A
+OP-000211,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,7362.18,WON,Sim,Linha 2-B
+OP-000212,Funil de Vendas,Ciclo 01,Produto B,Proposta,,8866.51,WON,Sim,Linha 2-A
+OP-000213,Funil de Vendas,Ciclo 01,Produto B,Proposta,,13664.01,WON,Sim,Linha 2-B
+OP-000214,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,Preço acima do orçamento,9182.07,LOST,Sim,Linha 2-A
+OP-000215,Funil de Vendas,Ciclo 01,Produto B,Qualificação,,6274.56,OPEN,Sim,Linha 2-B
+OP-000216,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,8495.54,WON,Sim,Linha 2-A
+OP-000217,Funil de Vendas,Ciclo 01,Produto B,Negociação,,5477.7,WON,Sim,Linha 2-A
+OP-000218,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,5114.19,WON,Sim,Linha 2-A
+OP-000219,Funil de Vendas,Ciclo 01,Produto B,Proposta,,7780.71,WON,Sim,Linha 2-B
+OP-000220,Funil de Vendas,Ciclo 01,Produto B,Diagnóstico,,9007.69,WON,Sim,Linha 2-B
+OP-000221,Funil de Vendas,Ciclo 01,Produto C,Negociação,,15228.93,WON,Não,Linha 3-B
+OP-000222,Funil de Vendas,Ciclo 01,Produto C,Negociação,,8065.46,WON,Não,Linha 3-B
+OP-000223,Funil de Vendas,Ciclo 01,Produto C,Proposta,,10195.42,WON,Não,Linha 3-A
+OP-000224,Funil de Vendas,Ciclo 01,Produto C,Negociação,,24510.32,WON,Não,Linha 3-B
+OP-000225,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Concorrência,5080.81,LOST,Não,Linha 3-A
+OP-000226,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,21556.79,LOST,Não,Linha 3-A
+OP-000227,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prazo incompatível,4818.04,LOST,Não,Linha 3-A
+OP-000228,Funil de Vendas,Ciclo 01,Produto C,Proposta,Escopo inadequado,4208.82,LOST,Não,Linha 3-A
+OP-000229,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Preço acima do orçamento,11553.77,LOST,Não,Linha 3-A
+OP-000230,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Concorrência,13512.96,LOST,Não,Linha 3-A
+OP-000231,Funil de Vendas,Ciclo 01,Produto C,Negociação,Concorrência,10360.5,LOST,Não,Linha 3-A
+OP-000232,Funil de Vendas,Ciclo 01,Produto C,Negociação,Preço acima do orçamento,5889.0,LOST,Não,Linha 3-B
+OP-000233,Funil de Vendas,Ciclo 01,Produto C,Proposta,Escopo inadequado,8399.19,LOST,Não,Linha 3-A
+OP-000234,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Escopo inadequado,4549.39,LOST,Não,Linha 3-B
+OP-000235,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prazo incompatível,8184.1,LOST,Não,Linha 3-B
+OP-000236,Funil de Vendas,Ciclo 01,Produto C,Proposta,,23524.7,WON,Não,Linha 3-B
+OP-000237,Funil de Vendas,Ciclo 01,Produto C,Proposta,Concorrência,5935.38,LOST,Não,Linha 3-A
+OP-000238,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,17069.4,OPEN,Não,Linha 3-A
+OP-000239,Funil de Vendas,Ciclo 01,Produto C,Negociação,Preço acima do orçamento,19016.64,LOST,Não,Linha 3-A
+OP-000240,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,17065.46,WON,Não,Linha 3-A
+OP-000241,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prazo incompatível,7547.62,LOST,Não,Linha 3-A
+OP-000242,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prazo incompatível,13679.31,LOST,Não,Linha 3-B
+OP-000243,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prazo incompatível,12665.08,LOST,Não,Linha 3-A
+OP-000244,Funil de Vendas,Ciclo 01,Produto C,Negociação,,22959.23,WON,Não,Linha 3-B
+OP-000245,Funil de Vendas,Ciclo 01,Produto C,Proposta,,11896.39,OPEN,Não,Linha 3-A
+OP-000246,Funil de Vendas,Ciclo 01,Produto C,Proposta,Concorrência,4632.3,LOST,Não,Linha 3-A
+OP-000247,Funil de Vendas,Ciclo 01,Produto C,Negociação,Preço acima do orçamento,10646.34,LOST,Não,Linha 3-A
+OP-000248,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Concorrência,10102.41,LOST,Não,Linha 3-A
+OP-000249,Funil de Vendas,Ciclo 01,Produto C,Proposta,,16531.1,WON,Não,Linha 3-A
+OP-000250,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Preço acima do orçamento,17756.17,LOST,Não,Linha 3-A
+OP-000251,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prioridade alterada,13900.08,LOST,Não,Linha 3-B
+OP-000252,Funil de Vendas,Ciclo 01,Produto C,Negociação,Concorrência,12243.48,LOST,Não,Linha 3-B
+OP-000253,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prioridade alterada,9553.01,LOST,Não,Linha 3-B
+OP-000254,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,26755.51,LOST,Não,Linha 3-A
+OP-000255,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,7189.15,WON,Não,Linha 3-A
+OP-000256,Funil de Vendas,Ciclo 01,Produto C,Negociação,Concorrência,18074.64,LOST,Não,Linha 3-A
+OP-000257,Funil de Vendas,Ciclo 01,Produto C,Proposta,,12580.27,WON,Não,Linha 3-A
+OP-000258,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,8175.48,WON,Não,Linha 3-A
+OP-000259,Funil de Vendas,Ciclo 01,Produto C,Negociação,,17146.61,WON,Não,Linha 3-B
+OP-000260,Funil de Vendas,Ciclo 01,Produto C,Proposta,,8195.13,WON,Não,Linha 3-B
+OP-000261,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prazo incompatível,17525.02,LOST,Não,Linha 3-B
+OP-000262,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,7434.07,WON,Não,Linha 3-A
+OP-000263,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prazo incompatível,6257.45,LOST,Não,Linha 3-A
+OP-000264,Funil de Vendas,Ciclo 01,Produto C,Proposta,Concorrência,13645.0,LOST,Não,Linha 3-A
+OP-000265,Funil de Vendas,Ciclo 01,Produto C,Proposta,,17678.6,WON,Não,Linha 3-A
+OP-000266,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prazo incompatível,2814.29,LOST,Não,Linha 3-A
+OP-000267,Funil de Vendas,Ciclo 01,Produto C,Proposta,,4700.61,WON,Não,Linha 3-B
+OP-000268,Funil de Vendas,Ciclo 01,Produto C,Proposta,,11951.89,WON,Não,Linha 3-B
+OP-000269,Funil de Vendas,Ciclo 01,Produto C,Proposta,,5209.0,WON,Não,Linha 3-B
+OP-000270,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Preço acima do orçamento,12509.85,LOST,Não,Linha 3-A
+OP-000271,Funil de Vendas,Ciclo 01,Produto C,Negociação,,7491.48,WON,Não,Linha 3-A
+OP-000272,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Concorrência,11128.14,LOST,Não,Linha 3-B
+OP-000273,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,28324.44,LOST,Não,Linha 3-B
+OP-000274,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,12046.69,LOST,Não,Linha 3-A
+OP-000275,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,21436.32,WON,Não,Linha 3-B
+OP-000276,Funil de Vendas,Ciclo 01,Produto C,Negociação,Concorrência,24617.92,LOST,Sim,Linha 3-B
+OP-000277,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Prioridade alterada,33713.02,LOST,Sim,Linha 3-B
+OP-000278,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,4526.66,WON,Sim,Linha 3-B
+OP-000279,Funil de Vendas,Ciclo 01,Produto C,Negociação,,10544.55,WON,Sim,Linha 3-A
+OP-000280,Funil de Vendas,Ciclo 01,Produto C,Proposta,,19075.6,WON,Sim,Linha 3-B
+OP-000281,Funil de Vendas,Ciclo 01,Produto C,Proposta,,7412.99,WON,Sim,Linha 3-A
+OP-000282,Funil de Vendas,Ciclo 01,Produto C,Negociação,Prazo incompatível,12737.52,LOST,Sim,Linha 3-B
+OP-000283,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,12802.06,OPEN,Sim,Linha 3-B
+OP-000284,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Preço acima do orçamento,8296.44,LOST,Sim,Linha 3-B
+OP-000285,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prioridade alterada,11307.43,LOST,Sim,Linha 3-B
+OP-000286,Funil de Vendas,Ciclo 01,Produto C,Proposta,,11038.37,WON,Sim,Linha 3-B
+OP-000287,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,11481.82,WON,Sim,Linha 3-A
+OP-000288,Funil de Vendas,Ciclo 01,Produto C,Proposta,,13837.23,WON,Sim,Linha 3-A
+OP-000289,Funil de Vendas,Ciclo 01,Produto C,Negociação,Prioridade alterada,4990.85,LOST,Sim,Linha 3-B
+OP-000290,Funil de Vendas,Ciclo 01,Produto C,Negociação,Escopo inadequado,19567.43,LOST,Sim,Linha 3-A
+OP-000291,Funil de Vendas,Ciclo 01,Produto C,Negociação,,6904.48,WON,Sim,Linha 3-B
+OP-000292,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prioridade alterada,7473.19,LOST,Sim,Linha 3-B
+OP-000293,Funil de Vendas,Ciclo 01,Produto C,Negociação,,5495.88,WON,Sim,Linha 3-B
+OP-000294,Funil de Vendas,Ciclo 01,Produto C,Negociação,,6954.18,WON,Sim,Linha 3-B
+OP-000295,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Prioridade alterada,17371.95,LOST,Sim,Linha 3-B
+OP-000296,Funil de Vendas,Ciclo 01,Produto C,Negociação,,6356.17,WON,Sim,Linha 3-B
+OP-000297,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,8362.85,WON,Sim,Linha 3-B
+OP-000298,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,11524.72,WON,Sim,Linha 3-A
+OP-000299,Funil de Vendas,Ciclo 01,Produto C,Proposta,,16140.21,OPEN,Sim,Linha 3-B
+OP-000300,Funil de Vendas,Ciclo 01,Produto C,Proposta,,9252.17,WON,Sim,Linha 3-A
+OP-000301,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,10155.81,WON,Sim,Linha 3-A
+OP-000302,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,14057.06,WON,Sim,Linha 3-A
+OP-000303,Funil de Vendas,Ciclo 01,Produto C,Negociação,,12086.62,WON,Sim,Linha 3-B
+OP-000304,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,5000.6,WON,Sim,Linha 3-B
+OP-000305,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Preço acima do orçamento,8831.51,LOST,Sim,Linha 3-A
+OP-000306,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,Concorrência,10958.01,LOST,Sim,Linha 3-A
+OP-000307,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prioridade alterada,15444.03,LOST,Sim,Linha 3-A
+OP-000308,Funil de Vendas,Ciclo 01,Produto C,Proposta,,13299.57,WON,Sim,Linha 3-A
+OP-000309,Funil de Vendas,Ciclo 01,Produto C,Negociação,,10855.62,WON,Sim,Linha 3-B
+OP-000310,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Prioridade alterada,9293.31,LOST,Sim,Linha 3-A
+OP-000311,Funil de Vendas,Ciclo 01,Produto C,Negociação,,13279.2,WON,Sim,Linha 3-A
+OP-000312,Funil de Vendas,Ciclo 01,Produto C,Negociação,Prioridade alterada,15407.71,LOST,Sim,Linha 3-B
+OP-000313,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,7528.6,LOST,Sim,Linha 3-A
+OP-000314,Funil de Vendas,Ciclo 01,Produto C,Proposta,,7582.05,WON,Sim,Linha 3-A
+OP-000315,Funil de Vendas,Ciclo 01,Produto C,Proposta,Preço acima do orçamento,10243.33,LOST,Sim,Linha 3-A
+OP-000316,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,22481.91,WON,Sim,Linha 3-A
+OP-000317,Funil de Vendas,Ciclo 01,Produto C,Proposta,,8582.02,OPEN,Sim,Linha 3-B
+OP-000318,Funil de Vendas,Ciclo 01,Produto C,Negociação,,13308.49,WON,Sim,Linha 3-B
+OP-000319,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Escopo inadequado,11331.66,LOST,Sim,Linha 3-B
+OP-000320,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,5464.78,WON,Sim,Linha 3-A
+OP-000321,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,5316.58,WON,Sim,Linha 3-A
+OP-000322,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prioridade alterada,5015.17,LOST,Sim,Linha 3-B
+OP-000323,Funil de Vendas,Ciclo 01,Produto C,Proposta,Prioridade alterada,16142.34,LOST,Sim,Linha 3-A
+OP-000324,Funil de Vendas,Ciclo 01,Produto C,Qualificação,,16712.81,WON,Sim,Linha 3-A
+OP-000325,Funil de Vendas,Ciclo 01,Produto C,Qualificação,Prazo incompatível,8558.55,LOST,Sim,Linha 3-A
+OP-000326,Funil de Vendas,Ciclo 01,Produto C,Negociação,Prazo incompatível,31021.12,LOST,Sim,Linha 3-A
+OP-000327,Funil de Vendas,Ciclo 01,Produto C,Negociação,,14740.46,WON,Sim,Linha 3-B
+OP-000328,Funil de Vendas,Ciclo 01,Produto C,Diagnóstico,,8963.94,WON,Sim,Linha 3-B
+OP-000329,Funil de Vendas,Ciclo 01,Produto C,Negociação,,19885.66,WON,Sim,Linha 3-B
+OP-000330,Funil de Vendas,Ciclo 01,Produto C,Proposta,,10655.95,OPEN,Sim,Linha 3-B
+OP-000331,Funil de Vendas,Ciclo 02,Produto A,Proposta,,6236.68,WON,Não,Linha 1-A
+OP-000332,Funil de Vendas,Ciclo 02,Produto A,Proposta,Prioridade alterada,11245.06,LOST,Não,Linha 1-A
+OP-000333,Funil de Vendas,Ciclo 02,Produto A,Qualificação,Concorrência,14296.14,LOST,Não,Linha 1-A
+OP-000334,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,10461.74,WON,Não,Linha 1-A
+OP-000335,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,4664.97,LOST,Não,Linha 1-A
+OP-000336,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,4572.98,LOST,Não,Linha 1-A
+OP-000337,Funil de Vendas,Ciclo 02,Produto A,Proposta,Concorrência,20935.91,LOST,Não,Linha 1-A
+OP-000338,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,5583.78,WON,Não,Linha 1-A
+OP-000339,Funil de Vendas,Ciclo 02,Produto A,Qualificação,,12426.56,OPEN,Não,Linha 1-B
+OP-000340,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,7179.71,LOST,Não,Linha 1-B
+OP-000341,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,4142.21,LOST,Não,Linha 1-A
+OP-000342,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Preço acima do orçamento,3551.82,LOST,Não,Linha 1-B
+OP-000343,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,7864.46,OPEN,Não,Linha 1-A
+OP-000344,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,12213.48,LOST,Não,Linha 1-B
+OP-000345,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,7540.03,WON,Não,Linha 1-A
+OP-000346,Funil de Vendas,Ciclo 02,Produto A,Proposta,,5785.89,WON,Não,Linha 1-A
+OP-000347,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,7362.33,WON,Não,Linha 1-A
+OP-000348,Funil de Vendas,Ciclo 02,Produto A,Proposta,,6589.72,WON,Não,Linha 1-B
+OP-000349,Funil de Vendas,Ciclo 02,Produto A,Proposta,,3317.13,WON,Não,Linha 1-A
+OP-000350,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,10423.87,LOST,Não,Linha 1-A
+OP-000351,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,10653.48,LOST,Não,Linha 1-A
+OP-000352,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,10235.98,WON,Não,Linha 1-B
+OP-000353,Funil de Vendas,Ciclo 02,Produto A,Negociação,Concorrência,5518.33,LOST,Não,Linha 1-B
+OP-000354,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,14291.38,WON,Não,Linha 1-B
+OP-000355,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,20312.35,LOST,Não,Linha 1-B
+OP-000356,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Preço acima do orçamento,3398.89,LOST,Não,Linha 1-B
+OP-000357,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,12620.68,WON,Não,Linha 1-A
+OP-000358,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,6400.96,LOST,Não,Linha 1-B
+OP-000359,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,13111.2,LOST,Não,Linha 1-B
+OP-000360,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,11532.1,LOST,Não,Linha 1-B
+OP-000361,Funil de Vendas,Ciclo 02,Produto A,Negociação,,5322.27,WON,Não,Linha 1-A
+OP-000362,Funil de Vendas,Ciclo 02,Produto A,Qualificação,Prioridade alterada,12687.08,LOST,Não,Linha 1-B
+OP-000363,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prazo incompatível,10048.54,LOST,Não,Linha 1-A
+OP-000364,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,6802.53,WON,Não,Linha 1-B
+OP-000365,Funil de Vendas,Ciclo 02,Produto A,Negociação,,6408.71,WON,Não,Linha 1-A
+OP-000366,Funil de Vendas,Ciclo 02,Produto A,Qualificação,Preço acima do orçamento,9393.49,LOST,Não,Linha 1-A
+OP-000367,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,23625.92,LOST,Não,Linha 1-B
+OP-000368,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Escopo inadequado,11563.61,LOST,Não,Linha 1-A
+OP-000369,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Preço acima do orçamento,9342.82,LOST,Não,Linha 1-B
+OP-000370,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Preço acima do orçamento,8278.18,LOST,Não,Linha 1-A
+OP-000371,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,6822.49,WON,Não,Linha 1-A
+OP-000372,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,11705.56,LOST,Não,Linha 1-A
+OP-000373,Funil de Vendas,Ciclo 02,Produto A,Proposta,,5778.27,WON,Não,Linha 1-A
+OP-000374,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,6930.92,LOST,Não,Linha 1-A
+OP-000375,Funil de Vendas,Ciclo 02,Produto A,Negociação,Concorrência,30403.08,LOST,Não,Linha 1-A
+OP-000376,Funil de Vendas,Ciclo 02,Produto A,Proposta,,14245.56,WON,Não,Linha 1-A
+OP-000377,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,9668.06,LOST,Não,Linha 1-A
+OP-000378,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,7016.09,LOST,Não,Linha 1-A
+OP-000379,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,7922.29,LOST,Não,Linha 1-B
+OP-000380,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,10068.97,LOST,Não,Linha 1-A
+OP-000381,Funil de Vendas,Ciclo 02,Produto A,Negociação,Escopo inadequado,9690.05,LOST,Não,Linha 1-A
+OP-000382,Funil de Vendas,Ciclo 02,Produto A,Negociação,,17453.14,WON,Não,Linha 1-B
+OP-000383,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,9071.37,LOST,Não,Linha 1-A
+OP-000384,Funil de Vendas,Ciclo 02,Produto A,Proposta,,9114.26,WON,Não,Linha 1-A
+OP-000385,Funil de Vendas,Ciclo 02,Produto A,Proposta,,9088.86,WON,Não,Linha 1-B
+OP-000386,Funil de Vendas,Ciclo 02,Produto A,Proposta,,3433.31,WON,Sim,Linha 1-A
+OP-000387,Funil de Vendas,Ciclo 02,Produto A,Proposta,Concorrência,5785.25,LOST,Sim,Linha 1-A
+OP-000388,Funil de Vendas,Ciclo 02,Produto A,Proposta,Concorrência,5645.08,LOST,Sim,Linha 1-A
+OP-000389,Funil de Vendas,Ciclo 02,Produto A,Negociação,,7181.79,OPEN,Sim,Linha 1-B
+OP-000390,Funil de Vendas,Ciclo 02,Produto A,Proposta,,10682.74,WON,Sim,Linha 1-A
+OP-000391,Funil de Vendas,Ciclo 02,Produto A,Proposta,,5382.03,WON,Sim,Linha 1-B
+OP-000392,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Preço acima do orçamento,5327.66,LOST,Sim,Linha 1-A
+OP-000393,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,10139.22,OPEN,Sim,Linha 1-A
+OP-000394,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,9024.97,WON,Sim,Linha 1-B
+OP-000395,Funil de Vendas,Ciclo 02,Produto A,Proposta,,1795.17,WON,Sim,Linha 1-B
+OP-000396,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,10553.67,WON,Sim,Linha 1-A
+OP-000397,Funil de Vendas,Ciclo 02,Produto A,Qualificação,,10740.95,WON,Sim,Linha 1-B
+OP-000398,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prazo incompatível,3420.32,LOST,Sim,Linha 1-A
+OP-000399,Funil de Vendas,Ciclo 02,Produto A,Negociação,,14205.36,WON,Sim,Linha 1-B
+OP-000400,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prioridade alterada,16359.04,LOST,Sim,Linha 1-B
+OP-000401,Funil de Vendas,Ciclo 02,Produto A,Negociação,,6274.13,WON,Sim,Linha 1-A
+OP-000402,Funil de Vendas,Ciclo 02,Produto A,Proposta,,8243.24,WON,Sim,Linha 1-A
+OP-000403,Funil de Vendas,Ciclo 02,Produto A,Negociação,,7247.9,WON,Sim,Linha 1-B
+OP-000404,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,17258.53,LOST,Sim,Linha 1-B
+OP-000405,Funil de Vendas,Ciclo 02,Produto A,Proposta,,5080.51,WON,Sim,Linha 1-A
+OP-000406,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,12228.49,WON,Sim,Linha 1-B
+OP-000407,Funil de Vendas,Ciclo 02,Produto A,Proposta,Prazo incompatível,6414.43,LOST,Sim,Linha 1-A
+OP-000408,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prioridade alterada,7878.97,LOST,Sim,Linha 1-A
+OP-000409,Funil de Vendas,Ciclo 02,Produto A,Proposta,,3785.47,WON,Sim,Linha 1-A
+OP-000410,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,5649.12,WON,Sim,Linha 1-A
+OP-000411,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,7453.3,LOST,Sim,Linha 1-B
+OP-000412,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Concorrência,17189.27,LOST,Sim,Linha 1-A
+OP-000413,Funil de Vendas,Ciclo 02,Produto A,Proposta,,8813.74,OPEN,Sim,Linha 1-B
+OP-000414,Funil de Vendas,Ciclo 02,Produto A,Proposta,,8809.92,WON,Sim,Linha 1-A
+OP-000415,Funil de Vendas,Ciclo 02,Produto A,Qualificação,,4044.8,WON,Sim,Linha 1-B
+OP-000416,Funil de Vendas,Ciclo 02,Produto A,Proposta,Prioridade alterada,3982.43,LOST,Sim,Linha 1-B
+OP-000417,Funil de Vendas,Ciclo 02,Produto A,Negociação,Preço acima do orçamento,3867.98,LOST,Sim,Linha 1-A
+OP-000418,Funil de Vendas,Ciclo 02,Produto A,Negociação,,15444.38,WON,Sim,Linha 1-B
+OP-000419,Funil de Vendas,Ciclo 02,Produto A,Qualificação,,5183.46,WON,Sim,Linha 1-A
+OP-000420,Funil de Vendas,Ciclo 02,Produto A,Proposta,,28619.68,WON,Sim,Linha 1-A
+OP-000421,Funil de Vendas,Ciclo 02,Produto A,Negociação,,5523.01,OPEN,Sim,Linha 1-A
+OP-000422,Funil de Vendas,Ciclo 02,Produto A,Negociação,Prazo incompatível,6720.83,LOST,Sim,Linha 1-A
+OP-000423,Funil de Vendas,Ciclo 02,Produto A,Proposta,,13515.12,WON,Sim,Linha 1-B
+OP-000424,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Escopo inadequado,4289.21,LOST,Sim,Linha 1-B
+OP-000425,Funil de Vendas,Ciclo 02,Produto A,Proposta,,10816.77,WON,Sim,Linha 1-A
+OP-000426,Funil de Vendas,Ciclo 02,Produto A,Qualificação,,3438.63,WON,Sim,Linha 1-B
+OP-000427,Funil de Vendas,Ciclo 02,Produto A,Negociação,,5160.2,WON,Sim,Linha 1-A
+OP-000428,Funil de Vendas,Ciclo 02,Produto A,Proposta,,21561.3,WON,Sim,Linha 1-B
+OP-000429,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,17143.72,OPEN,Sim,Linha 1-A
+OP-000430,Funil de Vendas,Ciclo 02,Produto A,Proposta,Preço acima do orçamento,3996.58,LOST,Sim,Linha 1-A
+OP-000431,Funil de Vendas,Ciclo 02,Produto A,Proposta,,6216.62,WON,Sim,Linha 1-A
+OP-000432,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,4748.41,WON,Sim,Linha 1-B
+OP-000433,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prazo incompatível,16092.02,LOST,Sim,Linha 1-B
+OP-000434,Funil de Vendas,Ciclo 02,Produto A,Proposta,,9797.88,WON,Sim,Linha 1-A
+OP-000435,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prioridade alterada,11975.01,LOST,Sim,Linha 1-B
+OP-000436,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,Prazo incompatível,15549.34,LOST,Sim,Linha 1-B
+OP-000437,Funil de Vendas,Ciclo 02,Produto A,Proposta,,17970.55,WON,Sim,Linha 1-B
+OP-000438,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,6150.21,OPEN,Sim,Linha 1-B
+OP-000439,Funil de Vendas,Ciclo 02,Produto A,Diagnóstico,,9592.43,WON,Sim,Linha 1-B
+OP-000440,Funil de Vendas,Ciclo 02,Produto A,Qualificação,Prioridade alterada,5502.43,LOST,Sim,Linha 1-B
+OP-000441,Funil de Vendas,Ciclo 02,Produto B,Negociação,Escopo inadequado,17471.3,LOST,Não,Linha 2-A
+OP-000442,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,4874.49,LOST,Não,Linha 2-B
+OP-000443,Funil de Vendas,Ciclo 02,Produto B,Negociação,,11368.73,WON,Não,Linha 2-A
+OP-000444,Funil de Vendas,Ciclo 02,Produto B,Proposta,,13298.97,OPEN,Não,Linha 2-B
+OP-000445,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,2612.37,WON,Não,Linha 2-B
+OP-000446,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,6197.44,WON,Não,Linha 2-B
+OP-000447,Funil de Vendas,Ciclo 02,Produto B,Negociação,Preço acima do orçamento,7431.61,LOST,Não,Linha 2-B
+OP-000448,Funil de Vendas,Ciclo 02,Produto B,Negociação,,5895.15,WON,Não,Linha 2-B
+OP-000449,Funil de Vendas,Ciclo 02,Produto B,Proposta,,6257.85,WON,Não,Linha 2-A
+OP-000450,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,8773.92,WON,Não,Linha 2-B
+OP-000451,Funil de Vendas,Ciclo 02,Produto B,Negociação,Concorrência,10211.79,LOST,Não,Linha 2-B
+OP-000452,Funil de Vendas,Ciclo 02,Produto B,Proposta,,8982.59,WON,Não,Linha 2-A
+OP-000453,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,17542.11,LOST,Não,Linha 2-A
+OP-000454,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,11948.49,LOST,Não,Linha 2-A
+OP-000455,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,9358.91,LOST,Não,Linha 2-A
+OP-000456,Funil de Vendas,Ciclo 02,Produto B,Qualificação,,12787.03,WON,Não,Linha 2-B
+OP-000457,Funil de Vendas,Ciclo 02,Produto B,Negociação,Prioridade alterada,3290.12,LOST,Não,Linha 2-A
+OP-000458,Funil de Vendas,Ciclo 02,Produto B,Proposta,Concorrência,7760.33,LOST,Não,Linha 2-A
+OP-000459,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,17358.17,LOST,Não,Linha 2-B
+OP-000460,Funil de Vendas,Ciclo 02,Produto B,Negociação,,8270.34,WON,Não,Linha 2-B
+OP-000461,Funil de Vendas,Ciclo 02,Produto B,Negociação,,13780.01,WON,Não,Linha 2-A
+OP-000462,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,8939.15,WON,Não,Linha 2-A
+OP-000463,Funil de Vendas,Ciclo 02,Produto B,Negociação,,25334.29,WON,Não,Linha 2-A
+OP-000464,Funil de Vendas,Ciclo 02,Produto B,Proposta,Escopo inadequado,11512.63,LOST,Não,Linha 2-A
+OP-000465,Funil de Vendas,Ciclo 02,Produto B,Qualificação,,16180.04,WON,Não,Linha 2-B
+OP-000466,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,10532.92,LOST,Não,Linha 2-B
+OP-000467,Funil de Vendas,Ciclo 02,Produto B,Proposta,Concorrência,21368.04,LOST,Não,Linha 2-B
+OP-000468,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,18656.19,WON,Não,Linha 2-A
+OP-000469,Funil de Vendas,Ciclo 02,Produto B,Proposta,,9182.39,WON,Não,Linha 2-B
+OP-000470,Funil de Vendas,Ciclo 02,Produto B,Proposta,,13311.72,WON,Não,Linha 2-A
+OP-000471,Funil de Vendas,Ciclo 02,Produto B,Proposta,Concorrência,6219.96,LOST,Não,Linha 2-B
+OP-000472,Funil de Vendas,Ciclo 02,Produto B,Negociação,,6422.65,WON,Não,Linha 2-A
+OP-000473,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,5209.57,WON,Não,Linha 2-A
+OP-000474,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,18842.06,LOST,Não,Linha 2-A
+OP-000475,Funil de Vendas,Ciclo 02,Produto B,Proposta,Escopo inadequado,13534.71,LOST,Não,Linha 2-B
+OP-000476,Funil de Vendas,Ciclo 02,Produto B,Proposta,,26686.14,WON,Não,Linha 2-B
+OP-000477,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,14652.21,WON,Não,Linha 2-B
+OP-000478,Funil de Vendas,Ciclo 02,Produto B,Negociação,Concorrência,20153.18,LOST,Não,Linha 2-B
+OP-000479,Funil de Vendas,Ciclo 02,Produto B,Proposta,Prazo incompatível,15912.19,LOST,Não,Linha 2-A
+OP-000480,Funil de Vendas,Ciclo 02,Produto B,Proposta,,16310.47,WON,Não,Linha 2-B
+OP-000481,Funil de Vendas,Ciclo 02,Produto B,Negociação,Prazo incompatível,9864.51,LOST,Não,Linha 2-A
+OP-000482,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,22654.94,LOST,Não,Linha 2-A
+OP-000483,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,7970.59,OPEN,Não,Linha 2-A
+OP-000484,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,7501.82,LOST,Não,Linha 2-A
+OP-000485,Funil de Vendas,Ciclo 02,Produto B,Proposta,Escopo inadequado,3960.43,LOST,Não,Linha 2-B
+OP-000486,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,11028.22,WON,Não,Linha 2-A
+OP-000487,Funil de Vendas,Ciclo 02,Produto B,Negociação,Prioridade alterada,11191.05,LOST,Não,Linha 2-B
+OP-000488,Funil de Vendas,Ciclo 02,Produto B,Negociação,Escopo inadequado,14816.57,LOST,Não,Linha 2-A
+OP-000489,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,6013.09,LOST,Não,Linha 2-B
+OP-000490,Funil de Vendas,Ciclo 02,Produto B,Proposta,,8265.42,OPEN,Não,Linha 2-A
+OP-000491,Funil de Vendas,Ciclo 02,Produto B,Proposta,Prazo incompatível,4443.61,LOST,Não,Linha 2-A
+OP-000492,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,9687.41,LOST,Não,Linha 2-A
+OP-000493,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,7281.18,WON,Não,Linha 2-B
+OP-000494,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,13451.68,WON,Não,Linha 2-A
+OP-000495,Funil de Vendas,Ciclo 02,Produto B,Qualificação,Prazo incompatível,5542.91,LOST,Não,Linha 2-B
+OP-000496,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,20220.03,WON,Sim,Linha 2-B
+OP-000497,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,6833.75,WON,Sim,Linha 2-A
+OP-000498,Funil de Vendas,Ciclo 02,Produto B,Qualificação,,11126.07,WON,Sim,Linha 2-A
+OP-000499,Funil de Vendas,Ciclo 02,Produto B,Negociação,Escopo inadequado,4159.93,LOST,Sim,Linha 2-B
+OP-000500,Funil de Vendas,Ciclo 02,Produto B,Proposta,Prazo incompatível,10097.38,LOST,Sim,Linha 2-A
+OP-000501,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Prioridade alterada,14187.0,LOST,Sim,Linha 2-A
+OP-000502,Funil de Vendas,Ciclo 02,Produto B,Proposta,,4759.35,WON,Sim,Linha 2-A
+OP-000503,Funil de Vendas,Ciclo 02,Produto B,Qualificação,,8548.3,WON,Sim,Linha 2-A
+OP-000504,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,12810.86,LOST,Sim,Linha 2-B
+OP-000505,Funil de Vendas,Ciclo 02,Produto B,Proposta,,4021.21,WON,Sim,Linha 2-B
+OP-000506,Funil de Vendas,Ciclo 02,Produto B,Qualificação,Preço acima do orçamento,22709.18,LOST,Sim,Linha 2-B
+OP-000507,Funil de Vendas,Ciclo 02,Produto B,Negociação,,10705.9,WON,Sim,Linha 2-B
+OP-000508,Funil de Vendas,Ciclo 02,Produto B,Proposta,,14371.35,OPEN,Sim,Linha 2-A
+OP-000509,Funil de Vendas,Ciclo 02,Produto B,Proposta,Concorrência,8280.06,LOST,Sim,Linha 2-B
+OP-000510,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Prazo incompatível,10752.12,LOST,Sim,Linha 2-A
+OP-000511,Funil de Vendas,Ciclo 02,Produto B,Proposta,,20102.45,WON,Sim,Linha 2-B
+OP-000512,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Preço acima do orçamento,11099.28,LOST,Sim,Linha 2-B
+OP-000513,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Prazo incompatível,11532.74,LOST,Sim,Linha 2-A
+OP-000514,Funil de Vendas,Ciclo 02,Produto B,Proposta,,9268.62,WON,Sim,Linha 2-B
+OP-000515,Funil de Vendas,Ciclo 02,Produto B,Proposta,,20753.85,WON,Sim,Linha 2-B
+OP-000516,Funil de Vendas,Ciclo 02,Produto B,Proposta,,8900.99,WON,Sim,Linha 2-B
+OP-000517,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Preço acima do orçamento,10499.57,LOST,Sim,Linha 2-A
+OP-000518,Funil de Vendas,Ciclo 02,Produto B,Qualificação,,7055.5,WON,Sim,Linha 2-A
+OP-000519,Funil de Vendas,Ciclo 02,Produto B,Negociação,,11716.06,WON,Sim,Linha 2-B
+OP-000520,Funil de Vendas,Ciclo 02,Produto B,Proposta,Escopo inadequado,13362.52,LOST,Sim,Linha 2-A
+OP-000521,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,6185.92,WON,Sim,Linha 2-B
+OP-000522,Funil de Vendas,Ciclo 02,Produto B,Proposta,,2714.01,OPEN,Sim,Linha 2-A
+OP-000523,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Preço acima do orçamento,18731.28,LOST,Sim,Linha 2-A
+OP-000524,Funil de Vendas,Ciclo 02,Produto B,Proposta,,8547.21,OPEN,Sim,Linha 2-B
+OP-000525,Funil de Vendas,Ciclo 02,Produto B,Proposta,Escopo inadequado,8594.84,LOST,Sim,Linha 2-B
+OP-000526,Funil de Vendas,Ciclo 02,Produto B,Proposta,,24803.05,OPEN,Sim,Linha 2-B
+OP-000527,Funil de Vendas,Ciclo 02,Produto B,Negociação,,7745.6,WON,Sim,Linha 2-A
+OP-000528,Funil de Vendas,Ciclo 02,Produto B,Proposta,Prazo incompatível,9440.85,LOST,Sim,Linha 2-A
+OP-000529,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,5066.8,LOST,Sim,Linha 2-B
+OP-000530,Funil de Vendas,Ciclo 02,Produto B,Proposta,,13170.16,WON,Sim,Linha 2-B
+OP-000531,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Concorrência,4629.7,LOST,Sim,Linha 2-A
+OP-000532,Funil de Vendas,Ciclo 02,Produto B,Proposta,,5109.52,WON,Sim,Linha 2-B
+OP-000533,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Escopo inadequado,15646.18,LOST,Sim,Linha 2-A
+OP-000534,Funil de Vendas,Ciclo 02,Produto B,Proposta,,11707.97,WON,Sim,Linha 2-A
+OP-000535,Funil de Vendas,Ciclo 02,Produto B,Negociação,,23467.97,WON,Sim,Linha 2-B
+OP-000536,Funil de Vendas,Ciclo 02,Produto B,Proposta,Prioridade alterada,16303.79,LOST,Sim,Linha 2-B
+OP-000537,Funil de Vendas,Ciclo 02,Produto B,Proposta,,4460.43,WON,Sim,Linha 2-B
+OP-000538,Funil de Vendas,Ciclo 02,Produto B,Negociação,,11983.81,WON,Sim,Linha 2-A
+OP-000539,Funil de Vendas,Ciclo 02,Produto B,Proposta,,7059.74,WON,Sim,Linha 2-B
+OP-000540,Funil de Vendas,Ciclo 02,Produto B,Proposta,,13708.4,WON,Sim,Linha 2-A
+OP-000541,Funil de Vendas,Ciclo 02,Produto B,Proposta,Concorrência,12910.47,LOST,Sim,Linha 2-B
+OP-000542,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,14971.12,WON,Sim,Linha 2-B
+OP-000543,Funil de Vendas,Ciclo 02,Produto B,Negociação,Prioridade alterada,10748.37,LOST,Sim,Linha 2-A
+OP-000544,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,4435.54,WON,Sim,Linha 2-B
+OP-000545,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,,5817.77,WON,Sim,Linha 2-B
+OP-000546,Funil de Vendas,Ciclo 02,Produto B,Proposta,,4230.37,WON,Sim,Linha 2-B
+OP-000547,Funil de Vendas,Ciclo 02,Produto B,Proposta,,11625.55,WON,Sim,Linha 2-A
+OP-000548,Funil de Vendas,Ciclo 02,Produto B,Diagnóstico,Preço acima do orçamento,5750.33,LOST,Sim,Linha 2-A
+OP-000549,Funil de Vendas,Ciclo 02,Produto B,Proposta,Preço acima do orçamento,4958.95,LOST,Sim,Linha 2-A
+OP-000550,Funil de Vendas,Ciclo 02,Produto B,Proposta,,8095.17,WON,Sim,Linha 2-A
+OP-000551,Funil de Vendas,Ciclo 02,Produto C,Proposta,Preço acima do orçamento,39026.71,LOST,Não,Linha 3-B
+OP-000552,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Concorrência,4466.64,LOST,Não,Linha 3-B
+OP-000553,Funil de Vendas,Ciclo 02,Produto C,Proposta,,7295.47,WON,Não,Linha 3-A
+OP-000554,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,7161.57,WON,Não,Linha 3-A
+OP-000555,Funil de Vendas,Ciclo 02,Produto C,Negociação,,9063.78,WON,Não,Linha 3-A
+OP-000556,Funil de Vendas,Ciclo 02,Produto C,Negociação,Prazo incompatível,9443.96,LOST,Não,Linha 3-B
+OP-000557,Funil de Vendas,Ciclo 02,Produto C,Proposta,,17683.34,WON,Não,Linha 3-A
+OP-000558,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,14495.7,WON,Não,Linha 3-B
+OP-000559,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,24759.52,LOST,Não,Linha 3-A
+OP-000560,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,19197.43,LOST,Não,Linha 3-A
+OP-000561,Funil de Vendas,Ciclo 02,Produto C,Negociação,,16288.38,WON,Não,Linha 3-B
+OP-000562,Funil de Vendas,Ciclo 02,Produto C,Proposta,,6003.67,WON,Não,Linha 3-B
+OP-000563,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prazo incompatível,32002.09,LOST,Não,Linha 3-A
+OP-000564,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,9147.08,WON,Não,Linha 3-B
+OP-000565,Funil de Vendas,Ciclo 02,Produto C,Proposta,,4831.8,WON,Não,Linha 3-A
+OP-000566,Funil de Vendas,Ciclo 02,Produto C,Negociação,Prioridade alterada,9086.56,LOST,Não,Linha 3-B
+OP-000567,Funil de Vendas,Ciclo 02,Produto C,Negociação,,7259.47,WON,Não,Linha 3-B
+OP-000568,Funil de Vendas,Ciclo 02,Produto C,Proposta,,7570.35,OPEN,Não,Linha 3-A
+OP-000569,Funil de Vendas,Ciclo 02,Produto C,Proposta,,11519.18,WON,Não,Linha 3-A
+OP-000570,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Preço acima do orçamento,7135.74,LOST,Não,Linha 3-B
+OP-000571,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Concorrência,17486.63,LOST,Não,Linha 3-B
+OP-000572,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,4075.9,WON,Não,Linha 3-A
+OP-000573,Funil de Vendas,Ciclo 02,Produto C,Negociação,Escopo inadequado,26610.5,LOST,Não,Linha 3-A
+OP-000574,Funil de Vendas,Ciclo 02,Produto C,Proposta,,21986.06,OPEN,Não,Linha 3-A
+OP-000575,Funil de Vendas,Ciclo 02,Produto C,Proposta,Preço acima do orçamento,7871.59,LOST,Não,Linha 3-A
+OP-000576,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,18472.07,LOST,Não,Linha 3-A
+OP-000577,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,6145.77,LOST,Não,Linha 3-A
+OP-000578,Funil de Vendas,Ciclo 02,Produto C,Proposta,Preço acima do orçamento,13322.05,LOST,Não,Linha 3-A
+OP-000579,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Preço acima do orçamento,11438.26,LOST,Não,Linha 3-B
+OP-000580,Funil de Vendas,Ciclo 02,Produto C,Negociação,,3436.59,WON,Não,Linha 3-B
+OP-000581,Funil de Vendas,Ciclo 02,Produto C,Proposta,,8751.66,WON,Não,Linha 3-A
+OP-000582,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,7149.44,WON,Não,Linha 3-A
+OP-000583,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,11962.78,OPEN,Não,Linha 3-B
+OP-000584,Funil de Vendas,Ciclo 02,Produto C,Proposta,,4664.21,WON,Não,Linha 3-A
+OP-000585,Funil de Vendas,Ciclo 02,Produto C,Proposta,,9997.2,WON,Não,Linha 3-A
+OP-000586,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,7646.42,WON,Não,Linha 3-A
+OP-000587,Funil de Vendas,Ciclo 02,Produto C,Proposta,Escopo inadequado,5904.79,LOST,Não,Linha 3-A
+OP-000588,Funil de Vendas,Ciclo 02,Produto C,Negociação,,14011.24,WON,Não,Linha 3-A
+OP-000589,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,13871.23,LOST,Não,Linha 3-A
+OP-000590,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,14750.53,LOST,Não,Linha 3-A
+OP-000591,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prioridade alterada,5305.56,LOST,Não,Linha 3-A
+OP-000592,Funil de Vendas,Ciclo 02,Produto C,Proposta,,15368.05,WON,Não,Linha 3-B
+OP-000593,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prioridade alterada,13602.19,LOST,Não,Linha 3-A
+OP-000594,Funil de Vendas,Ciclo 02,Produto C,Proposta,,13398.93,WON,Não,Linha 3-A
+OP-000595,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,12121.89,LOST,Não,Linha 3-B
+OP-000596,Funil de Vendas,Ciclo 02,Produto C,Proposta,,18278.45,WON,Não,Linha 3-B
+OP-000597,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,4860.93,WON,Não,Linha 3-B
+OP-000598,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,9938.5,WON,Não,Linha 3-B
+OP-000599,Funil de Vendas,Ciclo 02,Produto C,Negociação,Concorrência,9123.67,LOST,Não,Linha 3-B
+OP-000600,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,19014.86,WON,Não,Linha 3-A
+OP-000601,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,8095.32,LOST,Não,Linha 3-B
+OP-000602,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,4187.03,WON,Não,Linha 3-A
+OP-000603,Funil de Vendas,Ciclo 02,Produto C,Proposta,,3345.03,OPEN,Não,Linha 3-A
+OP-000604,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,8579.91,LOST,Não,Linha 3-A
+OP-000605,Funil de Vendas,Ciclo 02,Produto C,Negociação,,21496.4,WON,Não,Linha 3-B
+OP-000606,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Escopo inadequado,10690.34,LOST,Sim,Linha 3-A
+OP-000607,Funil de Vendas,Ciclo 02,Produto C,Proposta,,22842.91,WON,Sim,Linha 3-A
+OP-000608,Funil de Vendas,Ciclo 02,Produto C,Negociação,,13158.07,WON,Sim,Linha 3-A
+OP-000609,Funil de Vendas,Ciclo 02,Produto C,Proposta,,9806.37,WON,Sim,Linha 3-A
+OP-000610,Funil de Vendas,Ciclo 02,Produto C,Negociação,Preço acima do orçamento,12248.92,LOST,Sim,Linha 3-A
+OP-000611,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,13484.84,WON,Sim,Linha 3-A
+OP-000612,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prioridade alterada,22550.92,LOST,Sim,Linha 3-A
+OP-000613,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prioridade alterada,12823.51,LOST,Sim,Linha 3-B
+OP-000614,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Concorrência,30514.61,LOST,Sim,Linha 3-A
+OP-000615,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,5841.7,WON,Sim,Linha 3-A
+OP-000616,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,12966.34,LOST,Sim,Linha 3-A
+OP-000617,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Preço acima do orçamento,8345.56,LOST,Sim,Linha 3-A
+OP-000618,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Escopo inadequado,4781.95,LOST,Sim,Linha 3-B
+OP-000619,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,9429.6,LOST,Sim,Linha 3-B
+OP-000620,Funil de Vendas,Ciclo 02,Produto C,Negociação,Prioridade alterada,39883.54,LOST,Sim,Linha 3-A
+OP-000621,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prazo incompatível,3833.62,LOST,Sim,Linha 3-A
+OP-000622,Funil de Vendas,Ciclo 02,Produto C,Proposta,,20119.92,WON,Sim,Linha 3-A
+OP-000623,Funil de Vendas,Ciclo 02,Produto C,Negociação,,16904.15,WON,Sim,Linha 3-A
+OP-000624,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Concorrência,6777.01,LOST,Sim,Linha 3-A
+OP-000625,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,15247.55,OPEN,Sim,Linha 3-B
+OP-000626,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Escopo inadequado,25364.2,LOST,Sim,Linha 3-A
+OP-000627,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,15094.27,OPEN,Sim,Linha 3-B
+OP-000628,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,7709.46,WON,Sim,Linha 3-B
+OP-000629,Funil de Vendas,Ciclo 02,Produto C,Negociação,,4957.02,WON,Sim,Linha 3-A
+OP-000630,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prioridade alterada,7045.72,LOST,Sim,Linha 3-A
+OP-000631,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,21956.78,WON,Sim,Linha 3-B
+OP-000632,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,5173.57,WON,Sim,Linha 3-A
+OP-000633,Funil de Vendas,Ciclo 02,Produto C,Negociação,,11545.48,WON,Sim,Linha 3-A
+OP-000634,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,12956.2,WON,Sim,Linha 3-A
+OP-000635,Funil de Vendas,Ciclo 02,Produto C,Proposta,Escopo inadequado,24767.19,LOST,Sim,Linha 3-A
+OP-000636,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,10281.57,WON,Sim,Linha 3-B
+OP-000637,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,18976.43,WON,Sim,Linha 3-A
+OP-000638,Funil de Vendas,Ciclo 02,Produto C,Proposta,Preço acima do orçamento,3566.83,LOST,Sim,Linha 3-B
+OP-000639,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prazo incompatível,9307.83,LOST,Sim,Linha 3-A
+OP-000640,Funil de Vendas,Ciclo 02,Produto C,Proposta,,11264.28,WON,Sim,Linha 3-A
+OP-000641,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,10268.6,WON,Sim,Linha 3-A
+OP-000642,Funil de Vendas,Ciclo 02,Produto C,Qualificação,Preço acima do orçamento,13811.32,LOST,Sim,Linha 3-B
+OP-000643,Funil de Vendas,Ciclo 02,Produto C,Proposta,,16863.02,WON,Sim,Linha 3-A
+OP-000644,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Escopo inadequado,19188.32,LOST,Sim,Linha 3-B
+OP-000645,Funil de Vendas,Ciclo 02,Produto C,Negociação,,5808.09,WON,Sim,Linha 3-A
+OP-000646,Funil de Vendas,Ciclo 02,Produto C,Proposta,Preço acima do orçamento,6232.39,LOST,Sim,Linha 3-A
+OP-000647,Funil de Vendas,Ciclo 02,Produto C,Negociação,Preço acima do orçamento,6668.64,LOST,Sim,Linha 3-B
+OP-000648,Funil de Vendas,Ciclo 02,Produto C,Qualificação,,19351.53,WON,Sim,Linha 3-B
+OP-000649,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,6536.27,WON,Sim,Linha 3-B
+OP-000650,Funil de Vendas,Ciclo 02,Produto C,Negociação,,2805.23,WON,Sim,Linha 3-A
+OP-000651,Funil de Vendas,Ciclo 02,Produto C,Proposta,,23240.21,WON,Sim,Linha 3-B
+OP-000652,Funil de Vendas,Ciclo 02,Produto C,Negociação,Preço acima do orçamento,12440.55,LOST,Sim,Linha 3-A
+OP-000653,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,15836.41,WON,Sim,Linha 3-A
+OP-000654,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,Prazo incompatível,38569.9,LOST,Sim,Linha 3-B
+OP-000655,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,6168.34,WON,Sim,Linha 3-B
+OP-000656,Funil de Vendas,Ciclo 02,Produto C,Proposta,Prioridade alterada,18656.96,LOST,Sim,Linha 3-A
+OP-000657,Funil de Vendas,Ciclo 02,Produto C,Diagnóstico,,17979.22,WON,Sim,Linha 3-B
+OP-000658,Funil de Vendas,Ciclo 02,Produto C,Negociação,Preço acima do orçamento,10912.92,LOST,Sim,Linha 3-B
+OP-000659,Funil de Vendas,Ciclo 02,Produto C,Proposta,,11270.67,WON,Sim,Linha 3-B
+OP-000660,Funil de Vendas,Ciclo 02,Produto C,Proposta,Concorrência,3644.07,LOST,Sim,Linha 3-B
+OP-000661,Funil de Vendas,Ciclo 03,Produto A,Proposta,Escopo inadequado,8907.56,LOST,Não,Linha 1-B
+OP-000662,Funil de Vendas,Ciclo 03,Produto A,Negociação,,9460.15,WON,Não,Linha 1-A
+OP-000663,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prioridade alterada,4471.18,LOST,Não,Linha 1-A
+OP-000664,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Concorrência,10423.57,LOST,Não,Linha 1-A
+OP-000665,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prazo incompatível,7566.31,LOST,Não,Linha 1-A
+OP-000666,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Preço acima do orçamento,7418.26,LOST,Não,Linha 1-B
+OP-000667,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prioridade alterada,21486.58,LOST,Não,Linha 1-B
+OP-000668,Funil de Vendas,Ciclo 03,Produto A,Qualificação,Concorrência,4473.77,LOST,Não,Linha 1-A
+OP-000669,Funil de Vendas,Ciclo 03,Produto A,Proposta,,3518.13,WON,Não,Linha 1-B
+OP-000670,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,4244.26,WON,Não,Linha 1-A
+OP-000671,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,11890.2,WON,Não,Linha 1-B
+OP-000672,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,12247.84,WON,Não,Linha 1-B
+OP-000673,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prazo incompatível,6149.77,LOST,Não,Linha 1-B
+OP-000674,Funil de Vendas,Ciclo 03,Produto A,Negociação,,13660.18,WON,Não,Linha 1-B
+OP-000675,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prioridade alterada,33993.24,LOST,Não,Linha 1-A
+OP-000676,Funil de Vendas,Ciclo 03,Produto A,Negociação,,19298.5,WON,Não,Linha 1-B
+OP-000677,Funil de Vendas,Ciclo 03,Produto A,Proposta,,10701.66,OPEN,Não,Linha 1-B
+OP-000678,Funil de Vendas,Ciclo 03,Produto A,Negociação,Escopo inadequado,3775.42,LOST,Não,Linha 1-A
+OP-000679,Funil de Vendas,Ciclo 03,Produto A,Proposta,Preço acima do orçamento,17517.52,LOST,Não,Linha 1-A
+OP-000680,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prazo incompatível,7067.99,LOST,Não,Linha 1-A
+OP-000681,Funil de Vendas,Ciclo 03,Produto A,Proposta,,15907.39,WON,Não,Linha 1-B
+OP-000682,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prioridade alterada,9879.82,LOST,Não,Linha 1-A
+OP-000683,Funil de Vendas,Ciclo 03,Produto A,Proposta,Preço acima do orçamento,15333.43,LOST,Não,Linha 1-A
+OP-000684,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,3283.74,WON,Não,Linha 1-A
+OP-000685,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prazo incompatível,8238.74,LOST,Não,Linha 1-A
+OP-000686,Funil de Vendas,Ciclo 03,Produto A,Proposta,,10854.75,OPEN,Não,Linha 1-A
+OP-000687,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prazo incompatível,6734.22,LOST,Não,Linha 1-A
+OP-000688,Funil de Vendas,Ciclo 03,Produto A,Proposta,Concorrência,12487.94,LOST,Não,Linha 1-A
+OP-000689,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prioridade alterada,4761.91,LOST,Não,Linha 1-A
+OP-000690,Funil de Vendas,Ciclo 03,Produto A,Proposta,,6030.1,WON,Não,Linha 1-B
+OP-000691,Funil de Vendas,Ciclo 03,Produto A,Negociação,,5026.11,WON,Não,Linha 1-A
+OP-000692,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prazo incompatível,5448.92,LOST,Não,Linha 1-B
+OP-000693,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prioridade alterada,7960.64,LOST,Não,Linha 1-B
+OP-000694,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Concorrência,8172.18,LOST,Não,Linha 1-B
+OP-000695,Funil de Vendas,Ciclo 03,Produto A,Negociação,Preço acima do orçamento,7820.17,LOST,Não,Linha 1-A
+OP-000696,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Concorrência,4501.43,LOST,Não,Linha 1-A
+OP-000697,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prazo incompatível,7732.28,LOST,Não,Linha 1-A
+OP-000698,Funil de Vendas,Ciclo 03,Produto A,Proposta,,13843.68,OPEN,Não,Linha 1-B
+OP-000699,Funil de Vendas,Ciclo 03,Produto A,Proposta,,2708.76,WON,Não,Linha 1-B
+OP-000700,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prazo incompatível,7103.61,LOST,Não,Linha 1-B
+OP-000701,Funil de Vendas,Ciclo 03,Produto A,Proposta,Preço acima do orçamento,8244.67,LOST,Não,Linha 1-B
+OP-000702,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prioridade alterada,16023.75,LOST,Não,Linha 1-B
+OP-000703,Funil de Vendas,Ciclo 03,Produto A,Proposta,,4035.39,WON,Não,Linha 1-B
+OP-000704,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,4271.82,WON,Não,Linha 1-A
+OP-000705,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prioridade alterada,9544.69,LOST,Não,Linha 1-B
+OP-000706,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prazo incompatível,2757.89,LOST,Não,Linha 1-A
+OP-000707,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prioridade alterada,3876.71,LOST,Não,Linha 1-A
+OP-000708,Funil de Vendas,Ciclo 03,Produto A,Negociação,Concorrência,12099.65,LOST,Não,Linha 1-B
+OP-000709,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Concorrência,12638.86,LOST,Não,Linha 1-B
+OP-000710,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prazo incompatível,15052.81,LOST,Não,Linha 1-B
+OP-000711,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,4587.36,OPEN,Não,Linha 1-B
+OP-000712,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prazo incompatível,5939.4,LOST,Não,Linha 1-A
+OP-000713,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,16944.31,WON,Não,Linha 1-B
+OP-000714,Funil de Vendas,Ciclo 03,Produto A,Qualificação,Preço acima do orçamento,11876.17,LOST,Não,Linha 1-A
+OP-000715,Funil de Vendas,Ciclo 03,Produto A,Proposta,Preço acima do orçamento,8499.91,LOST,Não,Linha 1-A
+OP-000716,Funil de Vendas,Ciclo 03,Produto A,Proposta,,4332.57,WON,Sim,Linha 1-A
+OP-000717,Funil de Vendas,Ciclo 03,Produto A,Proposta,,7262.1,WON,Sim,Linha 1-B
+OP-000718,Funil de Vendas,Ciclo 03,Produto A,Proposta,,5856.46,WON,Sim,Linha 1-A
+OP-000719,Funil de Vendas,Ciclo 03,Produto A,Proposta,Escopo inadequado,14812.03,LOST,Sim,Linha 1-B
+OP-000720,Funil de Vendas,Ciclo 03,Produto A,Qualificação,Prazo incompatível,8900.02,LOST,Sim,Linha 1-A
+OP-000721,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,5900.45,WON,Sim,Linha 1-B
+OP-000722,Funil de Vendas,Ciclo 03,Produto A,Proposta,,6290.52,WON,Sim,Linha 1-A
+OP-000723,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,5583.94,WON,Sim,Linha 1-B
+OP-000724,Funil de Vendas,Ciclo 03,Produto A,Proposta,,2945.83,WON,Sim,Linha 1-B
+OP-000725,Funil de Vendas,Ciclo 03,Produto A,Proposta,,9579.62,OPEN,Sim,Linha 1-B
+OP-000726,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,5457.03,WON,Sim,Linha 1-A
+OP-000727,Funil de Vendas,Ciclo 03,Produto A,Proposta,,22136.25,WON,Sim,Linha 1-B
+OP-000728,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,5986.38,OPEN,Sim,Linha 1-B
+OP-000729,Funil de Vendas,Ciclo 03,Produto A,Qualificação,Preço acima do orçamento,5110.07,LOST,Sim,Linha 1-B
+OP-000730,Funil de Vendas,Ciclo 03,Produto A,Proposta,,17754.09,WON,Sim,Linha 1-B
+OP-000731,Funil de Vendas,Ciclo 03,Produto A,Proposta,Concorrência,23333.6,LOST,Sim,Linha 1-A
+OP-000732,Funil de Vendas,Ciclo 03,Produto A,Negociação,Concorrência,4057.59,LOST,Sim,Linha 1-B
+OP-000733,Funil de Vendas,Ciclo 03,Produto A,Proposta,Escopo inadequado,6133.1,LOST,Sim,Linha 1-A
+OP-000734,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,7738.01,WON,Sim,Linha 1-B
+OP-000735,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,3401.65,WON,Sim,Linha 1-A
+OP-000736,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Preço acima do orçamento,3542.88,LOST,Sim,Linha 1-A
+OP-000737,Funil de Vendas,Ciclo 03,Produto A,Negociação,,7250.29,WON,Sim,Linha 1-A
+OP-000738,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prazo incompatível,16849.65,LOST,Sim,Linha 1-A
+OP-000739,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,13419.32,WON,Sim,Linha 1-A
+OP-000740,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,32146.58,WON,Sim,Linha 1-B
+OP-000741,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,3839.77,WON,Sim,Linha 1-B
+OP-000742,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Preço acima do orçamento,3373.3,LOST,Sim,Linha 1-B
+OP-000743,Funil de Vendas,Ciclo 03,Produto A,Proposta,,6348.0,WON,Sim,Linha 1-A
+OP-000744,Funil de Vendas,Ciclo 03,Produto A,Proposta,Prioridade alterada,17081.69,LOST,Sim,Linha 1-B
+OP-000745,Funil de Vendas,Ciclo 03,Produto A,Negociação,,4757.94,WON,Sim,Linha 1-A
+OP-000746,Funil de Vendas,Ciclo 03,Produto A,Proposta,Concorrência,5574.14,LOST,Sim,Linha 1-A
+OP-000747,Funil de Vendas,Ciclo 03,Produto A,Proposta,,14786.46,OPEN,Sim,Linha 1-A
+OP-000748,Funil de Vendas,Ciclo 03,Produto A,Proposta,Concorrência,6159.25,LOST,Sim,Linha 1-A
+OP-000749,Funil de Vendas,Ciclo 03,Produto A,Proposta,Escopo inadequado,9207.74,LOST,Sim,Linha 1-A
+OP-000750,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,7403.46,WON,Sim,Linha 1-A
+OP-000751,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,5440.66,OPEN,Sim,Linha 1-A
+OP-000752,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,13229.55,WON,Sim,Linha 1-B
+OP-000753,Funil de Vendas,Ciclo 03,Produto A,Negociação,,8330.11,OPEN,Sim,Linha 1-A
+OP-000754,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prazo incompatível,4319.88,LOST,Sim,Linha 1-B
+OP-000755,Funil de Vendas,Ciclo 03,Produto A,Negociação,,9746.26,OPEN,Sim,Linha 1-B
+OP-000756,Funil de Vendas,Ciclo 03,Produto A,Negociação,Prazo incompatível,9350.09,LOST,Sim,Linha 1-A
+OP-000757,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Preço acima do orçamento,8837.34,LOST,Sim,Linha 1-B
+OP-000758,Funil de Vendas,Ciclo 03,Produto A,Proposta,,12760.3,WON,Sim,Linha 1-B
+OP-000759,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,11268.41,WON,Sim,Linha 1-B
+OP-000760,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,,4383.2,WON,Sim,Linha 1-A
+OP-000761,Funil de Vendas,Ciclo 03,Produto A,Negociação,Preço acima do orçamento,8425.56,LOST,Sim,Linha 1-B
+OP-000762,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Prioridade alterada,7630.83,LOST,Sim,Linha 1-A
+OP-000763,Funil de Vendas,Ciclo 03,Produto A,Proposta,,8102.38,WON,Sim,Linha 1-A
+OP-000764,Funil de Vendas,Ciclo 03,Produto A,Negociação,,7821.37,OPEN,Sim,Linha 1-A
+OP-000765,Funil de Vendas,Ciclo 03,Produto A,Proposta,,17073.62,WON,Sim,Linha 1-A
+OP-000766,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,15802.92,WON,Sim,Linha 1-A
+OP-000767,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,13597.0,OPEN,Sim,Linha 1-A
+OP-000768,Funil de Vendas,Ciclo 03,Produto A,Negociação,Concorrência,10902.52,LOST,Sim,Linha 1-B
+OP-000769,Funil de Vendas,Ciclo 03,Produto A,Diagnóstico,Concorrência,12507.68,LOST,Sim,Linha 1-B
+OP-000770,Funil de Vendas,Ciclo 03,Produto A,Qualificação,,11748.18,WON,Sim,Linha 1-A
+OP-000771,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Preço acima do orçamento,13502.17,LOST,Não,Linha 2-B
+OP-000772,Funil de Vendas,Ciclo 03,Produto B,Qualificação,,19350.49,WON,Não,Linha 2-B
+OP-000773,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,4855.45,WON,Não,Linha 2-A
+OP-000774,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,4238.37,LOST,Não,Linha 2-A
+OP-000775,Funil de Vendas,Ciclo 03,Produto B,Proposta,,6243.23,WON,Não,Linha 2-A
+OP-000776,Funil de Vendas,Ciclo 03,Produto B,Proposta,,6898.3,WON,Não,Linha 2-B
+OP-000777,Funil de Vendas,Ciclo 03,Produto B,Negociação,,7907.21,WON,Não,Linha 2-B
+OP-000778,Funil de Vendas,Ciclo 03,Produto B,Proposta,,8329.42,OPEN,Não,Linha 2-B
+OP-000779,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,8515.98,LOST,Não,Linha 2-B
+OP-000780,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,11968.12,LOST,Não,Linha 2-B
+OP-000781,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,4699.72,WON,Não,Linha 2-B
+OP-000782,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Escopo inadequado,7941.24,LOST,Não,Linha 2-A
+OP-000783,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,7597.01,LOST,Não,Linha 2-A
+OP-000784,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Concorrência,6503.58,LOST,Não,Linha 2-B
+OP-000785,Funil de Vendas,Ciclo 03,Produto B,Proposta,,6179.68,WON,Não,Linha 2-B
+OP-000786,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,9258.02,LOST,Não,Linha 2-B
+OP-000787,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,5586.42,OPEN,Não,Linha 2-A
+OP-000788,Funil de Vendas,Ciclo 03,Produto B,Negociação,Prioridade alterada,21469.98,LOST,Não,Linha 2-B
+OP-000789,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,10678.13,LOST,Não,Linha 2-B
+OP-000790,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,12024.51,WON,Não,Linha 2-B
+OP-000791,Funil de Vendas,Ciclo 03,Produto B,Negociação,,11901.94,OPEN,Não,Linha 2-A
+OP-000792,Funil de Vendas,Ciclo 03,Produto B,Negociação,Preço acima do orçamento,7366.75,LOST,Não,Linha 2-A
+OP-000793,Funil de Vendas,Ciclo 03,Produto B,Proposta,,21683.83,WON,Não,Linha 2-A
+OP-000794,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,11913.2,LOST,Não,Linha 2-B
+OP-000795,Funil de Vendas,Ciclo 03,Produto B,Negociação,Preço acima do orçamento,6635.87,LOST,Não,Linha 2-A
+OP-000796,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,6663.23,LOST,Não,Linha 2-B
+OP-000797,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,6666.24,LOST,Não,Linha 2-B
+OP-000798,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,10335.1,LOST,Não,Linha 2-A
+OP-000799,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Concorrência,5735.23,LOST,Não,Linha 2-A
+OP-000800,Funil de Vendas,Ciclo 03,Produto B,Negociação,,4865.8,WON,Não,Linha 2-A
+OP-000801,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,22424.24,LOST,Não,Linha 2-A
+OP-000802,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Prioridade alterada,9055.97,LOST,Não,Linha 2-B
+OP-000803,Funil de Vendas,Ciclo 03,Produto B,Qualificação,Escopo inadequado,12956.43,LOST,Não,Linha 2-A
+OP-000804,Funil de Vendas,Ciclo 03,Produto B,Negociação,Prazo incompatível,15779.42,LOST,Não,Linha 2-A
+OP-000805,Funil de Vendas,Ciclo 03,Produto B,Negociação,Concorrência,11012.24,LOST,Não,Linha 2-B
+OP-000806,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Preço acima do orçamento,3995.86,LOST,Não,Linha 2-B
+OP-000807,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Prioridade alterada,9351.57,LOST,Não,Linha 2-A
+OP-000808,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,7720.41,OPEN,Não,Linha 2-B
+OP-000809,Funil de Vendas,Ciclo 03,Produto B,Qualificação,Preço acima do orçamento,7539.81,LOST,Não,Linha 2-A
+OP-000810,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,17571.37,LOST,Não,Linha 2-B
+OP-000811,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,4103.5,LOST,Não,Linha 2-B
+OP-000812,Funil de Vendas,Ciclo 03,Produto B,Proposta,,11911.72,WON,Não,Linha 2-B
+OP-000813,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,9741.47,LOST,Não,Linha 2-A
+OP-000814,Funil de Vendas,Ciclo 03,Produto B,Proposta,,17616.23,WON,Não,Linha 2-B
+OP-000815,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,9999.87,LOST,Não,Linha 2-A
+OP-000816,Funil de Vendas,Ciclo 03,Produto B,Negociação,,4841.06,WON,Não,Linha 2-A
+OP-000817,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,9581.13,LOST,Não,Linha 2-B
+OP-000818,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,13549.58,LOST,Não,Linha 2-B
+OP-000819,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,9519.18,LOST,Não,Linha 2-B
+OP-000820,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,7219.61,OPEN,Não,Linha 2-A
+OP-000821,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,3753.25,LOST,Não,Linha 2-B
+OP-000822,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,7801.36,LOST,Não,Linha 2-B
+OP-000823,Funil de Vendas,Ciclo 03,Produto B,Proposta,,13432.19,WON,Não,Linha 2-A
+OP-000824,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Escopo inadequado,14474.92,LOST,Não,Linha 2-B
+OP-000825,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Prioridade alterada,12411.58,LOST,Não,Linha 2-B
+OP-000826,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prioridade alterada,7381.08,LOST,Sim,Linha 2-A
+OP-000827,Funil de Vendas,Ciclo 03,Produto B,Negociação,,4878.34,WON,Sim,Linha 2-B
+OP-000828,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,10360.89,WON,Sim,Linha 2-B
+OP-000829,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Concorrência,14972.54,LOST,Sim,Linha 2-A
+OP-000830,Funil de Vendas,Ciclo 03,Produto B,Negociação,Prazo incompatível,10219.26,LOST,Sim,Linha 2-B
+OP-000831,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,2947.6,LOST,Sim,Linha 2-B
+OP-000832,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Prazo incompatível,20456.78,LOST,Sim,Linha 2-B
+OP-000833,Funil de Vendas,Ciclo 03,Produto B,Negociação,Concorrência,8548.68,LOST,Sim,Linha 2-A
+OP-000834,Funil de Vendas,Ciclo 03,Produto B,Qualificação,,3356.67,WON,Sim,Linha 2-B
+OP-000835,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Escopo inadequado,10573.09,LOST,Sim,Linha 2-A
+OP-000836,Funil de Vendas,Ciclo 03,Produto B,Negociação,,5927.54,WON,Sim,Linha 2-B
+OP-000837,Funil de Vendas,Ciclo 03,Produto B,Negociação,Prazo incompatível,7590.37,LOST,Sim,Linha 2-A
+OP-000838,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Concorrência,13598.49,LOST,Sim,Linha 2-A
+OP-000839,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,5322.7,LOST,Sim,Linha 2-B
+OP-000840,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,6759.09,WON,Sim,Linha 2-A
+OP-000841,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Prioridade alterada,9515.13,LOST,Sim,Linha 2-A
+OP-000842,Funil de Vendas,Ciclo 03,Produto B,Qualificação,Concorrência,14311.87,LOST,Sim,Linha 2-B
+OP-000843,Funil de Vendas,Ciclo 03,Produto B,Negociação,,11825.06,OPEN,Sim,Linha 2-B
+OP-000844,Funil de Vendas,Ciclo 03,Produto B,Qualificação,Prioridade alterada,13946.29,LOST,Sim,Linha 2-A
+OP-000845,Funil de Vendas,Ciclo 03,Produto B,Negociação,,8494.83,WON,Sim,Linha 2-B
+OP-000846,Funil de Vendas,Ciclo 03,Produto B,Negociação,,15148.05,WON,Sim,Linha 2-B
+OP-000847,Funil de Vendas,Ciclo 03,Produto B,Proposta,,8592.63,OPEN,Sim,Linha 2-A
+OP-000848,Funil de Vendas,Ciclo 03,Produto B,Proposta,,11873.44,OPEN,Sim,Linha 2-A
+OP-000849,Funil de Vendas,Ciclo 03,Produto B,Proposta,,20429.26,WON,Sim,Linha 2-B
+OP-000850,Funil de Vendas,Ciclo 03,Produto B,Proposta,,15560.06,WON,Sim,Linha 2-B
+OP-000851,Funil de Vendas,Ciclo 03,Produto B,Proposta,Preço acima do orçamento,10998.64,LOST,Sim,Linha 2-A
+OP-000852,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,7900.73,WON,Sim,Linha 2-A
+OP-000853,Funil de Vendas,Ciclo 03,Produto B,Proposta,,16771.95,WON,Sim,Linha 2-B
+OP-000854,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Preço acima do orçamento,15908.45,LOST,Sim,Linha 2-A
+OP-000855,Funil de Vendas,Ciclo 03,Produto B,Negociação,Preço acima do orçamento,16046.34,LOST,Sim,Linha 2-A
+OP-000856,Funil de Vendas,Ciclo 03,Produto B,Proposta,,19938.17,WON,Sim,Linha 2-B
+OP-000857,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,10920.07,LOST,Sim,Linha 2-A
+OP-000858,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,7640.03,LOST,Sim,Linha 2-B
+OP-000859,Funil de Vendas,Ciclo 03,Produto B,Proposta,,5751.18,WON,Sim,Linha 2-A
+OP-000860,Funil de Vendas,Ciclo 03,Produto B,Proposta,Prazo incompatível,8783.2,LOST,Sim,Linha 2-A
+OP-000861,Funil de Vendas,Ciclo 03,Produto B,Proposta,,5548.05,WON,Sim,Linha 2-A
+OP-000862,Funil de Vendas,Ciclo 03,Produto B,Proposta,Concorrência,11051.37,LOST,Sim,Linha 2-B
+OP-000863,Funil de Vendas,Ciclo 03,Produto B,Proposta,Escopo inadequado,7167.83,LOST,Sim,Linha 2-A
+OP-000864,Funil de Vendas,Ciclo 03,Produto B,Negociação,Concorrência,9944.33,LOST,Sim,Linha 2-B
+OP-000865,Funil de Vendas,Ciclo 03,Produto B,Negociação,Preço acima do orçamento,18639.05,LOST,Sim,Linha 2-A
+OP-000866,Funil de Vendas,Ciclo 03,Produto B,Negociação,,8366.91,WON,Sim,Linha 2-A
+OP-000867,Funil de Vendas,Ciclo 03,Produto B,Negociação,,7122.89,WON,Sim,Linha 2-B
+OP-000868,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,22284.96,WON,Sim,Linha 2-B
+OP-000869,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,15567.92,WON,Sim,Linha 2-B
+OP-000870,Funil de Vendas,Ciclo 03,Produto B,Qualificação,Concorrência,9427.53,LOST,Sim,Linha 2-A
+OP-000871,Funil de Vendas,Ciclo 03,Produto B,Qualificação,,7659.12,WON,Sim,Linha 2-A
+OP-000872,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,5056.66,WON,Sim,Linha 2-B
+OP-000873,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,Preço acima do orçamento,19467.86,LOST,Sim,Linha 2-A
+OP-000874,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,5656.21,WON,Sim,Linha 2-A
+OP-000875,Funil de Vendas,Ciclo 03,Produto B,Negociação,Prazo incompatível,7445.21,LOST,Sim,Linha 2-B
+OP-000876,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,13350.48,WON,Sim,Linha 2-A
+OP-000877,Funil de Vendas,Ciclo 03,Produto B,Proposta,,15151.61,OPEN,Sim,Linha 2-B
+OP-000878,Funil de Vendas,Ciclo 03,Produto B,Negociação,,14711.95,WON,Sim,Linha 2-B
+OP-000879,Funil de Vendas,Ciclo 03,Produto B,Diagnóstico,,17279.75,WON,Sim,Linha 2-A
+OP-000880,Funil de Vendas,Ciclo 03,Produto B,Proposta,,17100.3,WON,Sim,Linha 2-B
+OP-000881,Funil de Vendas,Ciclo 03,Produto C,Proposta,,11918.94,WON,Não,Linha 3-A
+OP-000882,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prioridade alterada,12787.25,LOST,Não,Linha 3-A
+OP-000883,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,9009.7,WON,Não,Linha 3-A
+OP-000884,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,5925.63,LOST,Não,Linha 3-A
+OP-000885,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,15962.47,WON,Não,Linha 3-B
+OP-000886,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,24362.45,WON,Não,Linha 3-A
+OP-000887,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,15443.64,LOST,Não,Linha 3-B
+OP-000888,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,38933.34,WON,Não,Linha 3-A
+OP-000889,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,36890.31,LOST,Não,Linha 3-A
+OP-000890,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,18703.53,LOST,Não,Linha 3-B
+OP-000891,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Concorrência,5425.09,LOST,Não,Linha 3-A
+OP-000892,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,17768.03,LOST,Não,Linha 3-B
+OP-000893,Funil de Vendas,Ciclo 03,Produto C,Negociação,Concorrência,6744.62,LOST,Não,Linha 3-B
+OP-000894,Funil de Vendas,Ciclo 03,Produto C,Qualificação,Preço acima do orçamento,7333.24,LOST,Não,Linha 3-A
+OP-000895,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,31454.31,LOST,Não,Linha 3-A
+OP-000896,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,10177.54,LOST,Não,Linha 3-A
+OP-000897,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prazo incompatível,4656.28,LOST,Não,Linha 3-B
+OP-000898,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prazo incompatível,6369.67,LOST,Não,Linha 3-A
+OP-000899,Funil de Vendas,Ciclo 03,Produto C,Proposta,,9038.84,WON,Não,Linha 3-A
+OP-000900,Funil de Vendas,Ciclo 03,Produto C,Proposta,,5956.14,WON,Não,Linha 3-B
+OP-000901,Funil de Vendas,Ciclo 03,Produto C,Proposta,Concorrência,3600.34,LOST,Não,Linha 3-B
+OP-000902,Funil de Vendas,Ciclo 03,Produto C,Proposta,Concorrência,12709.66,LOST,Não,Linha 3-A
+OP-000903,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,14402.24,LOST,Não,Linha 3-A
+OP-000904,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7751.13,WON,Não,Linha 3-A
+OP-000905,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,31813.75,WON,Não,Linha 3-B
+OP-000906,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prioridade alterada,8039.05,LOST,Não,Linha 3-A
+OP-000907,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Preço acima do orçamento,26606.4,LOST,Não,Linha 3-A
+OP-000908,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,23270.63,WON,Não,Linha 3-B
+OP-000909,Funil de Vendas,Ciclo 03,Produto C,Negociação,Concorrência,9750.39,LOST,Não,Linha 3-B
+OP-000910,Funil de Vendas,Ciclo 03,Produto C,Proposta,Concorrência,11732.54,LOST,Não,Linha 3-B
+OP-000911,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Preço acima do orçamento,6461.23,LOST,Não,Linha 3-B
+OP-000912,Funil de Vendas,Ciclo 03,Produto C,Proposta,,10997.3,WON,Não,Linha 3-B
+OP-000913,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,3181.15,WON,Não,Linha 3-A
+OP-000914,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prazo incompatível,2508.17,LOST,Não,Linha 3-A
+OP-000915,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,14078.32,LOST,Não,Linha 3-B
+OP-000916,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prazo incompatível,15269.36,LOST,Não,Linha 3-A
+OP-000917,Funil de Vendas,Ciclo 03,Produto C,Proposta,,6449.9,OPEN,Não,Linha 3-B
+OP-000918,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prazo incompatível,12085.71,LOST,Não,Linha 3-A
+OP-000919,Funil de Vendas,Ciclo 03,Produto C,Proposta,,6775.55,WON,Não,Linha 3-A
+OP-000920,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prazo incompatível,4671.23,LOST,Não,Linha 3-A
+OP-000921,Funil de Vendas,Ciclo 03,Produto C,Proposta,,15681.75,WON,Não,Linha 3-B
+OP-000922,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prazo incompatível,9547.99,LOST,Não,Linha 3-B
+OP-000923,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prazo incompatível,14299.96,LOST,Não,Linha 3-B
+OP-000924,Funil de Vendas,Ciclo 03,Produto C,Proposta,Concorrência,12428.8,LOST,Não,Linha 3-A
+OP-000925,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Escopo inadequado,8423.9,LOST,Não,Linha 3-A
+OP-000926,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,9753.65,WON,Não,Linha 3-A
+OP-000927,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,4695.27,LOST,Não,Linha 3-A
+OP-000928,Funil de Vendas,Ciclo 03,Produto C,Proposta,,8686.68,OPEN,Não,Linha 3-B
+OP-000929,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,26793.3,LOST,Não,Linha 3-B
+OP-000930,Funil de Vendas,Ciclo 03,Produto C,Negociação,Preço acima do orçamento,9517.89,LOST,Não,Linha 3-A
+OP-000931,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prioridade alterada,16556.88,LOST,Não,Linha 3-B
+OP-000932,Funil de Vendas,Ciclo 03,Produto C,Negociação,,17793.4,WON,Não,Linha 3-B
+OP-000933,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Escopo inadequado,27212.66,LOST,Não,Linha 3-A
+OP-000934,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,10085.72,WON,Não,Linha 3-B
+OP-000935,Funil de Vendas,Ciclo 03,Produto C,Proposta,Preço acima do orçamento,10845.93,LOST,Não,Linha 3-B
+OP-000936,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,12185.68,WON,Sim,Linha 3-A
+OP-000937,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7044.74,OPEN,Sim,Linha 3-A
+OP-000938,Funil de Vendas,Ciclo 03,Produto C,Proposta,,10033.68,WON,Sim,Linha 3-A
+OP-000939,Funil de Vendas,Ciclo 03,Produto C,Proposta,,15340.97,WON,Sim,Linha 3-A
+OP-000940,Funil de Vendas,Ciclo 03,Produto C,Proposta,Escopo inadequado,26199.88,LOST,Sim,Linha 3-B
+OP-000941,Funil de Vendas,Ciclo 03,Produto C,Negociação,,8923.09,WON,Sim,Linha 3-B
+OP-000942,Funil de Vendas,Ciclo 03,Produto C,Proposta,,12849.47,WON,Sim,Linha 3-B
+OP-000943,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,15294.63,WON,Sim,Linha 3-B
+OP-000944,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7225.87,WON,Sim,Linha 3-B
+OP-000945,Funil de Vendas,Ciclo 03,Produto C,Proposta,,3126.33,WON,Sim,Linha 3-B
+OP-000946,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,27740.71,WON,Sim,Linha 3-B
+OP-000947,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,5367.14,WON,Sim,Linha 3-A
+OP-000948,Funil de Vendas,Ciclo 03,Produto C,Negociação,,5633.68,WON,Sim,Linha 3-B
+OP-000949,Funil de Vendas,Ciclo 03,Produto C,Negociação,,31901.09,WON,Sim,Linha 3-B
+OP-000950,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7030.07,OPEN,Sim,Linha 3-A
+OP-000951,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,8913.34,WON,Sim,Linha 3-A
+OP-000952,Funil de Vendas,Ciclo 03,Produto C,Proposta,,8385.69,WON,Sim,Linha 3-B
+OP-000953,Funil de Vendas,Ciclo 03,Produto C,Proposta,Escopo inadequado,7637.31,LOST,Sim,Linha 3-B
+OP-000954,Funil de Vendas,Ciclo 03,Produto C,Proposta,,12016.02,WON,Sim,Linha 3-B
+OP-000955,Funil de Vendas,Ciclo 03,Produto C,Proposta,,17903.12,WON,Sim,Linha 3-A
+OP-000956,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Preço acima do orçamento,3722.5,LOST,Sim,Linha 3-A
+OP-000957,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,4996.82,WON,Sim,Linha 3-B
+OP-000958,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prazo incompatível,4669.56,LOST,Sim,Linha 3-B
+OP-000959,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,4393.06,WON,Sim,Linha 3-B
+OP-000960,Funil de Vendas,Ciclo 03,Produto C,Negociação,,8339.75,WON,Sim,Linha 3-B
+OP-000961,Funil de Vendas,Ciclo 03,Produto C,Proposta,,6262.89,WON,Sim,Linha 3-B
+OP-000962,Funil de Vendas,Ciclo 03,Produto C,Negociação,,10706.21,WON,Sim,Linha 3-B
+OP-000963,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,15893.4,WON,Sim,Linha 3-B
+OP-000964,Funil de Vendas,Ciclo 03,Produto C,Proposta,,8128.77,OPEN,Sim,Linha 3-B
+OP-000965,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,9564.89,WON,Sim,Linha 3-B
+OP-000966,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7602.38,WON,Sim,Linha 3-A
+OP-000967,Funil de Vendas,Ciclo 03,Produto C,Proposta,,9516.74,WON,Sim,Linha 3-B
+OP-000968,Funil de Vendas,Ciclo 03,Produto C,Negociação,Preço acima do orçamento,12314.09,LOST,Sim,Linha 3-A
+OP-000969,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prazo incompatível,20448.81,LOST,Sim,Linha 3-B
+OP-000970,Funil de Vendas,Ciclo 03,Produto C,Negociação,,19936.63,WON,Sim,Linha 3-B
+OP-000971,Funil de Vendas,Ciclo 03,Produto C,Qualificação,Prioridade alterada,8962.2,LOST,Sim,Linha 3-A
+OP-000972,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,7507.67,WON,Sim,Linha 3-B
+OP-000973,Funil de Vendas,Ciclo 03,Produto C,Proposta,,6842.22,WON,Sim,Linha 3-A
+OP-000974,Funil de Vendas,Ciclo 03,Produto C,Negociação,,20602.61,WON,Sim,Linha 3-B
+OP-000975,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,,3265.82,WON,Sim,Linha 3-A
+OP-000976,Funil de Vendas,Ciclo 03,Produto C,Proposta,,4019.95,WON,Sim,Linha 3-A
+OP-000977,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prioridade alterada,5630.53,LOST,Sim,Linha 3-A
+OP-000978,Funil de Vendas,Ciclo 03,Produto C,Negociação,Concorrência,15034.43,LOST,Sim,Linha 3-A
+OP-000979,Funil de Vendas,Ciclo 03,Produto C,Qualificação,Preço acima do orçamento,4774.41,LOST,Sim,Linha 3-A
+OP-000980,Funil de Vendas,Ciclo 03,Produto C,Proposta,,5928.63,WON,Sim,Linha 3-B
+OP-000981,Funil de Vendas,Ciclo 03,Produto C,Negociação,Escopo inadequado,11414.83,LOST,Sim,Linha 3-A
+OP-000982,Funil de Vendas,Ciclo 03,Produto C,Qualificação,,12750.2,WON,Sim,Linha 3-B
+OP-000983,Funil de Vendas,Ciclo 03,Produto C,Negociação,Prioridade alterada,11826.08,LOST,Sim,Linha 3-A
+OP-000984,Funil de Vendas,Ciclo 03,Produto C,Negociação,Concorrência,19166.21,LOST,Sim,Linha 3-A
+OP-000985,Funil de Vendas,Ciclo 03,Produto C,Qualificação,Prioridade alterada,22537.42,LOST,Sim,Linha 3-A
+OP-000986,Funil de Vendas,Ciclo 03,Produto C,Negociação,,4301.44,WON,Sim,Linha 3-A
+OP-000987,Funil de Vendas,Ciclo 03,Produto C,Proposta,,7063.89,WON,Sim,Linha 3-A
+OP-000988,Funil de Vendas,Ciclo 03,Produto C,Negociação,,12818.28,WON,Sim,Linha 3-B
+OP-000989,Funil de Vendas,Ciclo 03,Produto C,Diagnóstico,Prazo incompatível,9538.92,LOST,Sim,Linha 3-A
+OP-000990,Funil de Vendas,Ciclo 03,Produto C,Proposta,Prioridade alterada,10450.19,LOST,Sim,Linha 3-A
+OP-000991,Funil de Vendas,Ciclo 04,Produto A,Negociação,,21465.61,WON,Não,Linha 1-A
+OP-000992,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Prioridade alterada,10462.76,LOST,Não,Linha 1-B
+OP-000993,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Concorrência,15361.44,LOST,Não,Linha 1-B
+OP-000994,Funil de Vendas,Ciclo 04,Produto A,Negociação,Escopo inadequado,7683.74,LOST,Não,Linha 1-B
+OP-000995,Funil de Vendas,Ciclo 04,Produto A,Proposta,Concorrência,8334.12,LOST,Não,Linha 1-B
+OP-000996,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prazo incompatível,6487.39,LOST,Não,Linha 1-A
+OP-000997,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prioridade alterada,4255.74,LOST,Não,Linha 1-A
+OP-000998,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,3977.15,LOST,Não,Linha 1-B
+OP-000999,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,3649.71,LOST,Não,Linha 1-A
+OP-001000,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Concorrência,20382.98,LOST,Não,Linha 1-B
+OP-001001,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prioridade alterada,11344.13,LOST,Não,Linha 1-A
+OP-001002,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,8461.37,OPEN,Não,Linha 1-B
+OP-001003,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Escopo inadequado,15623.19,LOST,Não,Linha 1-A
+OP-001004,Funil de Vendas,Ciclo 04,Produto A,Negociação,Concorrência,5828.71,LOST,Não,Linha 1-A
+OP-001005,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prazo incompatível,5653.95,LOST,Não,Linha 1-A
+OP-001006,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,14260.89,LOST,Não,Linha 1-B
+OP-001007,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,12932.51,LOST,Não,Linha 1-A
+OP-001008,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Preço acima do orçamento,2323.92,LOST,Não,Linha 1-B
+OP-001009,Funil de Vendas,Ciclo 04,Produto A,Proposta,Concorrência,12149.89,LOST,Não,Linha 1-B
+OP-001010,Funil de Vendas,Ciclo 04,Produto A,Negociação,Concorrência,8464.37,LOST,Não,Linha 1-B
+OP-001011,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,7730.82,LOST,Não,Linha 1-A
+OP-001012,Funil de Vendas,Ciclo 04,Produto A,Negociação,,6873.59,OPEN,Não,Linha 1-A
+OP-001013,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prazo incompatível,15311.53,LOST,Não,Linha 1-B
+OP-001014,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,10210.4,LOST,Não,Linha 1-B
+OP-001015,Funil de Vendas,Ciclo 04,Produto A,Proposta,,20020.79,OPEN,Não,Linha 1-A
+OP-001016,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prioridade alterada,5801.65,LOST,Não,Linha 1-A
+OP-001017,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,9871.22,WON,Não,Linha 1-A
+OP-001018,Funil de Vendas,Ciclo 04,Produto A,Negociação,Concorrência,10261.28,LOST,Não,Linha 1-A
+OP-001019,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,12405.33,LOST,Não,Linha 1-B
+OP-001020,Funil de Vendas,Ciclo 04,Produto A,Negociação,Concorrência,10699.0,LOST,Não,Linha 1-A
+OP-001021,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prioridade alterada,3917.14,LOST,Não,Linha 1-B
+OP-001022,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prioridade alterada,6711.46,LOST,Não,Linha 1-B
+OP-001023,Funil de Vendas,Ciclo 04,Produto A,Proposta,,13478.43,OPEN,Não,Linha 1-A
+OP-001024,Funil de Vendas,Ciclo 04,Produto A,Proposta,,8924.23,WON,Não,Linha 1-B
+OP-001025,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Preço acima do orçamento,14539.22,LOST,Não,Linha 1-A
+OP-001026,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,5759.75,LOST,Não,Linha 1-A
+OP-001027,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Preço acima do orçamento,9281.93,LOST,Não,Linha 1-B
+OP-001028,Funil de Vendas,Ciclo 04,Produto A,Qualificação,,6911.36,WON,Não,Linha 1-B
+OP-001029,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,14569.27,LOST,Não,Linha 1-B
+OP-001030,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,4142.45,LOST,Não,Linha 1-B
+OP-001031,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prazo incompatível,17864.08,LOST,Não,Linha 1-B
+OP-001032,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,7402.61,OPEN,Não,Linha 1-B
+OP-001033,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,10364.2,LOST,Não,Linha 1-A
+OP-001034,Funil de Vendas,Ciclo 04,Produto A,Proposta,,8860.37,WON,Não,Linha 1-B
+OP-001035,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,9524.48,WON,Não,Linha 1-A
+OP-001036,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prioridade alterada,2108.07,LOST,Não,Linha 1-A
+OP-001037,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prioridade alterada,10429.67,LOST,Não,Linha 1-A
+OP-001038,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,12880.36,LOST,Não,Linha 1-B
+OP-001039,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prazo incompatível,6663.74,LOST,Não,Linha 1-A
+OP-001040,Funil de Vendas,Ciclo 04,Produto A,Proposta,Concorrência,10186.83,LOST,Não,Linha 1-B
+OP-001041,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,6599.84,LOST,Não,Linha 1-B
+OP-001042,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,11392.71,WON,Não,Linha 1-A
+OP-001043,Funil de Vendas,Ciclo 04,Produto A,Proposta,Escopo inadequado,9382.22,LOST,Não,Linha 1-A
+OP-001044,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,11290.12,LOST,Não,Linha 1-B
+OP-001045,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Prioridade alterada,17849.11,LOST,Não,Linha 1-B
+OP-001046,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,14751.7,WON,Sim,Linha 1-A
+OP-001047,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prazo incompatível,10581.53,LOST,Sim,Linha 1-A
+OP-001048,Funil de Vendas,Ciclo 04,Produto A,Qualificação,,8697.94,WON,Sim,Linha 1-A
+OP-001049,Funil de Vendas,Ciclo 04,Produto A,Qualificação,,6906.82,WON,Sim,Linha 1-A
+OP-001050,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prazo incompatível,6114.45,LOST,Sim,Linha 1-A
+OP-001051,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,3404.31,WON,Sim,Linha 1-B
+OP-001052,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,9415.65,LOST,Sim,Linha 1-B
+OP-001053,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,5055.77,LOST,Sim,Linha 1-A
+OP-001054,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,13447.19,WON,Sim,Linha 1-A
+OP-001055,Funil de Vendas,Ciclo 04,Produto A,Proposta,,14094.71,WON,Sim,Linha 1-B
+OP-001056,Funil de Vendas,Ciclo 04,Produto A,Proposta,,20429.5,WON,Sim,Linha 1-A
+OP-001057,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,12037.99,LOST,Sim,Linha 1-B
+OP-001058,Funil de Vendas,Ciclo 04,Produto A,Negociação,,35883.62,OPEN,Sim,Linha 1-A
+OP-001059,Funil de Vendas,Ciclo 04,Produto A,Proposta,,9459.34,WON,Sim,Linha 1-A
+OP-001060,Funil de Vendas,Ciclo 04,Produto A,Negociação,Preço acima do orçamento,9899.33,LOST,Sim,Linha 1-A
+OP-001061,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Preço acima do orçamento,4679.16,LOST,Sim,Linha 1-A
+OP-001062,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prioridade alterada,13494.68,LOST,Sim,Linha 1-A
+OP-001063,Funil de Vendas,Ciclo 04,Produto A,Proposta,,8416.56,WON,Sim,Linha 1-B
+OP-001064,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Escopo inadequado,19732.84,LOST,Sim,Linha 1-B
+OP-001065,Funil de Vendas,Ciclo 04,Produto A,Qualificação,Prioridade alterada,6704.04,LOST,Sim,Linha 1-B
+OP-001066,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prioridade alterada,18578.0,LOST,Sim,Linha 1-B
+OP-001067,Funil de Vendas,Ciclo 04,Produto A,Negociação,,7657.72,WON,Sim,Linha 1-A
+OP-001068,Funil de Vendas,Ciclo 04,Produto A,Negociação,,6335.93,WON,Sim,Linha 1-B
+OP-001069,Funil de Vendas,Ciclo 04,Produto A,Proposta,Escopo inadequado,5120.43,LOST,Sim,Linha 1-A
+OP-001070,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,12902.43,LOST,Sim,Linha 1-B
+OP-001071,Funil de Vendas,Ciclo 04,Produto A,Qualificação,,9082.39,WON,Sim,Linha 1-B
+OP-001072,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,6983.4,LOST,Sim,Linha 1-B
+OP-001073,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prazo incompatível,10901.09,LOST,Sim,Linha 1-B
+OP-001074,Funil de Vendas,Ciclo 04,Produto A,Proposta,Concorrência,9823.64,LOST,Sim,Linha 1-B
+OP-001075,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,10298.76,LOST,Sim,Linha 1-B
+OP-001076,Funil de Vendas,Ciclo 04,Produto A,Proposta,,2019.34,WON,Sim,Linha 1-B
+OP-001077,Funil de Vendas,Ciclo 04,Produto A,Negociação,,12239.47,WON,Sim,Linha 1-B
+OP-001078,Funil de Vendas,Ciclo 04,Produto A,Negociação,,6936.48,OPEN,Sim,Linha 1-A
+OP-001079,Funil de Vendas,Ciclo 04,Produto A,Proposta,,6866.76,WON,Sim,Linha 1-B
+OP-001080,Funil de Vendas,Ciclo 04,Produto A,Negociação,,6850.45,WON,Sim,Linha 1-B
+OP-001081,Funil de Vendas,Ciclo 04,Produto A,Proposta,,5869.37,WON,Sim,Linha 1-A
+OP-001082,Funil de Vendas,Ciclo 04,Produto A,Negociação,Prazo incompatível,9991.66,LOST,Sim,Linha 1-A
+OP-001083,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prazo incompatível,11374.02,LOST,Sim,Linha 1-B
+OP-001084,Funil de Vendas,Ciclo 04,Produto A,Proposta,,5052.8,WON,Sim,Linha 1-B
+OP-001085,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,8526.61,WON,Sim,Linha 1-B
+OP-001086,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prioridade alterada,6182.3,LOST,Sim,Linha 1-B
+OP-001087,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prazo incompatível,9181.96,LOST,Sim,Linha 1-B
+OP-001088,Funil de Vendas,Ciclo 04,Produto A,Proposta,Preço acima do orçamento,7626.35,LOST,Sim,Linha 1-A
+OP-001089,Funil de Vendas,Ciclo 04,Produto A,Negociação,,10550.14,WON,Sim,Linha 1-A
+OP-001090,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,10575.05,WON,Sim,Linha 1-B
+OP-001091,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Concorrência,6282.58,LOST,Sim,Linha 1-A
+OP-001092,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Preço acima do orçamento,4609.8,LOST,Sim,Linha 1-B
+OP-001093,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,,4463.38,OPEN,Sim,Linha 1-A
+OP-001094,Funil de Vendas,Ciclo 04,Produto A,Proposta,,6933.05,WON,Sim,Linha 1-B
+OP-001095,Funil de Vendas,Ciclo 04,Produto A,Proposta,Escopo inadequado,19821.69,LOST,Sim,Linha 1-B
+OP-001096,Funil de Vendas,Ciclo 04,Produto A,Diagnóstico,Prioridade alterada,13840.76,LOST,Sim,Linha 1-A
+OP-001097,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prazo incompatível,5868.31,LOST,Sim,Linha 1-A
+OP-001098,Funil de Vendas,Ciclo 04,Produto A,Proposta,Concorrência,15261.11,LOST,Sim,Linha 1-A
+OP-001099,Funil de Vendas,Ciclo 04,Produto A,Proposta,Prioridade alterada,8878.21,LOST,Sim,Linha 1-A
+OP-001100,Funil de Vendas,Ciclo 04,Produto A,Proposta,,7494.86,WON,Sim,Linha 1-B
+OP-001101,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,19097.5,LOST,Não,Linha 2-B
+OP-001102,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Escopo inadequado,5910.44,LOST,Não,Linha 2-B
+OP-001103,Funil de Vendas,Ciclo 04,Produto B,Proposta,Preço acima do orçamento,8058.77,LOST,Não,Linha 2-A
+OP-001104,Funil de Vendas,Ciclo 04,Produto B,Proposta,Preço acima do orçamento,10567.45,LOST,Não,Linha 2-A
+OP-001105,Funil de Vendas,Ciclo 04,Produto B,Proposta,,45062.76,WON,Não,Linha 2-B
+OP-001106,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,4224.4,LOST,Não,Linha 2-B
+OP-001107,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,24085.68,LOST,Não,Linha 2-A
+OP-001108,Funil de Vendas,Ciclo 04,Produto B,Proposta,,5147.87,WON,Não,Linha 2-B
+OP-001109,Funil de Vendas,Ciclo 04,Produto B,Proposta,,12868.39,WON,Não,Linha 2-A
+OP-001110,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,5528.06,WON,Não,Linha 2-B
+OP-001111,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Preço acima do orçamento,10218.4,LOST,Não,Linha 2-B
+OP-001112,Funil de Vendas,Ciclo 04,Produto B,Negociação,,10062.89,WON,Não,Linha 2-B
+OP-001113,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,30106.23,LOST,Não,Linha 2-A
+OP-001114,Funil de Vendas,Ciclo 04,Produto B,Proposta,,21026.48,OPEN,Não,Linha 2-A
+OP-001115,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,24675.37,LOST,Não,Linha 2-A
+OP-001116,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Escopo inadequado,9954.16,LOST,Não,Linha 2-B
+OP-001117,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Concorrência,6446.47,LOST,Não,Linha 2-A
+OP-001118,Funil de Vendas,Ciclo 04,Produto B,Proposta,,4104.28,WON,Não,Linha 2-B
+OP-001119,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,5838.6,WON,Não,Linha 2-B
+OP-001120,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,7052.09,WON,Não,Linha 2-A
+OP-001121,Funil de Vendas,Ciclo 04,Produto B,Proposta,Escopo inadequado,21520.82,LOST,Não,Linha 2-A
+OP-001122,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Preço acima do orçamento,5783.71,LOST,Não,Linha 2-A
+OP-001123,Funil de Vendas,Ciclo 04,Produto B,Negociação,,7734.68,WON,Não,Linha 2-B
+OP-001124,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prioridade alterada,16748.01,LOST,Não,Linha 2-A
+OP-001125,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,12907.23,WON,Não,Linha 2-B
+OP-001126,Funil de Vendas,Ciclo 04,Produto B,Negociação,,12408.32,WON,Não,Linha 2-A
+OP-001127,Funil de Vendas,Ciclo 04,Produto B,Negociação,Concorrência,20121.41,LOST,Não,Linha 2-A
+OP-001128,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prazo incompatível,4402.43,LOST,Não,Linha 2-A
+OP-001129,Funil de Vendas,Ciclo 04,Produto B,Proposta,,5775.21,WON,Não,Linha 2-B
+OP-001130,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prioridade alterada,10708.22,LOST,Não,Linha 2-A
+OP-001131,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,48240.69,WON,Não,Linha 2-A
+OP-001132,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Escopo inadequado,13233.55,LOST,Não,Linha 2-B
+OP-001133,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,5022.81,WON,Não,Linha 2-B
+OP-001134,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prazo incompatível,19422.14,LOST,Não,Linha 2-A
+OP-001135,Funil de Vendas,Ciclo 04,Produto B,Proposta,Escopo inadequado,8551.7,LOST,Não,Linha 2-A
+OP-001136,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,3915.5,OPEN,Não,Linha 2-A
+OP-001137,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prioridade alterada,13632.4,LOST,Não,Linha 2-B
+OP-001138,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prazo incompatível,18422.75,LOST,Não,Linha 2-A
+OP-001139,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prazo incompatível,7921.45,LOST,Não,Linha 2-A
+OP-001140,Funil de Vendas,Ciclo 04,Produto B,Proposta,Escopo inadequado,18773.97,LOST,Não,Linha 2-B
+OP-001141,Funil de Vendas,Ciclo 04,Produto B,Proposta,Preço acima do orçamento,12598.72,LOST,Não,Linha 2-A
+OP-001142,Funil de Vendas,Ciclo 04,Produto B,Proposta,,10777.0,WON,Não,Linha 2-B
+OP-001143,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,8937.02,LOST,Não,Linha 2-B
+OP-001144,Funil de Vendas,Ciclo 04,Produto B,Negociação,,10597.59,WON,Não,Linha 2-B
+OP-001145,Funil de Vendas,Ciclo 04,Produto B,Proposta,,19842.85,WON,Não,Linha 2-B
+OP-001146,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prazo incompatível,7094.43,LOST,Não,Linha 2-B
+OP-001147,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prioridade alterada,11920.56,LOST,Não,Linha 2-A
+OP-001148,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,15415.29,LOST,Não,Linha 2-B
+OP-001149,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,6936.44,LOST,Não,Linha 2-A
+OP-001150,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,3729.97,LOST,Não,Linha 2-B
+OP-001151,Funil de Vendas,Ciclo 04,Produto B,Negociação,,4024.86,WON,Não,Linha 2-B
+OP-001152,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prazo incompatível,5509.11,LOST,Não,Linha 2-A
+OP-001153,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Escopo inadequado,7935.36,LOST,Não,Linha 2-B
+OP-001154,Funil de Vendas,Ciclo 04,Produto B,Proposta,Prioridade alterada,20121.42,LOST,Não,Linha 2-B
+OP-001155,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Escopo inadequado,7788.42,LOST,Não,Linha 2-B
+OP-001156,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Concorrência,23897.38,LOST,Sim,Linha 2-A
+OP-001157,Funil de Vendas,Ciclo 04,Produto B,Proposta,,9229.42,WON,Sim,Linha 2-B
+OP-001158,Funil de Vendas,Ciclo 04,Produto B,Negociação,Concorrência,25117.33,LOST,Sim,Linha 2-A
+OP-001159,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,4306.41,LOST,Sim,Linha 2-A
+OP-001160,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,7209.33,LOST,Sim,Linha 2-A
+OP-001161,Funil de Vendas,Ciclo 04,Produto B,Proposta,,15653.82,WON,Sim,Linha 2-B
+OP-001162,Funil de Vendas,Ciclo 04,Produto B,Proposta,,13853.97,WON,Sim,Linha 2-B
+OP-001163,Funil de Vendas,Ciclo 04,Produto B,Negociação,Concorrência,14906.86,LOST,Sim,Linha 2-B
+OP-001164,Funil de Vendas,Ciclo 04,Produto B,Negociação,,8286.71,OPEN,Sim,Linha 2-B
+OP-001165,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,8635.62,WON,Sim,Linha 2-A
+OP-001166,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Prazo incompatível,7312.88,LOST,Sim,Linha 2-A
+OP-001167,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,9488.26,WON,Sim,Linha 2-A
+OP-001168,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,17006.62,LOST,Sim,Linha 2-B
+OP-001169,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,19069.38,LOST,Sim,Linha 2-B
+OP-001170,Funil de Vendas,Ciclo 04,Produto B,Proposta,,12805.55,WON,Sim,Linha 2-B
+OP-001171,Funil de Vendas,Ciclo 04,Produto B,Proposta,,11591.25,WON,Sim,Linha 2-B
+OP-001172,Funil de Vendas,Ciclo 04,Produto B,Negociação,,11204.0,WON,Sim,Linha 2-B
+OP-001173,Funil de Vendas,Ciclo 04,Produto B,Proposta,,11733.83,OPEN,Sim,Linha 2-A
+OP-001174,Funil de Vendas,Ciclo 04,Produto B,Proposta,,11059.06,WON,Sim,Linha 2-A
+OP-001175,Funil de Vendas,Ciclo 04,Produto B,Negociação,Preço acima do orçamento,11086.6,LOST,Sim,Linha 2-B
+OP-001176,Funil de Vendas,Ciclo 04,Produto B,Negociação,Concorrência,8111.95,LOST,Sim,Linha 2-B
+OP-001177,Funil de Vendas,Ciclo 04,Produto B,Proposta,,9505.76,WON,Sim,Linha 2-B
+OP-001178,Funil de Vendas,Ciclo 04,Produto B,Proposta,,2626.4,WON,Sim,Linha 2-A
+OP-001179,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Preço acima do orçamento,7052.73,LOST,Sim,Linha 2-B
+OP-001180,Funil de Vendas,Ciclo 04,Produto B,Negociação,Preço acima do orçamento,11844.44,LOST,Sim,Linha 2-A
+OP-001181,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Concorrência,14648.65,LOST,Sim,Linha 2-A
+OP-001182,Funil de Vendas,Ciclo 04,Produto B,Proposta,,9541.75,WON,Sim,Linha 2-B
+OP-001183,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Preço acima do orçamento,9530.83,LOST,Sim,Linha 2-A
+OP-001184,Funil de Vendas,Ciclo 04,Produto B,Negociação,Escopo inadequado,4968.75,LOST,Sim,Linha 2-A
+OP-001185,Funil de Vendas,Ciclo 04,Produto B,Proposta,Escopo inadequado,7317.48,LOST,Sim,Linha 2-A
+OP-001186,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,17748.63,WON,Sim,Linha 2-B
+OP-001187,Funil de Vendas,Ciclo 04,Produto B,Negociação,Concorrência,22526.97,LOST,Sim,Linha 2-B
+OP-001188,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Escopo inadequado,12037.12,LOST,Sim,Linha 2-A
+OP-001189,Funil de Vendas,Ciclo 04,Produto B,Proposta,,8383.1,WON,Sim,Linha 2-B
+OP-001190,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prazo incompatível,9229.16,LOST,Sim,Linha 2-B
+OP-001191,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Preço acima do orçamento,9680.31,LOST,Sim,Linha 2-B
+OP-001192,Funil de Vendas,Ciclo 04,Produto B,Proposta,Preço acima do orçamento,14408.17,LOST,Sim,Linha 2-B
+OP-001193,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,4511.59,OPEN,Sim,Linha 2-B
+OP-001194,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,8030.79,WON,Sim,Linha 2-B
+OP-001195,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Concorrência,17664.95,LOST,Sim,Linha 2-B
+OP-001196,Funil de Vendas,Ciclo 04,Produto B,Proposta,,26649.98,WON,Sim,Linha 2-B
+OP-001197,Funil de Vendas,Ciclo 04,Produto B,Negociação,Prazo incompatível,6436.75,LOST,Sim,Linha 2-B
+OP-001198,Funil de Vendas,Ciclo 04,Produto B,Proposta,Preço acima do orçamento,13126.91,LOST,Sim,Linha 2-B
+OP-001199,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,8865.91,WON,Sim,Linha 2-B
+OP-001200,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,9750.58,WON,Sim,Linha 2-A
+OP-001201,Funil de Vendas,Ciclo 04,Produto B,Qualificação,,9464.75,WON,Sim,Linha 2-B
+OP-001202,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Prioridade alterada,5024.01,LOST,Sim,Linha 2-B
+OP-001203,Funil de Vendas,Ciclo 04,Produto B,Proposta,,16020.19,OPEN,Sim,Linha 2-B
+OP-001204,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,,15760.92,WON,Sim,Linha 2-B
+OP-001205,Funil de Vendas,Ciclo 04,Produto B,Proposta,Concorrência,5115.88,LOST,Sim,Linha 2-B
+OP-001206,Funil de Vendas,Ciclo 04,Produto B,Negociação,Preço acima do orçamento,6838.4,LOST,Sim,Linha 2-B
+OP-001207,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prioridade alterada,14998.08,LOST,Sim,Linha 2-A
+OP-001208,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Prioridade alterada,9103.92,LOST,Sim,Linha 2-A
+OP-001209,Funil de Vendas,Ciclo 04,Produto B,Qualificação,Concorrência,8472.68,LOST,Sim,Linha 2-A
+OP-001210,Funil de Vendas,Ciclo 04,Produto B,Diagnóstico,Prazo incompatível,10472.02,LOST,Sim,Linha 2-B
+OP-001211,Funil de Vendas,Ciclo 04,Produto C,Negociação,Preço acima do orçamento,10538.83,LOST,Não,Linha 3-B
+OP-001212,Funil de Vendas,Ciclo 04,Produto C,Qualificação,Preço acima do orçamento,12951.18,LOST,Não,Linha 3-B
+OP-001213,Funil de Vendas,Ciclo 04,Produto C,Negociação,,10499.17,WON,Não,Linha 3-B
+OP-001214,Funil de Vendas,Ciclo 04,Produto C,Proposta,,14050.35,OPEN,Não,Linha 3-B
+OP-001215,Funil de Vendas,Ciclo 04,Produto C,Proposta,,11263.7,WON,Não,Linha 3-A
+OP-001216,Funil de Vendas,Ciclo 04,Produto C,Negociação,,15059.75,WON,Não,Linha 3-B
+OP-001217,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,42253.26,WON,Não,Linha 3-B
+OP-001218,Funil de Vendas,Ciclo 04,Produto C,Proposta,,15260.79,WON,Não,Linha 3-B
+OP-001219,Funil de Vendas,Ciclo 04,Produto C,Negociação,,14660.59,OPEN,Não,Linha 3-B
+OP-001220,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,6110.94,LOST,Não,Linha 3-A
+OP-001221,Funil de Vendas,Ciclo 04,Produto C,Proposta,Escopo inadequado,8014.68,LOST,Não,Linha 3-A
+OP-001222,Funil de Vendas,Ciclo 04,Produto C,Negociação,,15798.12,WON,Não,Linha 3-B
+OP-001223,Funil de Vendas,Ciclo 04,Produto C,Negociação,,4316.36,WON,Não,Linha 3-A
+OP-001224,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Escopo inadequado,18699.86,LOST,Não,Linha 3-A
+OP-001225,Funil de Vendas,Ciclo 04,Produto C,Proposta,,9075.47,WON,Não,Linha 3-A
+OP-001226,Funil de Vendas,Ciclo 04,Produto C,Negociação,Prazo incompatível,6797.8,LOST,Não,Linha 3-A
+OP-001227,Funil de Vendas,Ciclo 04,Produto C,Negociação,Preço acima do orçamento,11210.63,LOST,Não,Linha 3-A
+OP-001228,Funil de Vendas,Ciclo 04,Produto C,Proposta,Prazo incompatível,9155.04,LOST,Não,Linha 3-A
+OP-001229,Funil de Vendas,Ciclo 04,Produto C,Negociação,Concorrência,5644.81,LOST,Não,Linha 3-B
+OP-001230,Funil de Vendas,Ciclo 04,Produto C,Proposta,,7846.62,WON,Não,Linha 3-B
+OP-001231,Funil de Vendas,Ciclo 04,Produto C,Proposta,,10119.75,WON,Não,Linha 3-B
+OP-001232,Funil de Vendas,Ciclo 04,Produto C,Proposta,,12405.67,WON,Não,Linha 3-B
+OP-001233,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,8906.53,WON,Não,Linha 3-B
+OP-001234,Funil de Vendas,Ciclo 04,Produto C,Proposta,,8862.31,WON,Não,Linha 3-A
+OP-001235,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,6387.81,WON,Não,Linha 3-B
+OP-001236,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,16906.16,WON,Não,Linha 3-B
+OP-001237,Funil de Vendas,Ciclo 04,Produto C,Proposta,Concorrência,2921.76,LOST,Não,Linha 3-A
+OP-001238,Funil de Vendas,Ciclo 04,Produto C,Negociação,,17611.93,WON,Não,Linha 3-B
+OP-001239,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,9949.23,OPEN,Não,Linha 3-B
+OP-001240,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,6607.55,LOST,Não,Linha 3-B
+OP-001241,Funil de Vendas,Ciclo 04,Produto C,Proposta,,21929.76,WON,Não,Linha 3-A
+OP-001242,Funil de Vendas,Ciclo 04,Produto C,Proposta,,16264.1,WON,Não,Linha 3-A
+OP-001243,Funil de Vendas,Ciclo 04,Produto C,Proposta,Prioridade alterada,12144.75,LOST,Não,Linha 3-A
+OP-001244,Funil de Vendas,Ciclo 04,Produto C,Negociação,,29072.31,WON,Não,Linha 3-B
+OP-001245,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Preço acima do orçamento,6585.81,LOST,Não,Linha 3-A
+OP-001246,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Escopo inadequado,4983.3,LOST,Não,Linha 3-A
+OP-001247,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,23024.98,WON,Não,Linha 3-A
+OP-001248,Funil de Vendas,Ciclo 04,Produto C,Qualificação,Escopo inadequado,20330.06,LOST,Não,Linha 3-A
+OP-001249,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,14792.05,WON,Não,Linha 3-A
+OP-001250,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Prioridade alterada,14528.75,LOST,Não,Linha 3-B
+OP-001251,Funil de Vendas,Ciclo 04,Produto C,Proposta,,21511.56,WON,Não,Linha 3-A
+OP-001252,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Escopo inadequado,18403.63,LOST,Não,Linha 3-B
+OP-001253,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,23293.98,LOST,Não,Linha 3-B
+OP-001254,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Prazo incompatível,16881.98,LOST,Não,Linha 3-B
+OP-001255,Funil de Vendas,Ciclo 04,Produto C,Proposta,Concorrência,2671.58,LOST,Não,Linha 3-A
+OP-001256,Funil de Vendas,Ciclo 04,Produto C,Proposta,Escopo inadequado,27332.05,LOST,Não,Linha 3-A
+OP-001257,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,8087.04,LOST,Não,Linha 3-B
+OP-001258,Funil de Vendas,Ciclo 04,Produto C,Proposta,,12043.07,WON,Não,Linha 3-B
+OP-001259,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Preço acima do orçamento,4578.78,LOST,Não,Linha 3-A
+OP-001260,Funil de Vendas,Ciclo 04,Produto C,Proposta,Prioridade alterada,11234.61,LOST,Não,Linha 3-B
+OP-001261,Funil de Vendas,Ciclo 04,Produto C,Negociação,Preço acima do orçamento,10270.32,LOST,Não,Linha 3-A
+OP-001262,Funil de Vendas,Ciclo 04,Produto C,Proposta,,41962.74,WON,Não,Linha 3-B
+OP-001263,Funil de Vendas,Ciclo 04,Produto C,Negociação,Preço acima do orçamento,14203.4,LOST,Não,Linha 3-A
+OP-001264,Funil de Vendas,Ciclo 04,Produto C,Proposta,Prioridade alterada,13288.63,LOST,Não,Linha 3-B
+OP-001265,Funil de Vendas,Ciclo 04,Produto C,Negociação,,13208.49,WON,Não,Linha 3-B
+OP-001266,Funil de Vendas,Ciclo 04,Produto C,Proposta,Escopo inadequado,9394.83,LOST,Sim,Linha 3-A
+OP-001267,Funil de Vendas,Ciclo 04,Produto C,Proposta,Concorrência,13753.41,LOST,Sim,Linha 3-A
+OP-001268,Funil de Vendas,Ciclo 04,Produto C,Negociação,,5514.72,OPEN,Sim,Linha 3-B
+OP-001269,Funil de Vendas,Ciclo 04,Produto C,Proposta,,12742.36,OPEN,Sim,Linha 3-A
+OP-001270,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,7981.38,WON,Sim,Linha 3-A
+OP-001271,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,22333.34,OPEN,Sim,Linha 3-A
+OP-001272,Funil de Vendas,Ciclo 04,Produto C,Proposta,,6471.13,WON,Sim,Linha 3-B
+OP-001273,Funil de Vendas,Ciclo 04,Produto C,Proposta,,15705.78,WON,Sim,Linha 3-A
+OP-001274,Funil de Vendas,Ciclo 04,Produto C,Negociação,,7264.03,WON,Sim,Linha 3-A
+OP-001275,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Prazo incompatível,17282.76,LOST,Sim,Linha 3-A
+OP-001276,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,24584.46,WON,Sim,Linha 3-B
+OP-001277,Funil de Vendas,Ciclo 04,Produto C,Proposta,Concorrência,13154.07,LOST,Sim,Linha 3-A
+OP-001278,Funil de Vendas,Ciclo 04,Produto C,Proposta,Prioridade alterada,17489.9,LOST,Sim,Linha 3-A
+OP-001279,Funil de Vendas,Ciclo 04,Produto C,Negociação,Concorrência,5683.07,LOST,Sim,Linha 3-B
+OP-001280,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,4542.26,WON,Sim,Linha 3-A
+OP-001281,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,17175.18,WON,Sim,Linha 3-B
+OP-001282,Funil de Vendas,Ciclo 04,Produto C,Negociação,,8557.85,WON,Sim,Linha 3-A
+OP-001283,Funil de Vendas,Ciclo 04,Produto C,Qualificação,Preço acima do orçamento,12672.16,LOST,Sim,Linha 3-B
+OP-001284,Funil de Vendas,Ciclo 04,Produto C,Proposta,,6491.02,WON,Sim,Linha 3-B
+OP-001285,Funil de Vendas,Ciclo 04,Produto C,Proposta,,17573.4,WON,Sim,Linha 3-A
+OP-001286,Funil de Vendas,Ciclo 04,Produto C,Qualificação,Preço acima do orçamento,10624.74,LOST,Sim,Linha 3-A
+OP-001287,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Escopo inadequado,13764.47,LOST,Sim,Linha 3-B
+OP-001288,Funil de Vendas,Ciclo 04,Produto C,Proposta,,16233.38,WON,Sim,Linha 3-A
+OP-001289,Funil de Vendas,Ciclo 04,Produto C,Proposta,,5239.01,WON,Sim,Linha 3-A
+OP-001290,Funil de Vendas,Ciclo 04,Produto C,Proposta,,20948.02,OPEN,Sim,Linha 3-B
+OP-001291,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,11568.76,LOST,Sim,Linha 3-A
+OP-001292,Funil de Vendas,Ciclo 04,Produto C,Proposta,,18234.15,OPEN,Sim,Linha 3-B
+OP-001293,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,20805.93,WON,Sim,Linha 3-B
+OP-001294,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,8781.47,WON,Sim,Linha 3-A
+OP-001295,Funil de Vendas,Ciclo 04,Produto C,Negociação,,16366.47,OPEN,Sim,Linha 3-B
+OP-001296,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,6177.02,LOST,Sim,Linha 3-A
+OP-001297,Funil de Vendas,Ciclo 04,Produto C,Proposta,,5753.56,WON,Sim,Linha 3-B
+OP-001298,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,4134.97,WON,Sim,Linha 3-A
+OP-001299,Funil de Vendas,Ciclo 04,Produto C,Proposta,Escopo inadequado,10554.9,LOST,Sim,Linha 3-B
+OP-001300,Funil de Vendas,Ciclo 04,Produto C,Negociação,Prioridade alterada,11942.1,LOST,Sim,Linha 3-A
+OP-001301,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,6731.74,WON,Sim,Linha 3-B
+OP-001302,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,7859.93,WON,Sim,Linha 3-B
+OP-001303,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Concorrência,6405.64,LOST,Sim,Linha 3-B
+OP-001304,Funil de Vendas,Ciclo 04,Produto C,Negociação,,4856.61,WON,Sim,Linha 3-B
+OP-001305,Funil de Vendas,Ciclo 04,Produto C,Negociação,Escopo inadequado,13028.3,LOST,Sim,Linha 3-B
+OP-001306,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,6763.42,WON,Sim,Linha 3-A
+OP-001307,Funil de Vendas,Ciclo 04,Produto C,Proposta,,4370.55,WON,Sim,Linha 3-A
+OP-001308,Funil de Vendas,Ciclo 04,Produto C,Proposta,Preço acima do orçamento,7549.03,LOST,Sim,Linha 3-A
+OP-001309,Funil de Vendas,Ciclo 04,Produto C,Proposta,Escopo inadequado,13888.96,LOST,Sim,Linha 3-A
+OP-001310,Funil de Vendas,Ciclo 04,Produto C,Proposta,,10134.42,OPEN,Sim,Linha 3-B
+OP-001311,Funil de Vendas,Ciclo 04,Produto C,Proposta,,9845.12,WON,Sim,Linha 3-B
+OP-001312,Funil de Vendas,Ciclo 04,Produto C,Proposta,,6244.16,OPEN,Sim,Linha 3-A
+OP-001313,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,Preço acima do orçamento,10875.24,LOST,Sim,Linha 3-B
+OP-001314,Funil de Vendas,Ciclo 04,Produto C,Proposta,Concorrência,5725.55,LOST,Sim,Linha 3-B
+OP-001315,Funil de Vendas,Ciclo 04,Produto C,Proposta,,22288.16,WON,Sim,Linha 3-A
+OP-001316,Funil de Vendas,Ciclo 04,Produto C,Qualificação,,6034.16,WON,Sim,Linha 3-B
+OP-001317,Funil de Vendas,Ciclo 04,Produto C,Negociação,,8492.31,OPEN,Sim,Linha 3-B
+OP-001318,Funil de Vendas,Ciclo 04,Produto C,Proposta,,6369.44,WON,Sim,Linha 3-A
+OP-001319,Funil de Vendas,Ciclo 04,Produto C,Diagnóstico,,3236.6,WON,Sim,Linha 3-A
+OP-001320,Funil de Vendas,Ciclo 04,Produto C,Proposta,,28576.53,WON,Sim,Linha 3-B
+OP-001321,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,6295.34,WON,Não,Linha 1-B
+OP-001322,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prioridade alterada,8115.48,LOST,Não,Linha 1-B
+OP-001323,Funil de Vendas,Ciclo 05,Produto A,Proposta,,7302.82,WON,Não,Linha 1-A
+OP-001324,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,10439.49,LOST,Não,Linha 1-B
+OP-001325,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,11873.87,WON,Não,Linha 1-B
+OP-001326,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prioridade alterada,10616.08,LOST,Não,Linha 1-A
+OP-001327,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prazo incompatível,16206.58,LOST,Não,Linha 1-B
+OP-001328,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,9861.11,LOST,Não,Linha 1-B
+OP-001329,Funil de Vendas,Ciclo 05,Produto A,Proposta,Escopo inadequado,11596.87,LOST,Não,Linha 1-B
+OP-001330,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,4584.92,LOST,Não,Linha 1-A
+OP-001331,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prioridade alterada,3731.89,LOST,Não,Linha 1-A
+OP-001332,Funil de Vendas,Ciclo 05,Produto A,Negociação,,6832.19,WON,Não,Linha 1-A
+OP-001333,Funil de Vendas,Ciclo 05,Produto A,Qualificação,,15902.45,OPEN,Não,Linha 1-B
+OP-001334,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,20286.66,WON,Não,Linha 1-B
+OP-001335,Funil de Vendas,Ciclo 05,Produto A,Proposta,Escopo inadequado,13972.44,LOST,Não,Linha 1-B
+OP-001336,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,8021.03,LOST,Não,Linha 1-B
+OP-001337,Funil de Vendas,Ciclo 05,Produto A,Proposta,,9476.75,WON,Não,Linha 1-A
+OP-001338,Funil de Vendas,Ciclo 05,Produto A,Proposta,,8499.82,WON,Não,Linha 1-B
+OP-001339,Funil de Vendas,Ciclo 05,Produto A,Negociação,,37873.34,WON,Não,Linha 1-B
+OP-001340,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,4503.61,WON,Não,Linha 1-A
+OP-001341,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Concorrência,3769.92,LOST,Não,Linha 1-B
+OP-001342,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,6731.04,LOST,Não,Linha 1-A
+OP-001343,Funil de Vendas,Ciclo 05,Produto A,Negociação,Escopo inadequado,21949.31,LOST,Não,Linha 1-B
+OP-001344,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prazo incompatível,29779.27,LOST,Não,Linha 1-A
+OP-001345,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,2967.86,WON,Não,Linha 1-A
+OP-001346,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prioridade alterada,4789.07,LOST,Não,Linha 1-B
+OP-001347,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,15391.12,LOST,Não,Linha 1-A
+OP-001348,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,7852.96,LOST,Não,Linha 1-A
+OP-001349,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prazo incompatível,15131.23,LOST,Não,Linha 1-B
+OP-001350,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prioridade alterada,10045.66,LOST,Não,Linha 1-A
+OP-001351,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Prazo incompatível,7860.51,LOST,Não,Linha 1-B
+OP-001352,Funil de Vendas,Ciclo 05,Produto A,Negociação,Concorrência,4197.48,LOST,Não,Linha 1-B
+OP-001353,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,13686.32,OPEN,Não,Linha 1-A
+OP-001354,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prazo incompatível,4689.48,LOST,Não,Linha 1-A
+OP-001355,Funil de Vendas,Ciclo 05,Produto A,Proposta,,12433.27,WON,Não,Linha 1-B
+OP-001356,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,15821.1,LOST,Não,Linha 1-A
+OP-001357,Funil de Vendas,Ciclo 05,Produto A,Negociação,Concorrência,17372.9,LOST,Não,Linha 1-A
+OP-001358,Funil de Vendas,Ciclo 05,Produto A,Negociação,Escopo inadequado,10100.33,LOST,Não,Linha 1-A
+OP-001359,Funil de Vendas,Ciclo 05,Produto A,Negociação,Preço acima do orçamento,3256.04,LOST,Não,Linha 1-B
+OP-001360,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,10436.17,LOST,Não,Linha 1-B
+OP-001361,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,10984.74,LOST,Não,Linha 1-B
+OP-001362,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prazo incompatível,16667.45,LOST,Não,Linha 1-A
+OP-001363,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Preço acima do orçamento,6185.1,LOST,Não,Linha 1-A
+OP-001364,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,7833.38,LOST,Não,Linha 1-A
+OP-001365,Funil de Vendas,Ciclo 05,Produto A,Negociação,Preço acima do orçamento,17097.95,LOST,Não,Linha 1-B
+OP-001366,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prazo incompatível,6591.69,LOST,Não,Linha 1-B
+OP-001367,Funil de Vendas,Ciclo 05,Produto A,Negociação,,5341.2,OPEN,Não,Linha 1-B
+OP-001368,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,4847.27,LOST,Não,Linha 1-B
+OP-001369,Funil de Vendas,Ciclo 05,Produto A,Qualificação,,6766.46,WON,Não,Linha 1-A
+OP-001370,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Preço acima do orçamento,8344.95,LOST,Não,Linha 1-A
+OP-001371,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,4772.85,WON,Não,Linha 1-A
+OP-001372,Funil de Vendas,Ciclo 05,Produto A,Negociação,Escopo inadequado,3323.9,LOST,Não,Linha 1-A
+OP-001373,Funil de Vendas,Ciclo 05,Produto A,Negociação,,5432.51,OPEN,Não,Linha 1-A
+OP-001374,Funil de Vendas,Ciclo 05,Produto A,Qualificação,,8348.17,WON,Não,Linha 1-A
+OP-001375,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prazo incompatível,10401.52,LOST,Não,Linha 1-B
+OP-001376,Funil de Vendas,Ciclo 05,Produto A,Proposta,Escopo inadequado,10231.26,LOST,Sim,Linha 1-B
+OP-001377,Funil de Vendas,Ciclo 05,Produto A,Proposta,,8848.0,OPEN,Sim,Linha 1-B
+OP-001378,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prioridade alterada,19125.12,LOST,Sim,Linha 1-B
+OP-001379,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Concorrência,13001.71,LOST,Sim,Linha 1-A
+OP-001380,Funil de Vendas,Ciclo 05,Produto A,Proposta,,8023.12,OPEN,Sim,Linha 1-A
+OP-001381,Funil de Vendas,Ciclo 05,Produto A,Proposta,,3393.78,WON,Sim,Linha 1-A
+OP-001382,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,12040.74,WON,Sim,Linha 1-B
+OP-001383,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prioridade alterada,5144.79,LOST,Sim,Linha 1-B
+OP-001384,Funil de Vendas,Ciclo 05,Produto A,Proposta,,3528.79,OPEN,Sim,Linha 1-A
+OP-001385,Funil de Vendas,Ciclo 05,Produto A,Qualificação,,8390.98,WON,Sim,Linha 1-A
+OP-001386,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,14326.19,WON,Sim,Linha 1-B
+OP-001387,Funil de Vendas,Ciclo 05,Produto A,Proposta,,9021.75,WON,Sim,Linha 1-A
+OP-001388,Funil de Vendas,Ciclo 05,Produto A,Proposta,,12912.6,WON,Sim,Linha 1-A
+OP-001389,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,10000.51,LOST,Sim,Linha 1-A
+OP-001390,Funil de Vendas,Ciclo 05,Produto A,Proposta,,2757.25,WON,Sim,Linha 1-B
+OP-001391,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,9367.14,WON,Sim,Linha 1-A
+OP-001392,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Prazo incompatível,7016.38,LOST,Sim,Linha 1-A
+OP-001393,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,24929.78,LOST,Sim,Linha 1-A
+OP-001394,Funil de Vendas,Ciclo 05,Produto A,Negociação,Prioridade alterada,2851.38,LOST,Sim,Linha 1-B
+OP-001395,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,9225.45,LOST,Sim,Linha 1-B
+OP-001396,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,3219.56,LOST,Sim,Linha 1-B
+OP-001397,Funil de Vendas,Ciclo 05,Produto A,Negociação,Prioridade alterada,5513.32,LOST,Sim,Linha 1-A
+OP-001398,Funil de Vendas,Ciclo 05,Produto A,Negociação,Prazo incompatível,24454.99,LOST,Sim,Linha 1-B
+OP-001399,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prazo incompatível,10680.26,LOST,Sim,Linha 1-A
+OP-001400,Funil de Vendas,Ciclo 05,Produto A,Proposta,Preço acima do orçamento,12460.66,LOST,Sim,Linha 1-B
+OP-001401,Funil de Vendas,Ciclo 05,Produto A,Negociação,Prazo incompatível,4843.11,LOST,Sim,Linha 1-B
+OP-001402,Funil de Vendas,Ciclo 05,Produto A,Proposta,,16301.55,WON,Sim,Linha 1-B
+OP-001403,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Preço acima do orçamento,10794.54,LOST,Sim,Linha 1-A
+OP-001404,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,4233.06,WON,Sim,Linha 1-A
+OP-001405,Funil de Vendas,Ciclo 05,Produto A,Proposta,,8538.75,WON,Sim,Linha 1-B
+OP-001406,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Concorrência,7418.89,LOST,Sim,Linha 1-B
+OP-001407,Funil de Vendas,Ciclo 05,Produto A,Proposta,,14193.12,WON,Sim,Linha 1-A
+OP-001408,Funil de Vendas,Ciclo 05,Produto A,Proposta,,21574.01,OPEN,Sim,Linha 1-B
+OP-001409,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,12099.1,LOST,Sim,Linha 1-A
+OP-001410,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Escopo inadequado,6797.98,LOST,Sim,Linha 1-B
+OP-001411,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,7415.57,LOST,Sim,Linha 1-B
+OP-001412,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,8530.06,OPEN,Sim,Linha 1-A
+OP-001413,Funil de Vendas,Ciclo 05,Produto A,Proposta,,26013.27,WON,Sim,Linha 1-A
+OP-001414,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,16023.19,WON,Sim,Linha 1-A
+OP-001415,Funil de Vendas,Ciclo 05,Produto A,Proposta,,19749.05,WON,Sim,Linha 1-B
+OP-001416,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prioridade alterada,21009.8,LOST,Sim,Linha 1-A
+OP-001417,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Preço acima do orçamento,11087.73,LOST,Sim,Linha 1-B
+OP-001418,Funil de Vendas,Ciclo 05,Produto A,Qualificação,,6099.06,WON,Sim,Linha 1-A
+OP-001419,Funil de Vendas,Ciclo 05,Produto A,Proposta,,10880.45,WON,Sim,Linha 1-A
+OP-001420,Funil de Vendas,Ciclo 05,Produto A,Proposta,,5344.54,WON,Sim,Linha 1-A
+OP-001421,Funil de Vendas,Ciclo 05,Produto A,Negociação,Preço acima do orçamento,2746.24,LOST,Sim,Linha 1-B
+OP-001422,Funil de Vendas,Ciclo 05,Produto A,Proposta,Concorrência,5193.01,LOST,Sim,Linha 1-B
+OP-001423,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,3518.52,WON,Sim,Linha 1-A
+OP-001424,Funil de Vendas,Ciclo 05,Produto A,Proposta,,4184.11,WON,Sim,Linha 1-B
+OP-001425,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Concorrência,14825.95,LOST,Sim,Linha 1-A
+OP-001426,Funil de Vendas,Ciclo 05,Produto A,Negociação,Preço acima do orçamento,9392.16,LOST,Sim,Linha 1-A
+OP-001427,Funil de Vendas,Ciclo 05,Produto A,Proposta,Prioridade alterada,3535.51,LOST,Sim,Linha 1-A
+OP-001428,Funil de Vendas,Ciclo 05,Produto A,Qualificação,Escopo inadequado,8269.11,LOST,Sim,Linha 1-A
+OP-001429,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,,10990.41,WON,Sim,Linha 1-A
+OP-001430,Funil de Vendas,Ciclo 05,Produto A,Diagnóstico,Preço acima do orçamento,8536.97,LOST,Sim,Linha 1-A
+OP-001431,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,17537.32,LOST,Não,Linha 2-A
+OP-001432,Funil de Vendas,Ciclo 05,Produto B,Negociação,Escopo inadequado,8664.01,LOST,Não,Linha 2-A
+OP-001433,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,17100.25,WON,Não,Linha 2-A
+OP-001434,Funil de Vendas,Ciclo 05,Produto B,Negociação,Escopo inadequado,5753.67,LOST,Não,Linha 2-A
+OP-001435,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Preço acima do orçamento,7878.33,LOST,Não,Linha 2-A
+OP-001436,Funil de Vendas,Ciclo 05,Produto B,Negociação,,10377.68,WON,Não,Linha 2-B
+OP-001437,Funil de Vendas,Ciclo 05,Produto B,Proposta,,27612.83,WON,Não,Linha 2-A
+OP-001438,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Concorrência,4586.98,LOST,Não,Linha 2-B
+OP-001439,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,6313.85,LOST,Não,Linha 2-A
+OP-001440,Funil de Vendas,Ciclo 05,Produto B,Negociação,Escopo inadequado,15764.49,LOST,Não,Linha 2-B
+OP-001441,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Concorrência,6735.72,LOST,Não,Linha 2-B
+OP-001442,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,17652.91,LOST,Não,Linha 2-A
+OP-001443,Funil de Vendas,Ciclo 05,Produto B,Proposta,,6712.08,WON,Não,Linha 2-B
+OP-001444,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Prioridade alterada,2197.63,LOST,Não,Linha 2-A
+OP-001445,Funil de Vendas,Ciclo 05,Produto B,Negociação,Prazo incompatível,21058.93,LOST,Não,Linha 2-A
+OP-001446,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Preço acima do orçamento,5294.85,LOST,Não,Linha 2-A
+OP-001447,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,5024.59,WON,Não,Linha 2-A
+OP-001448,Funil de Vendas,Ciclo 05,Produto B,Proposta,,14299.12,OPEN,Não,Linha 2-B
+OP-001449,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,9433.59,WON,Não,Linha 2-B
+OP-001450,Funil de Vendas,Ciclo 05,Produto B,Negociação,,5124.64,WON,Não,Linha 2-A
+OP-001451,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Prioridade alterada,19032.65,LOST,Não,Linha 2-B
+OP-001452,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,9795.69,OPEN,Não,Linha 2-A
+OP-001453,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Preço acima do orçamento,16831.34,LOST,Não,Linha 2-A
+OP-001454,Funil de Vendas,Ciclo 05,Produto B,Proposta,Prioridade alterada,13969.15,LOST,Não,Linha 2-B
+OP-001455,Funil de Vendas,Ciclo 05,Produto B,Negociação,Prioridade alterada,5669.25,LOST,Não,Linha 2-B
+OP-001456,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Preço acima do orçamento,21994.28,LOST,Não,Linha 2-A
+OP-001457,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,5464.83,LOST,Não,Linha 2-A
+OP-001458,Funil de Vendas,Ciclo 05,Produto B,Proposta,,15379.74,WON,Não,Linha 2-B
+OP-001459,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,9004.68,LOST,Não,Linha 2-B
+OP-001460,Funil de Vendas,Ciclo 05,Produto B,Negociação,,10730.09,WON,Não,Linha 2-B
+OP-001461,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,13630.28,WON,Não,Linha 2-A
+OP-001462,Funil de Vendas,Ciclo 05,Produto B,Proposta,Prazo incompatível,17515.56,LOST,Não,Linha 2-B
+OP-001463,Funil de Vendas,Ciclo 05,Produto B,Negociação,Preço acima do orçamento,20935.17,LOST,Não,Linha 2-B
+OP-001464,Funil de Vendas,Ciclo 05,Produto B,Proposta,,5858.56,OPEN,Não,Linha 2-A
+OP-001465,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,13086.22,WON,Não,Linha 2-A
+OP-001466,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,9061.3,OPEN,Não,Linha 2-A
+OP-001467,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,12883.01,OPEN,Não,Linha 2-B
+OP-001468,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,5769.23,LOST,Não,Linha 2-A
+OP-001469,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Escopo inadequado,23252.52,LOST,Não,Linha 2-B
+OP-001470,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,3774.01,WON,Não,Linha 2-A
+OP-001471,Funil de Vendas,Ciclo 05,Produto B,Proposta,,18402.86,WON,Não,Linha 2-B
+OP-001472,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,9260.02,WON,Não,Linha 2-B
+OP-001473,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Preço acima do orçamento,23580.32,LOST,Não,Linha 2-A
+OP-001474,Funil de Vendas,Ciclo 05,Produto B,Proposta,,10396.79,WON,Não,Linha 2-A
+OP-001475,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,5829.79,LOST,Não,Linha 2-B
+OP-001476,Funil de Vendas,Ciclo 05,Produto B,Negociação,Preço acima do orçamento,12934.76,LOST,Não,Linha 2-B
+OP-001477,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,11234.23,LOST,Não,Linha 2-B
+OP-001478,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Preço acima do orçamento,5578.64,LOST,Não,Linha 2-A
+OP-001479,Funil de Vendas,Ciclo 05,Produto B,Negociação,Preço acima do orçamento,3544.47,LOST,Não,Linha 2-A
+OP-001480,Funil de Vendas,Ciclo 05,Produto B,Negociação,Escopo inadequado,13419.25,LOST,Não,Linha 2-A
+OP-001481,Funil de Vendas,Ciclo 05,Produto B,Negociação,Concorrência,7781.52,LOST,Não,Linha 2-B
+OP-001482,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,10837.98,LOST,Não,Linha 2-A
+OP-001483,Funil de Vendas,Ciclo 05,Produto B,Proposta,,11745.07,WON,Não,Linha 2-B
+OP-001484,Funil de Vendas,Ciclo 05,Produto B,Proposta,,10572.27,WON,Não,Linha 2-A
+OP-001485,Funil de Vendas,Ciclo 05,Produto B,Negociação,Prazo incompatível,11870.1,LOST,Não,Linha 2-B
+OP-001486,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,13548.26,LOST,Sim,Linha 2-A
+OP-001487,Funil de Vendas,Ciclo 05,Produto B,Negociação,Preço acima do orçamento,23264.89,LOST,Sim,Linha 2-B
+OP-001488,Funil de Vendas,Ciclo 05,Produto B,Negociação,,14861.59,WON,Sim,Linha 2-B
+OP-001489,Funil de Vendas,Ciclo 05,Produto B,Proposta,Preço acima do orçamento,2832.47,LOST,Sim,Linha 2-A
+OP-001490,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Prazo incompatível,7640.21,LOST,Sim,Linha 2-B
+OP-001491,Funil de Vendas,Ciclo 05,Produto B,Proposta,,13824.61,WON,Sim,Linha 2-A
+OP-001492,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,4930.14,LOST,Sim,Linha 2-B
+OP-001493,Funil de Vendas,Ciclo 05,Produto B,Proposta,,6021.87,WON,Sim,Linha 2-A
+OP-001494,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,3966.27,LOST,Sim,Linha 2-B
+OP-001495,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,16082.67,WON,Sim,Linha 2-B
+OP-001496,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Prioridade alterada,7601.5,LOST,Sim,Linha 2-A
+OP-001497,Funil de Vendas,Ciclo 05,Produto B,Proposta,,15737.96,WON,Sim,Linha 2-A
+OP-001498,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Concorrência,13148.86,LOST,Sim,Linha 2-A
+OP-001499,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,11592.61,WON,Sim,Linha 2-B
+OP-001500,Funil de Vendas,Ciclo 05,Produto B,Negociação,,5583.44,WON,Sim,Linha 2-B
+OP-001501,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,12474.62,OPEN,Sim,Linha 2-A
+OP-001502,Funil de Vendas,Ciclo 05,Produto B,Proposta,Prioridade alterada,8461.44,LOST,Sim,Linha 2-A
+OP-001503,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,8663.03,WON,Sim,Linha 2-A
+OP-001504,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,16799.95,WON,Sim,Linha 2-A
+OP-001505,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Prazo incompatível,8261.48,LOST,Sim,Linha 2-A
+OP-001506,Funil de Vendas,Ciclo 05,Produto B,Proposta,,6014.47,OPEN,Sim,Linha 2-B
+OP-001507,Funil de Vendas,Ciclo 05,Produto B,Proposta,,6803.36,OPEN,Sim,Linha 2-A
+OP-001508,Funil de Vendas,Ciclo 05,Produto B,Negociação,Prioridade alterada,15113.85,LOST,Sim,Linha 2-B
+OP-001509,Funil de Vendas,Ciclo 05,Produto B,Proposta,,4773.73,WON,Sim,Linha 2-B
+OP-001510,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Escopo inadequado,6570.92,LOST,Sim,Linha 2-B
+OP-001511,Funil de Vendas,Ciclo 05,Produto B,Proposta,Prazo incompatível,5935.04,LOST,Sim,Linha 2-B
+OP-001512,Funil de Vendas,Ciclo 05,Produto B,Proposta,,24434.68,WON,Sim,Linha 2-A
+OP-001513,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,9683.63,LOST,Sim,Linha 2-A
+OP-001514,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Preço acima do orçamento,4371.55,LOST,Sim,Linha 2-B
+OP-001515,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,10683.75,WON,Sim,Linha 2-B
+OP-001516,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,23120.66,WON,Sim,Linha 2-A
+OP-001517,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,22602.36,LOST,Sim,Linha 2-B
+OP-001518,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Prazo incompatível,5068.2,LOST,Sim,Linha 2-A
+OP-001519,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,10350.3,LOST,Sim,Linha 2-B
+OP-001520,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,8683.31,LOST,Sim,Linha 2-A
+OP-001521,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Escopo inadequado,4247.39,LOST,Sim,Linha 2-A
+OP-001522,Funil de Vendas,Ciclo 05,Produto B,Negociação,Escopo inadequado,8579.52,LOST,Sim,Linha 2-A
+OP-001523,Funil de Vendas,Ciclo 05,Produto B,Negociação,,9791.56,WON,Sim,Linha 2-B
+OP-001524,Funil de Vendas,Ciclo 05,Produto B,Proposta,Concorrência,9049.61,LOST,Sim,Linha 2-B
+OP-001525,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,14061.73,WON,Sim,Linha 2-B
+OP-001526,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,8809.8,LOST,Sim,Linha 2-A
+OP-001527,Funil de Vendas,Ciclo 05,Produto B,Proposta,,4910.74,WON,Sim,Linha 2-A
+OP-001528,Funil de Vendas,Ciclo 05,Produto B,Proposta,,5102.38,WON,Sim,Linha 2-A
+OP-001529,Funil de Vendas,Ciclo 05,Produto B,Negociação,,11562.38,WON,Sim,Linha 2-B
+OP-001530,Funil de Vendas,Ciclo 05,Produto B,Proposta,Escopo inadequado,31475.92,LOST,Sim,Linha 2-B
+OP-001531,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Concorrência,7151.25,LOST,Sim,Linha 2-B
+OP-001532,Funil de Vendas,Ciclo 05,Produto B,Qualificação,,11162.43,WON,Sim,Linha 2-A
+OP-001533,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,6134.62,WON,Sim,Linha 2-A
+OP-001534,Funil de Vendas,Ciclo 05,Produto B,Qualificação,Concorrência,9670.87,LOST,Sim,Linha 2-A
+OP-001535,Funil de Vendas,Ciclo 05,Produto B,Negociação,Preço acima do orçamento,8276.47,LOST,Sim,Linha 2-A
+OP-001536,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,Preço acima do orçamento,5731.21,LOST,Sim,Linha 2-A
+OP-001537,Funil de Vendas,Ciclo 05,Produto B,Proposta,,11867.09,WON,Sim,Linha 2-A
+OP-001538,Funil de Vendas,Ciclo 05,Produto B,Proposta,,8892.04,WON,Sim,Linha 2-A
+OP-001539,Funil de Vendas,Ciclo 05,Produto B,Diagnóstico,,13479.79,WON,Sim,Linha 2-A
+OP-001540,Funil de Vendas,Ciclo 05,Produto B,Negociação,Concorrência,6032.62,LOST,Sim,Linha 2-A
+OP-001541,Funil de Vendas,Ciclo 05,Produto C,Negociação,Prazo incompatível,21629.86,LOST,Não,Linha 3-B
+OP-001542,Funil de Vendas,Ciclo 05,Produto C,Negociação,,9168.82,WON,Não,Linha 3-B
+OP-001543,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,13032.33,LOST,Não,Linha 3-B
+OP-001544,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,14359.99,LOST,Não,Linha 3-B
+OP-001545,Funil de Vendas,Ciclo 05,Produto C,Negociação,,7823.71,WON,Não,Linha 3-B
+OP-001546,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Prazo incompatível,14349.33,LOST,Não,Linha 3-B
+OP-001547,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,2783.89,WON,Não,Linha 3-B
+OP-001548,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,3532.98,WON,Não,Linha 3-B
+OP-001549,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Prazo incompatível,12909.99,LOST,Não,Linha 3-A
+OP-001550,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,16354.94,LOST,Não,Linha 3-B
+OP-001551,Funil de Vendas,Ciclo 05,Produto C,Proposta,,14867.36,WON,Não,Linha 3-B
+OP-001552,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Escopo inadequado,8147.16,LOST,Não,Linha 3-A
+OP-001553,Funil de Vendas,Ciclo 05,Produto C,Proposta,,5336.24,WON,Não,Linha 3-A
+OP-001554,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Concorrência,3120.08,LOST,Não,Linha 3-A
+OP-001555,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,8287.93,LOST,Não,Linha 3-A
+OP-001556,Funil de Vendas,Ciclo 05,Produto C,Proposta,,29842.37,WON,Não,Linha 3-B
+OP-001557,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,8143.21,WON,Não,Linha 3-B
+OP-001558,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,9113.02,WON,Não,Linha 3-A
+OP-001559,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prazo incompatível,15112.59,LOST,Não,Linha 3-A
+OP-001560,Funil de Vendas,Ciclo 05,Produto C,Negociação,Prioridade alterada,3900.12,LOST,Não,Linha 3-B
+OP-001561,Funil de Vendas,Ciclo 05,Produto C,Negociação,Concorrência,4067.45,LOST,Não,Linha 3-B
+OP-001562,Funil de Vendas,Ciclo 05,Produto C,Proposta,,6732.1,WON,Não,Linha 3-A
+OP-001563,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Prazo incompatível,5629.8,LOST,Não,Linha 3-B
+OP-001564,Funil de Vendas,Ciclo 05,Produto C,Proposta,,37846.38,OPEN,Não,Linha 3-A
+OP-001565,Funil de Vendas,Ciclo 05,Produto C,Negociação,Preço acima do orçamento,7421.54,LOST,Não,Linha 3-B
+OP-001566,Funil de Vendas,Ciclo 05,Produto C,Proposta,,11196.66,WON,Não,Linha 3-B
+OP-001567,Funil de Vendas,Ciclo 05,Produto C,Proposta,,18666.29,WON,Não,Linha 3-B
+OP-001568,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Preço acima do orçamento,17440.1,LOST,Não,Linha 3-A
+OP-001569,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prioridade alterada,10578.41,LOST,Não,Linha 3-B
+OP-001570,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Prazo incompatível,10821.1,LOST,Não,Linha 3-A
+OP-001571,Funil de Vendas,Ciclo 05,Produto C,Negociação,,14291.89,WON,Não,Linha 3-A
+OP-001572,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,15379.63,WON,Não,Linha 3-A
+OP-001573,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,31776.14,WON,Não,Linha 3-A
+OP-001574,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,8890.29,WON,Não,Linha 3-B
+OP-001575,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Concorrência,7202.73,LOST,Não,Linha 3-A
+OP-001576,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,15908.81,OPEN,Não,Linha 3-B
+OP-001577,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prazo incompatível,14648.07,LOST,Não,Linha 3-A
+OP-001578,Funil de Vendas,Ciclo 05,Produto C,Negociação,,15135.02,WON,Não,Linha 3-A
+OP-001579,Funil de Vendas,Ciclo 05,Produto C,Proposta,,21211.85,WON,Não,Linha 3-A
+OP-001580,Funil de Vendas,Ciclo 05,Produto C,Negociação,,11537.66,OPEN,Não,Linha 3-A
+OP-001581,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,9175.48,LOST,Não,Linha 3-B
+OP-001582,Funil de Vendas,Ciclo 05,Produto C,Proposta,Concorrência,12131.81,LOST,Não,Linha 3-A
+OP-001583,Funil de Vendas,Ciclo 05,Produto C,Negociação,Prazo incompatível,14359.82,LOST,Não,Linha 3-B
+OP-001584,Funil de Vendas,Ciclo 05,Produto C,Negociação,,6686.63,OPEN,Não,Linha 3-A
+OP-001585,Funil de Vendas,Ciclo 05,Produto C,Negociação,,5721.27,WON,Não,Linha 3-A
+OP-001586,Funil de Vendas,Ciclo 05,Produto C,Negociação,Preço acima do orçamento,7749.87,LOST,Não,Linha 3-B
+OP-001587,Funil de Vendas,Ciclo 05,Produto C,Negociação,,18226.76,WON,Não,Linha 3-A
+OP-001588,Funil de Vendas,Ciclo 05,Produto C,Proposta,Escopo inadequado,4495.02,LOST,Não,Linha 3-B
+OP-001589,Funil de Vendas,Ciclo 05,Produto C,Proposta,,30481.91,OPEN,Não,Linha 3-B
+OP-001590,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prazo incompatível,15514.28,LOST,Não,Linha 3-A
+OP-001591,Funil de Vendas,Ciclo 05,Produto C,Proposta,,4628.11,WON,Não,Linha 3-A
+OP-001592,Funil de Vendas,Ciclo 05,Produto C,Proposta,Concorrência,10522.36,LOST,Não,Linha 3-B
+OP-001593,Funil de Vendas,Ciclo 05,Produto C,Negociação,,5039.64,WON,Não,Linha 3-B
+OP-001594,Funil de Vendas,Ciclo 05,Produto C,Negociação,,5848.91,OPEN,Não,Linha 3-A
+OP-001595,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,14872.82,LOST,Não,Linha 3-A
+OP-001596,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,16293.48,WON,Sim,Linha 3-B
+OP-001597,Funil de Vendas,Ciclo 05,Produto C,Proposta,,8335.07,WON,Sim,Linha 3-B
+OP-001598,Funil de Vendas,Ciclo 05,Produto C,Proposta,Concorrência,5454.54,LOST,Sim,Linha 3-A
+OP-001599,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prazo incompatível,9789.53,LOST,Sim,Linha 3-A
+OP-001600,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prioridade alterada,9663.88,LOST,Sim,Linha 3-B
+OP-001601,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,14306.35,LOST,Sim,Linha 3-B
+OP-001602,Funil de Vendas,Ciclo 05,Produto C,Proposta,,10060.66,WON,Sim,Linha 3-B
+OP-001603,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,20888.64,LOST,Sim,Linha 3-B
+OP-001604,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Escopo inadequado,8928.93,LOST,Sim,Linha 3-B
+OP-001605,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,17269.73,WON,Sim,Linha 3-A
+OP-001606,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,7712.8,WON,Sim,Linha 3-A
+OP-001607,Funil de Vendas,Ciclo 05,Produto C,Proposta,Concorrência,9448.35,LOST,Sim,Linha 3-B
+OP-001608,Funil de Vendas,Ciclo 05,Produto C,Proposta,,7989.67,OPEN,Sim,Linha 3-A
+OP-001609,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Preço acima do orçamento,17517.96,LOST,Sim,Linha 3-A
+OP-001610,Funil de Vendas,Ciclo 05,Produto C,Negociação,,8598.41,WON,Sim,Linha 3-A
+OP-001611,Funil de Vendas,Ciclo 05,Produto C,Negociação,Prioridade alterada,9420.13,LOST,Sim,Linha 3-A
+OP-001612,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Prazo incompatível,14062.52,LOST,Sim,Linha 3-A
+OP-001613,Funil de Vendas,Ciclo 05,Produto C,Proposta,,24523.17,WON,Sim,Linha 3-B
+OP-001614,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,6631.21,OPEN,Sim,Linha 3-B
+OP-001615,Funil de Vendas,Ciclo 05,Produto C,Proposta,Preço acima do orçamento,19826.61,LOST,Sim,Linha 3-B
+OP-001616,Funil de Vendas,Ciclo 05,Produto C,Proposta,,13594.34,WON,Sim,Linha 3-A
+OP-001617,Funil de Vendas,Ciclo 05,Produto C,Negociação,,5737.4,WON,Sim,Linha 3-B
+OP-001618,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,15425.36,WON,Sim,Linha 3-B
+OP-001619,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Prioridade alterada,20653.41,LOST,Sim,Linha 3-A
+OP-001620,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,10505.96,WON,Sim,Linha 3-A
+OP-001621,Funil de Vendas,Ciclo 05,Produto C,Proposta,Prazo incompatível,9345.04,LOST,Sim,Linha 3-A
+OP-001622,Funil de Vendas,Ciclo 05,Produto C,Negociação,,7702.15,WON,Sim,Linha 3-A
+OP-001623,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,28612.27,OPEN,Sim,Linha 3-A
+OP-001624,Funil de Vendas,Ciclo 05,Produto C,Proposta,,10234.84,WON,Sim,Linha 3-A
+OP-001625,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,5983.65,WON,Sim,Linha 3-A
+OP-001626,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,17017.45,WON,Sim,Linha 3-B
+OP-001627,Funil de Vendas,Ciclo 05,Produto C,Proposta,,28801.98,WON,Sim,Linha 3-B
+OP-001628,Funil de Vendas,Ciclo 05,Produto C,Proposta,,22034.27,WON,Sim,Linha 3-A
+OP-001629,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Concorrência,9779.9,LOST,Sim,Linha 3-A
+OP-001630,Funil de Vendas,Ciclo 05,Produto C,Proposta,,7700.95,WON,Sim,Linha 3-A
+OP-001631,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Concorrência,26733.22,LOST,Sim,Linha 3-A
+OP-001632,Funil de Vendas,Ciclo 05,Produto C,Proposta,,19403.73,WON,Sim,Linha 3-A
+OP-001633,Funil de Vendas,Ciclo 05,Produto C,Negociação,,31816.98,WON,Sim,Linha 3-B
+OP-001634,Funil de Vendas,Ciclo 05,Produto C,Proposta,,9615.29,OPEN,Sim,Linha 3-A
+OP-001635,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Escopo inadequado,8560.58,LOST,Sim,Linha 3-B
+OP-001636,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,10681.4,WON,Sim,Linha 3-A
+OP-001637,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,11264.72,WON,Sim,Linha 3-A
+OP-001638,Funil de Vendas,Ciclo 05,Produto C,Qualificação,Prazo incompatível,36471.74,LOST,Sim,Linha 3-B
+OP-001639,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,2878.12,LOST,Sim,Linha 3-B
+OP-001640,Funil de Vendas,Ciclo 05,Produto C,Negociação,Prazo incompatível,21069.2,LOST,Sim,Linha 3-B
+OP-001641,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,6976.65,WON,Sim,Linha 3-A
+OP-001642,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,29333.76,WON,Sim,Linha 3-B
+OP-001643,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,4646.91,LOST,Sim,Linha 3-A
+OP-001644,Funil de Vendas,Ciclo 05,Produto C,Qualificação,,8827.92,WON,Sim,Linha 3-A
+OP-001645,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,7940.67,LOST,Sim,Linha 3-B
+OP-001646,Funil de Vendas,Ciclo 05,Produto C,Proposta,,10392.58,WON,Sim,Linha 3-A
+OP-001647,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Concorrência,14631.47,LOST,Sim,Linha 3-B
+OP-001648,Funil de Vendas,Ciclo 05,Produto C,Proposta,,5274.65,OPEN,Sim,Linha 3-A
+OP-001649,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,Preço acima do orçamento,17726.73,LOST,Sim,Linha 3-A
+OP-001650,Funil de Vendas,Ciclo 05,Produto C,Diagnóstico,,8908.08,WON,Sim,Linha 3-B

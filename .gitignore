@@ -1,0 +1,26 @@
+# Dados comerciais, credenciais e saídas nunca vão para Git
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+outputs/
+private_data/
+dados_reais/
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.db
+*.sqlite
+*.pdf
+*.csv
+# Apenas dados inteiramente fictícios e gerados localmente
+data/*
+!data/synthetic/
+data/synthetic/*
+!data/synthetic/conversao_sintetica.csv
